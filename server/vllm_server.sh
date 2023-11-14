@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0,1,2,3 python -m vllm.entrypoints.openai.api_server --model etri-xainlp/llama2-ko-13b-instruct --download-dir /data/transformers --host 147.46.219.237 --port 2000 --tensor-parallel-size 4
