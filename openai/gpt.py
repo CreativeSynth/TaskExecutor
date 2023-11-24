@@ -5,13 +5,13 @@ import pandas as pd
 
 input_data_dirs = ["../../TaskManager/ko_quiz/ko_quiz_1.csv",
                    "../../TaskManager/ko_quiz/ko_quiz_2.csv",
-                   "../../TaskManager/ko_quiz/ko_quiz_3.csv",
+                   "../../TaskManager/ko_quiz/ko_quiz_8.csv",
                    "../../TaskManager/ko_quiz/ko_quiz_4.csv",
                    ]
+# "../../TaskManager/ko_quiz/ko_quiz_3.csv",
 # "../../TaskManager/ko_quiz/ko_quiz_5.csv",
 # "../../TaskManager/ko_quiz/ko_quiz_6.csv",
 # "../../TaskManager/ko_quiz/ko_quiz_7.csv",
-# "../../TaskManager/ko_quiz/ko_quiz_8.csv",
 # "../../TaskManager/nli/nli.csv",
 # "../../TaskManager/number_1/number_1.csv",
 # "../../TaskManager/number_2/number_2.csv",
