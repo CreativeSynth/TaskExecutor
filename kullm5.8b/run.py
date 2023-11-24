@@ -23,8 +23,6 @@ input_data_dirs = ["../../TaskManager/ko_quiz/ko_quiz_1.csv",
                    "../../TaskManager/summarization/data.csv",
                    ]
 
-def generate(x):
-    return ["[generated]" + t for t in x]
 
 output_data = pd.DataFrame()
 
@@ -33,7 +31,7 @@ for input_data_dir in tqdm(input_data_dirs):
         data = pd.read_csv(input_data_dir)
         prompts = data["prompt"].to_list()
         outputs = llm.generate(prompts, sampling_params)
-        # outputs = generate(prompts)
+        outputs = [output.outputs[0].text for output in outputs] # 결과 텍스트만 가져옴
         data["result"] = outputs
         data["model_name"] = "kullm5.8b"
         output_data = pd.concat([output_data, data[["task_name","index", "result", "model_name"]]], ignore_index=True)
@@ -41,5 +39,5 @@ for input_data_dir in tqdm(input_data_dirs):
         print(input_data_dir+" 처리 중 에러 발생")
         print(e)
 
-output_data.to_csv("result.csv", index=False)
+output_data.to_csv("result.csv", encoding = 'utf-8-sig', index=False) # 한글 호환되는 포맷
     
