@@ -51,7 +51,7 @@ def main():
     if completion.choices and completion.choices[0].message.role == 'assistant':
         output = completion.choices.message.content
         data["result"] = output
-        data["model_name"] = "gpt-3-turbo"
+        data["model_name"] = "gpt-4-1106-preview"
         output_data = pd.concat([output_data, data[["task_name","index", "result", "model_name"]]], ignore_index=True)
     else:
         print("Response structure might have changed. Check the response object attributes.")
