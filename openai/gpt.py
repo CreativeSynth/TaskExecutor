@@ -48,6 +48,8 @@ def apiCall():
             model="gpt-3.5-turbo",
             messages=chunk,        
         )
+        print(f'response: {response}/n')
+        exit()
         for choice in response.choices:
             responseList.append(choice.message)
         chunkidx += 1
@@ -70,7 +72,6 @@ def main():
     idx = 0
     for response in responseList:
         print(f'response: {response}/n')
-        print(f'response length: {len(response)}/n')
         if response and response.role == 'assistant':
             output = response.content
             print(f'output: {output}/n')
