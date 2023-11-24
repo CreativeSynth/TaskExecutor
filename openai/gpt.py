@@ -1,12 +1,10 @@
-import asyncio
 import os
 from openai import OpenAI
 
 def apiCall():
-    openai = OpenAI()
-    openai.api_key = os.getenv('OPENAI_API_KEY')
+    openai = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
     
-    completion = openai.chat.completions.create(
+    completion = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         messages=[
             {"role": "user", 
@@ -18,6 +16,10 @@ def apiCall():
 
 def main():
     completion = apiCall()
-    print(completion.data.choices[0].text)
+    if completion.choices and completion.choices[0].message['role'] == 'assistant':
+        print(completion.choices[0].message['content'])
+    else:
+        print("Response structure might have changed. Check the response object attributes.")
+
 if __name__ == "__main__":
-    asyncio.run(main())
+    main()
