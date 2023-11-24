@@ -41,6 +41,7 @@ def apiCall():
     ]
     
     responseList = []
+    chunkidx = 0
     for chunk in chunked_messages:
         openai = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
         response = openai.chat.completions.create(
@@ -49,6 +50,9 @@ def apiCall():
         )
         for choice in response.choices:
             responseList.append(choice.message)
+        chunkidx += 1
+        print(f'chunk {chunkidx} completed')
+    print(f'length of responseList: {len(responseList)}')
     return responseList
 
 def main():
@@ -63,20 +67,20 @@ def main():
             print(e)
     # retrive outputs from model  
     idx = 0
-    for response in tqdm(responses):
-        print(f'response: {response}/n')
-        if response and response.role == 'assistant':
-            output = response.content
-            print(f'output: {output}/n')
-            current_data = data.iloc[idx].copy()
-            current_data["result"] = output
-            current_data["model_name"] = "gpt-4-1106-preview"
-            output_data = pd.concat([output_data, current_data[["task_name", "index", "result", "model_name"]]], ignore_index=True)
-            idx += 1
-        else:
-            print("Response structure might have changed. Check the response object attributes.")
+    # for response in tqdm(responses):
+    #     print(f'response: {response}/n')
+    #     if response and response.role == 'assistant':
+    #         output = response.content
+    #         print(f'output: {output}/n')
+    #         current_data = data.iloc[idx].copy()
+    #         current_data["result"] = output
+    #         current_data["model_name"] = "gpt-4-1106-preview"
+    #         output_data = pd.concat([output_data, current_data[["task_name", "index", "result", "model_name"]]], ignore_index=True)
+    #         idx += 1
+    #     else:
+    #         print("Response structure might have changed. Check the response object attributes.")
     
-    output_data.to_csv("result.csv", encoding = 'utf-8-sig', index=False)
+    # output_data.to_csv("result.csv", encoding = 'utf-8-sig', index=False)
 
 if __name__ == "__main__":
     main()
