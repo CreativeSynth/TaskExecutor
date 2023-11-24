@@ -40,6 +40,7 @@ def apiCall():
 
 def main():
     completion = apiCall()
+    output_data = pd.DataFrame()
     # retrive input data
     for input_data_dir in tqdm(input_data_dirs):
         try:
