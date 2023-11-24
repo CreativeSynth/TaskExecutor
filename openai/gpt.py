@@ -63,9 +63,10 @@ def main():
             print(e)
     # retrive outputs from model  
     for response in tqdm(responses):
-        print(f'response: {response}')
+        print(f'response: {response}/n')
         if response and response.role == 'assistant':
             output = response.content
+            print(f'output: {output}/n')
             data["result"] = output
             data["model_name"] = "gpt-4-1106-preview"
             output_data = pd.concat([output_data, data[["task_name","index", "result", "model_name"]]], ignore_index=True)
