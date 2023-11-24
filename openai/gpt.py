@@ -21,6 +21,7 @@ input_data_dirs = ["../../TaskManager/ko_quiz/ko_quiz_1.csv",
 # "../../TaskManager/summarization/data.csv",
 
 def apiCall(): 
+    max_context_length = 4097
     createdMessages = []
     prompts = []
     for input_data_dir in tqdm(input_data_dirs):
@@ -33,15 +34,22 @@ def apiCall():
         except Exception as e:
             print(input_data_dir+" 처리 중 에러 발생")
             print(e)
-    print(f'prompts: {prompts}')
-    print(f'createdMessages: {createdMessages}')
-    openai = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
-    completion = openai.chat.completions.create(
-        model="gpt-3.5-turbo",
-        messages=createdMessages,        
-    )
-    print(f'completion: {completion}')
-    return completion
+    
+    chunked_messages = [
+        createdMessages[i:i + max_context_length - 1] 
+        for i in range(0, len(createdMessages), max_context_length-1)
+    ]
+    
+    completionList = []
+    for chunk in chunked_messages:
+        openai = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+        completion = openai.chat.completions.create(
+            model="gpt-3.5-turbo",
+            messages=chunk,        
+        )
+        print(f'completion: {completion}')
+        completionList = completionList.append(completion)
+    return completionList
 
 def main():
     completion = apiCall()
