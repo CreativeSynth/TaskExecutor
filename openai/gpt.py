@@ -24,14 +24,17 @@ def apiCall():
     for input_data_dir in tqdm(input_data_dirs):
         try:
             data = pd.read_csv(input_data_dir)
+            print(f'Input data: {data}')
             createdMessages = []
             prompts = data["prompt"].to_list()
             for prompt in prompts:
-                createdMessages.append({"role": "user", "content": prompts[index]})
+                print(f'Prompt: {prompt}')
+                createdMessages.append({"role": "user", "content": prompt})
         except Exception as e:
             print(input_data_dir+" 처리 중 에러 발생")
             print(e)
     openai = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+    print(f'Created messages: {createdMessages}')
     completion = openai.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=createdMessages,        
