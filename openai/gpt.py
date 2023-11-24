@@ -44,12 +44,10 @@ def apiCall():
     idx = 0
     for chunk in chunked_messages:
         for message in chunk:
-            print(f'chunk: {chunk} \n')
-            print(f'message: {message} \n')
             openai = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
             response = openai.chat.completions.create(
                 model="gpt-3.5-turbo",
-                messages=message,        
+                messages=[message,],        
             )
             print(f'response: {response}\n')
             for choice in response.choices:
