@@ -31,13 +31,14 @@ def apiCall():
         except Exception as e:
             print(input_data_dir+" 처리 중 에러 발생")
             print(e)
-    openai = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
-    completion = openai.chat.completions.create(
-        model="gpt-3.5-turbo",
-        messages=createdMessages,        
-    )
-    print(f'completion: {completion}')
-    return completion
+    print(f'createdMessages: {createdMessages}')
+    # openai = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+    # completion = openai.chat.completions.create(
+    #     model="gpt-3.5-turbo",
+    #     messages=createdMessages,        
+    # )
+    # print(f'completion: {completion}')
+    # return completion
 
 def main():
     completion = apiCall()
