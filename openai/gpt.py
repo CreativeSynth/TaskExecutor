@@ -21,12 +21,14 @@ input_data_dirs = ["../../TaskManager/ko_quiz/ko_quiz_1.csv",
 # "../../TaskManager/summarization/data.csv",
 
 def apiCall(): 
+    createdMessages = []
+    prompts = []
     for input_data_dir in tqdm(input_data_dirs):
         try:
             data = pd.read_csv(input_data_dir)
-            createdMessages = []
-            prompts = data["prompt"].to_list()
-            for prompt in prompts:
+            data_prompts = data["prompt"].to_list()
+            prompts.extend(data_prompts)
+            for prompt in data_prompts:
                 createdMessages.append({"role": "user", "content": prompt})
         except Exception as e:
             print(input_data_dir+" 처리 중 에러 발생")
