@@ -36,6 +36,7 @@ def apiCall():
         model="gpt-3.5-turbo",
         messages=createdMessages,        
     )
+    print(f'completion: {completion}')
     return completion
 
 def main():
@@ -50,6 +51,7 @@ def main():
             print(e)
     # retrive outputs from model  
     for choice in completion.choices:
+        print(f'choice: {choice.message.content}')
         if choice and choice.message.role == 'assistant':
             output = choice.message.content
             data["result"] = output
