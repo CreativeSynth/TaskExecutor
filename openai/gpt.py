@@ -62,14 +62,17 @@ def main():
             print(input_data_dir+" 처리 중 에러 발생")
             print(e)
     # retrive outputs from model  
+    idx = 0
     for response in tqdm(responses):
         print(f'response: {response}/n')
         if response and response.role == 'assistant':
             output = response.content
             print(f'output: {output}/n')
-            data["result"] = output
-            data["model_name"] = "gpt-4-1106-preview"
-            output_data = pd.concat([output_data, data[["task_name","index", "result", "model_name"]]], ignore_index=True)
+            current_data = data.iloc[idx]
+            current_data["result"] = output
+            current_data["model_name"] = "gpt-4-1106-preview"
+            output_data = output_data.append(current_data[["task_name", "index", "result", "model_name"]])
+            idx += 1
         else:
             print("Response structure might have changed. Check the response object attributes.")
     
