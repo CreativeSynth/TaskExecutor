@@ -49,10 +49,8 @@ def apiCall():
                 model="gpt-3.5-turbo",
                 messages=[message,],        
             )
-            print(f'response: {response}\n')
             for choice in response.choices:
                 responseList.append(choice.message)
-            print(f'responselist: {responseList} \n')
             idx += 1
             if idx == 3:
                 exit()
