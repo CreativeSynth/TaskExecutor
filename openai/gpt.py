@@ -41,18 +41,21 @@ def apiCall():
     ]
     
     responseList = []
-    chunkidx = 0
+    idx = 0
     for chunk in chunked_messages:
-        print(f'chunk: {chunk}/n')
-        exit()
-        openai = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
-        response = openai.chat.completions.create(
-            model="gpt-3.5-turbo",
-            messages=chunk,        
-        )
-        for choice in response.choices:
-            responseList.append(choice.message)
-        chunkidx += 1
+        for message in chunk:
+            openai = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+            response = openai.chat.completions.create(
+                model="gpt-3.5-turbo",
+                messages=message,        
+            )
+            print(f'response: {response}\n')
+            for choice in response.choices:
+                responseList.append(choice.message)
+            print(f'responselist: {responseList} \n')
+            idx += 1
+            if idx == 3:
+                exit()
     return responseList
 
 def main():
