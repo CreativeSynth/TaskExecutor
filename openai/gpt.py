@@ -40,22 +40,19 @@ def apiCall():
         for i in range(0, len(createdMessages), max_context_length-1)
     ]
     
-    completionList = []
+    responseList = []
     for chunk in chunked_messages:
         openai = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
-        completion = openai.chat.completions.create(
+        response = openai.chat.completions.create(
             model="gpt-3.5-turbo",
             messages=chunk,        
         )
-        print(f'completion: {completion}')
-        if completionList == []:
-            completionList = completion
-        else:
-            completionList = completionList.append(completion)
-    return completionList
+        for choice in response.choices:
+            responseList.append(choice.message)
+    return responseList
 
 def main():
-    completion = apiCall()
+    responses = apiCall()
     output_data = pd.DataFrame()
     # retrive input data
     for input_data_dir in tqdm(input_data_dirs):
@@ -65,10 +62,10 @@ def main():
             print(input_data_dir+" 처리 중 에러 발생")
             print(e)
     # retrive outputs from model  
-    for choice in completion.choices:
-        print(f'choice: {choice.message.content}')
-        if choice and choice.message.role == 'assistant':
-            output = choice.message.content
+    for response in tqdm(responses):
+        print(f'response: {response}')
+        if response and response.role == 'assistant':
+            output = response.content
             data["result"] = output
             data["model_name"] = "gpt-4-1106-preview"
             output_data = pd.concat([output_data, data[["task_name","index", "result", "model_name"]]], ignore_index=True)
