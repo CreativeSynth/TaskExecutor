@@ -68,10 +68,10 @@ def main():
         if response and response.role == 'assistant':
             output = response.content
             print(f'output: {output}/n')
-            current_data = data.iloc[idx]
+            current_data = data.iloc[idx].copy()
             current_data["result"] = output
             current_data["model_name"] = "gpt-4-1106-preview"
-            output_data = output_data.append(current_data[["task_name", "index", "result", "model_name"]])
+            output_data = pd.concat([output_data, current_data[["task_name", "index", "result", "model_name"]]], ignore_index=True)
             idx += 1
         else:
             print("Response structure might have changed. Check the response object attributes.")
