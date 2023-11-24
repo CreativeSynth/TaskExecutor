@@ -35,13 +35,13 @@ def apiCall():
             print(e)
     print(f'prompts: {prompts}')
     print(f'createdMessages: {createdMessages}')
-    # openai = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
-    # completion = openai.chat.completions.create(
-    #     model="gpt-3.5-turbo",
-    #     messages=createdMessages,        
-    # )
-    # print(f'completion: {completion}')
-    # return completion
+    openai = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+    completion = openai.chat.completions.create(
+        model="gpt-3.5-turbo",
+        messages=createdMessages,        
+    )
+    print(f'completion: {completion}')
+    return completion
 
 def main():
     completion = apiCall()
