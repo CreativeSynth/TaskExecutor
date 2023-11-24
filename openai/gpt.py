@@ -79,6 +79,7 @@ def main():
             current_data["model_name"] = "gpt-4-1106-preview"
             output_data = pd.concat([output_data, current_data[["task_name", "index", "result", "model_name"]]], ignore_index=True)
             idx += 1
+            print(f'output_data length: {len(output_data)}/n')
         else:
             print("Response structure might have changed. Check the response object attributes.")
     
