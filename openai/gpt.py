@@ -43,13 +43,13 @@ def apiCall():
     responseList = []
     chunkidx = 0
     for chunk in chunked_messages:
+        print(f'chunk: {chunk}/n')
+        exit()
         openai = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
         response = openai.chat.completions.create(
             model="gpt-3.5-turbo",
             messages=chunk,        
         )
-        print(f'response: {response}/n')
-        exit()
         for choice in response.choices:
             responseList.append(choice.message)
         chunkidx += 1
