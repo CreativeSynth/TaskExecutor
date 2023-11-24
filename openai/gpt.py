@@ -21,7 +21,7 @@ input_data_dirs = ["../../TaskManager/ko_quiz/ko_quiz_1.csv",
 # "../../TaskManager/summarization/data.csv",
 
 def apiCall(): 
-    max_context_length = 400
+    max_context_length = 130
     createdMessages = []
     prompts = []
     for input_data_dir in tqdm(input_data_dirs):
