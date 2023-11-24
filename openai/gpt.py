@@ -51,36 +51,38 @@ def apiCall():
         for choice in response.choices:
             responseList.append(choice.message)
         chunkidx += 1
-        print(f'chunk {chunkidx} completed')
-    print(f'length of responseList: {len(responseList)}')
     return responseList
 
 def main():
-    responses = apiCall()
+    responseList = apiCall()
     output_data = pd.DataFrame()
+    all_data = []
     # retrive input data
     for input_data_dir in tqdm(input_data_dirs):
         try:
             data = pd.read_csv(input_data_dir)
+            all_data.append(data)
         except Exception as e:
             print(input_data_dir+" 처리 중 에러 발생")
             print(e)
+    all_data = pd.concat(all_data, ignore_index=True)
     # retrive outputs from model  
     idx = 0
-    # for response in tqdm(responses):
-    #     print(f'response: {response}/n')
-    #     if response and response.role == 'assistant':
-    #         output = response.content
-    #         print(f'output: {output}/n')
-    #         current_data = data.iloc[idx].copy()
-    #         current_data["result"] = output
-    #         current_data["model_name"] = "gpt-4-1106-preview"
-    #         output_data = pd.concat([output_data, current_data[["task_name", "index", "result", "model_name"]]], ignore_index=True)
-    #         idx += 1
-    #     else:
-    #         print("Response structure might have changed. Check the response object attributes.")
+    for response in responseList:
+        print(f'response: {response}/n')
+        print(f'response length: {len(response)}/n')
+        if response and response.role == 'assistant':
+            output = response.content
+            print(f'output: {output}/n')
+            current_data = all_data.iloc[idx].copy()
+            current_data["result"] = output
+            current_data["model_name"] = "gpt-4-1106-preview"
+            output_data = pd.concat([output_data, current_data[["task_name", "index", "result", "model_name"]]], ignore_index=True)
+            idx += 1
+        else:
+            print("Response structure might have changed. Check the response object attributes.")
     
-    # output_data.to_csv("result.csv", encoding = 'utf-8-sig', index=False)
+    output_data.to_csv("result.csv", encoding = 'utf-8-sig', index=False)
 
 if __name__ == "__main__":
     main()
