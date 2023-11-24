@@ -31,6 +31,7 @@ def apiCall():
         except Exception as e:
             print(input_data_dir+" 처리 중 에러 발생")
             print(e)
+    print(f'prompts: {prompts}')
     print(f'createdMessages: {createdMessages}')
     # openai = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
     # completion = openai.chat.completions.create(
