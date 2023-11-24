@@ -4,7 +4,7 @@ from openai import OpenAI
 def apiCall():
     openai = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
     
-    completion = openai.ChatCompletion.create(
+    completion = openai.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=[
             {"role": "user", 
@@ -16,8 +16,8 @@ def apiCall():
 
 def main():
     completion = apiCall()
-    if completion.choices and completion.choices[0].message['role'] == 'assistant':
-        print(completion.choices[0].message['content'])
+    if completion.choices and completion.choices[0].message.role == 'assistant':
+        print(completion.choices[0].message.content)
     else:
         print("Response structure might have changed. Check the response object attributes.")
 
