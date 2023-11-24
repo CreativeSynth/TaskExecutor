@@ -1,23 +1,58 @@
 import os
 from openai import OpenAI
+from tqdm import tqdm
+import pandas as pd 
 
-def apiCall():
+input_data_dirs = ["../../TaskManager/ko_quiz/ko_quiz_1.csv",
+                   "../../TaskManager/ko_quiz/ko_quiz_2.csv",
+                   "../../TaskManager/ko_quiz/ko_quiz_3.csv",
+                   "../../TaskManager/ko_quiz/ko_quiz_4.csv",
+                   "../../TaskManager/ko_quiz/ko_quiz_5.csv",
+                   "../../TaskManager/ko_quiz/ko_quiz_6.csv",
+                   "../../TaskManager/ko_quiz/ko_quiz_7.csv",
+                   "../../TaskManager/ko_quiz/ko_quiz_8.csv",
+                   "../../TaskManager/nli/nli.csv",
+                   "../../TaskManager/number_1/number_1.csv",
+                   "../../TaskManager/number_2/number_2.csv",
+                   "../../TaskManager/number_3/number_3.csv",
+                   "../../TaskManager/Reasoning/data.csv",
+                   "../../TaskManager/spelling_correct/spelling_correct.csv",
+                   "../../TaskManager/summarization/data.csv",
+                   ]
+
+def apiCall(): 
+    for input_data_dir in tqdm(input_data_dirs):
+        try:
+            data = pd.read_csv(input_data_dir)
+            createdMessages = []
+            prompts = data["prompt"].to_list()
+            for prompt in prompts:
+                createdMessages.append({"role": "user", "content": prompts[index]})
+        except Exception as e:
+            print(input_data_dir+" 처리 중 에러 발생")
+            print(e)
     openai = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
-    
     completion = openai.chat.completions.create(
         model="gpt-3.5-turbo",
-        messages=[
-            {"role": "user", 
-             "content": "욱여넣다와 우겨넣다 중 맞는 말은?",
-            },
-        ]
+        messages=createdMessages,        
     )
     return completion
 
 def main():
     completion = apiCall()
+    # retrive input data
+    for input_data_dir in tqdm(input_data_dirs):
+        try:
+            data = pd.read_csv(input_data_dir)
+        except Exception as e:
+            print(input_data_dir+" 처리 중 에러 발생")
+            print(e)
+    # retrive outputs from model  
     if completion.choices and completion.choices[0].message.role == 'assistant':
-        print(completion.choices[0].message.content)
+        output = completion.choices.message.content
+        data["result"] = output
+        data["model_name"] = "gpt-3-turbo"
+        output_data = pd.concat([output_data, data[["task_name","index", "result", "model_name"]]], ignore_index=True)
     else:
         print("Response structure might have changed. Check the response object attributes.")
 
