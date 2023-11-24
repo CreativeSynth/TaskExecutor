@@ -48,7 +48,10 @@ def apiCall():
             messages=chunk,        
         )
         print(f'completion: {completion}')
-        completionList = completionList.append(completion)
+        if completionList == []:
+            completionList = completion
+        else:
+            completionList = completionList.append(completion)
     return completionList
 
 def main():
