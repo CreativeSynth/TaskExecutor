@@ -24,17 +24,14 @@ def apiCall():
     for input_data_dir in tqdm(input_data_dirs):
         try:
             data = pd.read_csv(input_data_dir)
-            print(f'Input data: {data}')
             createdMessages = []
             prompts = data["prompt"].to_list()
             for prompt in prompts:
-                print(f'Prompt: {prompt}')
                 createdMessages.append({"role": "user", "content": prompt})
         except Exception as e:
             print(input_data_dir+" 처리 중 에러 발생")
             print(e)
     openai = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
-    print(f'Created messages: {createdMessages}')
     completion = openai.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=createdMessages,        
@@ -58,6 +55,8 @@ def main():
         output_data = pd.concat([output_data, data[["task_name","index", "result", "model_name"]]], ignore_index=True)
     else:
         print("Response structure might have changed. Check the response object attributes.")
+    
+    output_data.to_csv("result.csv", encoding = 'utf-8-sig', index=False)
 
 if __name__ == "__main__":
     main()
