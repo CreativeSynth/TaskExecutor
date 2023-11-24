@@ -48,13 +48,14 @@ def main():
             print(input_data_dir+" 처리 중 에러 발생")
             print(e)
     # retrive outputs from model  
-    if completion.choices and completion.choices[0].message.role == 'assistant':
-        output = completion.choices.message.content
-        data["result"] = output
-        data["model_name"] = "gpt-4-1106-preview"
-        output_data = pd.concat([output_data, data[["task_name","index", "result", "model_name"]]], ignore_index=True)
-    else:
-        print("Response structure might have changed. Check the response object attributes.")
+    for choice in completion.choices:
+        if choice and choice.message.role == 'assistant':
+            output = choice.message.content
+            data["result"] = output
+            data["model_name"] = "gpt-4-1106-preview"
+            output_data = pd.concat([output_data, data[["task_name","index", "result", "model_name"]]], ignore_index=True)
+        else:
+            print("Response structure might have changed. Check the response object attributes.")
     
     output_data.to_csv("result.csv", encoding = 'utf-8-sig', index=False)
 
