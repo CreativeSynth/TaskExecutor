@@ -41,7 +41,6 @@ def apiCall():
     ]
     
     responseList = []
-    idx = 0
     for chunk in chunked_messages:
         for message in chunk:
             openai = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
@@ -51,9 +50,6 @@ def apiCall():
             )
             for choice in response.choices:
                 responseList.append(choice.message)
-            idx += 1
-            if idx == 3:
-                exit()
     return responseList
 
 def main():
