@@ -12,13 +12,13 @@ input_data_dirs = [
         "../../TaskManager/ko_quiz/ko_quiz_5.csv",
         "../../TaskManager/ko_quiz/ko_quiz_6.csv",
         "../../TaskManager/ko_quiz/ko_quiz_7.csv",
-        "../../TaskManager/nli/nli.csv",
-        "../../TaskManager/number_1/number_1.csv",
-        "../../TaskManager/number_2/number_2.csv",
-        "../../TaskManager/number_3/number_3.csv",
-        "../../TaskManager/Reasoning/data.csv",
-        "../../TaskManager/spelling_correct/spelling_correct.csv",
-        "../../TaskManager/summarization/data.csv",
+        # "../../TaskManager/nli/nli.csv",
+        # "../../TaskManager/number_1/number_1.csv",
+        # "../../TaskManager/number_2/number_2.csv",
+        # "../../TaskManager/number_3/number_3.csv",
+        # "../../TaskManager/Reasoning/data.csv",
+        # "../../TaskManager/spelling_correct/spelling_correct.csv",
+        # "../../TaskManager/summarization/data.csv",
 ]
 
 
