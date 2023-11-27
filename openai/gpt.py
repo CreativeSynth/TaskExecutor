@@ -43,15 +43,19 @@ def apiCall():
     ]
     
     responseList = []
+    openai = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
     for chunk in tqdm(chunked_messages):
         for message in chunk:
-            openai = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
-            response = openai.chat.completions.create(
-                model="gpt-3.5-turbo",
-                messages=[message,],        
-            )
-            for choice in response.choices:
-                responseList.append(choice.message)
+            try: 
+                response = openai.chat.completions.create(
+                    model="gpt-3.5-turbo",
+                    messages=[message,],        
+                )
+                for choice in response.choices:
+                    responseList.append(choice.message)
+            except Exception as e:
+                print("API 요청 중 에러 발생")
+                print(e)
     return responseList
 
 def main():
@@ -66,6 +70,8 @@ def main():
         except Exception as e:
             print(input_data_dir+" 처리 중 에러 발생")
             print(e)
+        # close file when done
+        
     all_data = pd.concat(all_data, ignore_index=True)
     # retrive outputs from model  
     idx = 0
@@ -76,7 +82,7 @@ def main():
             print(f'output: {output}/n')
             current_data = all_data.iloc[idx].copy()
             current_data["result"] = output
-            current_data["model_name"] = "gpt-4-1106-preview"
+            current_data["model_name"] = "gpt-3.5-turbo"
             output_data = pd.concat([output_data, current_data[["task_name", "index", "result", "model_name"]]], ignore_index=True)
             idx += 1
             print(f'output_data length: {len(output_data)}/n')
