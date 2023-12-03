@@ -16,26 +16,32 @@ taskReader = TaskReader("../../TaskManager")
 if taskReader.get_input_data_dirs == []:
     exit
 
-sampling_params = SamplingParams(temperature=0.8, top_p=0.95, max_tokens=200)
+sampling_params = SamplingParams(temperature=0.8, top_p=0.95, max_tokens=1024)
 llm = LLM(model="nlpai-lab/kullm-polyglot-12.8b-v2", tensor_parallel_size=4)
 
 output_data = pd.DataFrame()
 
-for input_data_dir in tqdm(taskReader.get_input_data_dirs()):
+for input_data_dir in taskReader.get_input_data_dirs():
+    print(input_data_dir, "처리하는 중")
     try:
         data = pd.read_csv(input_data_dir)
         prompts = data["prompt"].to_list()
         prompts = messages_to_string(prompts)
+        print(f"{input_data_dir}프롬프트 개수 = {len(prompts)}, 데이터 개수 = {len(data)}")
+        print("위치 1", end=", ")
         outputs = llm.generate(prompts, sampling_params)
+        print("위치 2", end=", ")
         outputs = [output.outputs[0].text for output in outputs] # 결과 텍스트만 가져옴
         data["result"] = outputs
         data["model_name"] = "kullm12.8b"
+        print("위치 3", end=", ")
         output_data = pd.concat([output_data, data[["task_name","index", "result", "model_name"]]], ignore_index=True)
+        print("위치 4")
 
         # 디버깅 목적으로 상위 10개 확인
         print(outputs[:min(10, len(outputs))])
     except Exception as e:
-        print(input_data_dir+" 처리 중 에러 발생")
+        print("\n"+input_data_dir+" 처리 중 에러 발생")
         print(e)
 
 output_data.to_csv("result.csv", encoding = 'utf-8-sig', index=False) # 한글 호환되는 포맷
