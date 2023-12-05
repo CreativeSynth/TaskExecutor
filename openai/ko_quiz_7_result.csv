@@ -1,0 +1,353 @@
+﻿task_name,index,result,model_name
+ko_quiz_7,0,1,gpt-3.5-turbo
+ko_quiz_7,1,1,gpt-3.5-turbo
+ko_quiz_7,2,2,gpt-3.5-turbo
+ko_quiz_7,3,1,gpt-3.5-turbo
+ko_quiz_7,4,'알맹이 속이 부실하고 변변치 아니하다'의 뜻으로 알맞은 것은 3입니다.,gpt-3.5-turbo
+ko_quiz_7,5,'든벌'의 뜻은 '푸석푸석하게 생긴 모양'이나 '쓸쓸한 모양'을 뜻합니다.,gpt-3.5-turbo
+ko_quiz_7,6,"'가탈지다'의 뜻으로 알맞은 것은 ""괴롭다"" 또는 ""고통스럽다""입니다. 이 말은 주로 신체적, 정신적으로 힘들거나 고통받는 상황을 묘사할 때 사용됩니다.",gpt-3.5-turbo
+ko_quiz_7,7,2,gpt-3.5-turbo
+ko_quiz_7,8,"우연한 경우를 뜻하는 우리말은 ""우연히"" 입니다.",gpt-3.5-turbo
+ko_quiz_7,9,1,gpt-3.5-turbo
+ko_quiz_7,10,"뺨에 보조개가 생기다는 우리말은 ""뺨이 저려 오물오물하다""라고 할 수 있습니다. 이 표현은 놀라거나 당황하여 뺨이 붉어지고 저린 느낌을 표현하는 말이며, 보조개는 입체적으로 부어 오물오물해 보이는 모습을 비유적으로 표현한 것입니다.",gpt-3.5-turbo
+ko_quiz_7,11,"우리말로 ""해를 못마땅히 먹다""라고 할 수 있습니다.",gpt-3.5-turbo
+ko_quiz_7,12,글구멍은 글을 집어넣는 구멍이나 작은 구멍을 일컫는 것이다.,gpt-3.5-turbo
+ko_quiz_7,13,2,gpt-3.5-turbo
+ko_quiz_7,14,답은 '여러 몫으로 나눈 모개마다 '이면 2입니다.,gpt-3.5-turbo
+ko_quiz_7,15,3,gpt-3.5-turbo
+ko_quiz_7,16,'꾀꾀로'의 알맞은 뜻은 '시간적인 사이를 두고서 가끔씩 '이면 3'이다.,gpt-3.5-turbo
+ko_quiz_7,17,2,gpt-3.5-turbo
+ko_quiz_7,18,1,gpt-3.5-turbo
+ko_quiz_7,19,1,gpt-3.5-turbo
+ko_quiz_7,20,1,gpt-3.5-turbo
+ko_quiz_7,21,1,gpt-3.5-turbo
+ko_quiz_7,22,2,gpt-3.5-turbo
+ko_quiz_7,23,2,gpt-3.5-turbo
+ko_quiz_7,24,1,gpt-3.5-turbo
+ko_quiz_7,25,"'구순하다'는 고요하고 조용하며, 소음이나 소란이 없음을 의미합니다.",gpt-3.5-turbo
+ko_quiz_7,26,1,gpt-3.5-turbo
+ko_quiz_7,27,1,gpt-3.5-turbo
+ko_quiz_7,28,2,gpt-3.5-turbo
+ko_quiz_7,29,3,gpt-3.5-turbo
+ko_quiz_7,30,2,gpt-3.5-turbo
+ko_quiz_7,31,3,gpt-3.5-turbo
+ko_quiz_7,32,1,gpt-3.5-turbo
+ko_quiz_7,33,3,gpt-3.5-turbo
+ko_quiz_7,34,1,gpt-3.5-turbo
+ko_quiz_7,35,"빈틈없이 아주 여무진 사람을 뜻하는 우리말은 ""완벽한 사람""입니다.",gpt-3.5-turbo
+ko_quiz_7,36,1,gpt-3.5-turbo
+ko_quiz_7,37,'몽짜'의 뜻으로 알맞은 것은 '음흉하고 심술궂게 욕심을 부리는 짓' 이면 1입니다.,gpt-3.5-turbo
+ko_quiz_7,38,1,gpt-3.5-turbo
+ko_quiz_7,39,2,gpt-3.5-turbo
+ko_quiz_7,40,2,gpt-3.5-turbo
+ko_quiz_7,41,1,gpt-3.5-turbo
+ko_quiz_7,42,3,gpt-3.5-turbo
+ko_quiz_7,43,"""오지랖"" 이라는 우리말은 남다른 도움이나 사랑을 받다라는 의미를 가질 수 있습니다.",gpt-3.5-turbo
+ko_quiz_7,44,1,gpt-3.5-turbo
+ko_quiz_7,45,3,gpt-3.5-turbo
+ko_quiz_7,46,3,gpt-3.5-turbo
+ko_quiz_7,47,"- 예쁜 소리로 소림하는 말
+- 낡은 글씨로 잘 쓰여진 한글
+- 유난히 포근한 햇살 따위의 모습을 가리킨다.",gpt-3.5-turbo
+ko_quiz_7,48,1,gpt-3.5-turbo
+ko_quiz_7,49,3,gpt-3.5-turbo
+ko_quiz_7,50,"'곰살갑다'는 어떠한 상황이나 물건이나 사람이 비웃음거리이거나 웃기지 않는, 실망스러운 모습을 의미합니다.",gpt-3.5-turbo
+ko_quiz_7,51,3,gpt-3.5-turbo
+ko_quiz_7,52,2,gpt-3.5-turbo
+ko_quiz_7,53,"'옹글다'는 한국어에서 사용되는 동사로, 뒤척이거나 움츠리거나 몸을 구부림을 의미합니다.",gpt-3.5-turbo
+ko_quiz_7,54,중도하찮은 제기,gpt-3.5-turbo
+ko_quiz_7,55,"일을 다잡아 해내는 솜씨를 뜻하는 우리말은 ""꼼꼼함""이다.",gpt-3.5-turbo
+ko_quiz_7,56,2,gpt-3.5-turbo
+ko_quiz_7,57,2,gpt-3.5-turbo
+ko_quiz_7,58,"""선득거리다""란 말은 일부러 상대방을 겨냥하여 조롱하거나 비웃는 것을 의미합니다.",gpt-3.5-turbo
+ko_quiz_7,59,2,gpt-3.5-turbo
+ko_quiz_7,60,"""감투밥""은 한국어에서 사용되는 표현이 아니므로 정확한 뜻을 알 수 없습니다.",gpt-3.5-turbo
+ko_quiz_7,61,3,gpt-3.5-turbo
+ko_quiz_7,62,"굽은길을 뜻하는 우리말은 ""고골길""입니다.",gpt-3.5-turbo
+ko_quiz_7,63,2,gpt-3.5-turbo
+ko_quiz_7,64,1,gpt-3.5-turbo
+ko_quiz_7,65,2,gpt-3.5-turbo
+ko_quiz_7,66,'오달지다'는 무언가가 살아 움직이거나 활발하게 움직이는 모습을 일컫는다.,gpt-3.5-turbo
+ko_quiz_7,67,2,gpt-3.5-turbo
+ko_quiz_7,68,1,gpt-3.5-turbo
+ko_quiz_7,69,1,gpt-3.5-turbo
+ko_quiz_7,70,1,gpt-3.5-turbo
+ko_quiz_7,71,2,gpt-3.5-turbo
+ko_quiz_7,72,정답은 1입니다. '바특하다'는 두 대상이나 물체 사이가 조금 가깝다는 뜻입니다.,gpt-3.5-turbo
+ko_quiz_7,73,2,gpt-3.5-turbo
+ko_quiz_7,74,길꽃밭이다.,gpt-3.5-turbo
+ko_quiz_7,75,"옷을 입고 매만진 맵시을(를) 뜻하는 우리말은 ""정장""입니다.",gpt-3.5-turbo
+ko_quiz_7,76,답은 1번입니다. 결찌는 '어찌어찌하여 연분이 닿는 먼 친척'을 의미합니다.,gpt-3.5-turbo
+ko_quiz_7,77,3,gpt-3.5-turbo
+ko_quiz_7,78,3,gpt-3.5-turbo
+ko_quiz_7,79,3. '실속이 있게 속이 꽉 차 있다',gpt-3.5-turbo
+ko_quiz_7,80,"아주 깊이 든 잠을(를) 뜻하는 우리말은 ""깊잠"" 입니다.",gpt-3.5-turbo
+ko_quiz_7,81,3,gpt-3.5-turbo
+ko_quiz_7,82,"'되똑하다'는 한국어 구어에서 사용되는 표현으로, 무언가가 정확하고 체계적인 상태로 잘 되어 있거나, 깔끔하고 정돈되어 있는 상태를 의미합니다. 이 표현은 주로 사물이나 장소의 상태에 대해서 사용되며, 특히 청결하고 정리정돈된 상태를 강조하는데 사용됩니다.",gpt-3.5-turbo
+ko_quiz_7,83,2,gpt-3.5-turbo
+ko_quiz_7,84,3,gpt-3.5-turbo
+ko_quiz_7,85,2,gpt-3.5-turbo
+ko_quiz_7,86,2,gpt-3.5-turbo
+ko_quiz_7,87,2,gpt-3.5-turbo
+ko_quiz_7,88,3,gpt-3.5-turbo
+ko_quiz_7,89,'세차게 부는 바람의 기운'이 바람살의 뜻이 될 수 있습니다.,gpt-3.5-turbo
+ko_quiz_7,90,3,gpt-3.5-turbo
+ko_quiz_7,91,1,gpt-3.5-turbo
+ko_quiz_7,92,1,gpt-3.5-turbo
+ko_quiz_7,93,1. '지스러기'의 뜻으로 알맞은 것은 3입니다. '깎아 내거나 끊어 내고 남은 자질구레한 나뭇조각 '이 '지스러기'를 의미합니다.,gpt-3.5-turbo
+ko_quiz_7,94,3,gpt-3.5-turbo
+ko_quiz_7,95,1,gpt-3.5-turbo
+ko_quiz_7,96,"'왕배덕배'라는 표현은 한글의 낱자 ""왕(亡)배(貝)덕(兩文字)배(貝)""를 사용하여 만든 욕설이다. 이 욕설은 다른 사람을 비하하거나 욕하는 의도를 가지고 사용되는 것이기 때문에 적절한 의미로 사용되지 않는다. 따라서 이 욕설은 사용하지 않는 것이 좋다.",gpt-3.5-turbo
+ko_quiz_7,97,1,gpt-3.5-turbo
+ko_quiz_7,98,'꽉 달라붙다',gpt-3.5-turbo
+ko_quiz_7,99,3,gpt-3.5-turbo
+ko_quiz_7,100,"'자신의 힘을 다하여'는 1, '하루 시간을 다 써서'는 2, '아주 빠른 속도로'는 3입니다.",gpt-3.5-turbo
+ko_quiz_7,101,1,gpt-3.5-turbo
+ko_quiz_7,102,'내광쓰광'은 '사람을 대할 때 친밀감이 없이 예사로운 모양'이라는 뜻을 가지고 있습니다. 따라서 답은 3이 됩니다.,gpt-3.5-turbo
+ko_quiz_7,103,"'몽글다'란 친근하고 귀여운 느낌을 주는 모습을 가지고 있다는 뜻입니다. 예를 들어, 아기나 동물 등이 몽글몽글하다고 말할 수 있습니다.",gpt-3.5-turbo
+ko_quiz_7,104,1,gpt-3.5-turbo
+ko_quiz_7,105,3,gpt-3.5-turbo
+ko_quiz_7,106,"'길동글다'는 한국어에서 아무런 의미가 없는 단어입니다. 따라서, '길동글다'라는 단어에는 명확한 뜻이 없습니다.",gpt-3.5-turbo
+ko_quiz_7,107,"'똘기'는 굴곡이 많고 휘어져 있는 모양을 가리키며, 또는 어떤 사람이 한 가지 일에만 광적으로 몰두하거나, 한 가지 특징이나 재주가 두드러지는 사람을 지칭하는 말로도 사용될 수 있습니다.",gpt-3.5-turbo
+ko_quiz_7,108,"'우물지다'는 어떠한 일이나 사물이 한계를 넘지 못하고 퇴보하거나 발전하지 못하고 그대로 정지하는 것을 말합니다. 예를 들어, 어떤 사업이나 조직이 더이상 혁신적인 발전을 이루지 못하고 고착화되어 있는 상태를 '우물지다'라고 할 수 있습니다. 또한, 개인적인 성장이나 발전을 위해 노력하지 않고 그 자리에 머무르는 것도 '우물지다'라고 할 수 있습니다.",gpt-3.5-turbo
+ko_quiz_7,109,3,gpt-3.5-turbo
+ko_quiz_7,110,1,gpt-3.5-turbo
+ko_quiz_7,111,3,gpt-3.5-turbo
+ko_quiz_7,112,3,gpt-3.5-turbo
+ko_quiz_7,113,'몹시 힘에 겨운 일을 이루려고 갖은 애를 쓰는 모양' 이면 1,gpt-3.5-turbo
+ko_quiz_7,114,3,gpt-3.5-turbo
+ko_quiz_7,115,1,gpt-3.5-turbo
+ko_quiz_7,116,2,gpt-3.5-turbo
+ko_quiz_7,117,2,gpt-3.5-turbo
+ko_quiz_7,118,1,gpt-3.5-turbo
+ko_quiz_7,119,"갈피를 잡을 수 없도록 마구 지껄이는 모양을 ""삐걱거리다""라고 합니다.",gpt-3.5-turbo
+ko_quiz_7,120,2,gpt-3.5-turbo
+ko_quiz_7,121,3,gpt-3.5-turbo
+ko_quiz_7,122,3,gpt-3.5-turbo
+ko_quiz_7,123,'한소끔'은 '한 번 끓어오르는 모양'을 뜻합니다. 따라서 정답은 1입니다.,gpt-3.5-turbo
+ko_quiz_7,124,얼음 덩어리,gpt-3.5-turbo
+ko_quiz_7,125,2,gpt-3.5-turbo
+ko_quiz_7,126,1,gpt-3.5-turbo
+ko_quiz_7,127,1,gpt-3.5-turbo
+ko_quiz_7,128,"1. 머리가 어지럽다
+2. 혼란스럽다
+3. 생각이 복잡하다
+4. 집중이 안 된다
+
+답: 2. 혼란스럽다",gpt-3.5-turbo
+ko_quiz_7,129,답: 2,gpt-3.5-turbo
+ko_quiz_7,130,1,gpt-3.5-turbo
+ko_quiz_7,131,3,gpt-3.5-turbo
+ko_quiz_7,132,2,gpt-3.5-turbo
+ko_quiz_7,133,1,gpt-3.5-turbo
+ko_quiz_7,134,1,gpt-3.5-turbo
+ko_quiz_7,135,1,gpt-3.5-turbo
+ko_quiz_7,136,2,gpt-3.5-turbo
+ko_quiz_7,137,"""팩수""라고 할 수 있습니다. ""팩수""는 성미가 급한 사람이나 꾀꾀대는 사람을 뜻합니다. 이런 사람은 침착하지 못하고 불안정한 모습을 보여줍니다.",gpt-3.5-turbo
+ko_quiz_7,138,'두럭'은 '물을 많이 담아 두고 쓰는 큰 가마나 독'을 의미합니다. 이면 3입니다.,gpt-3.5-turbo
+ko_quiz_7,139,2,gpt-3.5-turbo
+ko_quiz_7,140,3,gpt-3.5-turbo
+ko_quiz_7,141,3,gpt-3.5-turbo
+ko_quiz_7,142,3,gpt-3.5-turbo
+ko_quiz_7,143,2,gpt-3.5-turbo
+ko_quiz_7,144,3,gpt-3.5-turbo
+ko_quiz_7,145,"""되틀다""는 한국어에서 사용되는 동사로서 ""계속해서 움직이며 빠르게 돌다""라는 뜻을 가지고 있습니다.",gpt-3.5-turbo
+ko_quiz_7,146,"'에누리'는 '삼림'이라는 뜻으로, 숲이 울창하게 무성한 모습을 의미합니다.",gpt-3.5-turbo
+ko_quiz_7,147,3,gpt-3.5-turbo
+ko_quiz_7,148,'게염'은 '게의 염증'을 의미합니다.,gpt-3.5-turbo
+ko_quiz_7,149,2,gpt-3.5-turbo
+ko_quiz_7,150,1,gpt-3.5-turbo
+ko_quiz_7,151,1,gpt-3.5-turbo
+ko_quiz_7,152,"투레질은 프랑스어로 ""연극""을 뜻합니다.",gpt-3.5-turbo
+ko_quiz_7,153,1,gpt-3.5-turbo
+ko_quiz_7,154,"'매나니'는 영어로 'nanny'라고 하며, 주로 어린 아이들이나 어린이집에서 일하는 돌보미를 의미합니다.",gpt-3.5-turbo
+ko_quiz_7,155,2,gpt-3.5-turbo
+ko_quiz_7,156,1,gpt-3.5-turbo
+ko_quiz_7,157,1,gpt-3.5-turbo
+ko_quiz_7,158,2,gpt-3.5-turbo
+ko_quiz_7,159,"""승자""를 뜻하는 우리말입니다.",gpt-3.5-turbo
+ko_quiz_7,160,2,gpt-3.5-turbo
+ko_quiz_7,161,2,gpt-3.5-turbo
+ko_quiz_7,162,1,gpt-3.5-turbo
+ko_quiz_7,163,2,gpt-3.5-turbo
+ko_quiz_7,164,"언어에 따라 다를 수 있으나, ""강요(强要)""나 ""강제(强制)""와 같은 단어가 어울릴 수 있습니다. 다른 경우에는 ""생산제약""이나 ""강약""과 같은 단어도 가능합니다.",gpt-3.5-turbo
+ko_quiz_7,165,"'결결이'의 뜻으로 알맞은 것은 ""그때그때 상황에 따라 달라진다""라는 뜻인 '이면 3'입니다.",gpt-3.5-turbo
+ko_quiz_7,166,2,gpt-3.5-turbo
+ko_quiz_7,167,1,gpt-3.5-turbo
+ko_quiz_7,168,차분하고 꾸준한 모양을 뜻하는 우리말은 '꾸벅꾸벅한'입니다.,gpt-3.5-turbo
+ko_quiz_7,169,2,gpt-3.5-turbo
+ko_quiz_7,170,3,gpt-3.5-turbo
+ko_quiz_7,171,3,gpt-3.5-turbo
+ko_quiz_7,172,"'올차다'는 ""오른쪽에 오다, 오른편으로 가다""라는 뜻을 가지고 있습니다. 따라서 '올차다'라는 표현은 오른쪽으로 움직이거나 오른편으로 가는 동작을 나타냅니다.",gpt-3.5-turbo
+ko_quiz_7,173,1,gpt-3.5-turbo
+ko_quiz_7,174,"""풍부하다""",gpt-3.5-turbo
+ko_quiz_7,175,3,gpt-3.5-turbo
+ko_quiz_7,176,'벼룩잠'의 뜻은 무언가를 잠시나마 자지 못하고 잠을 자는 것을 의미합니다. 주로 사람이나 동물이 바쁜 일이나 걱정 때문에 잠을 청하지 못하는 상태를 나타냅니다.,gpt-3.5-turbo
+ko_quiz_7,177,3,gpt-3.5-turbo
+ko_quiz_7,178,2,gpt-3.5-turbo
+ko_quiz_7,179,"한 가지 가능한 답은 ""비틀다""입니다. 다른 가능한 답으로는 ""쪼그라들다""가 있을 수 있습니다.",gpt-3.5-turbo
+ko_quiz_7,180,1,gpt-3.5-turbo
+ko_quiz_7,181,2,gpt-3.5-turbo
+ko_quiz_7,182,2,gpt-3.5-turbo
+ko_quiz_7,183,"'금성'의 순우리말은 '수성'이고, '을(를)'을 뜻하는 우리말은 '갖다'입니다.",gpt-3.5-turbo
+ko_quiz_7,184,"""몽치""는 일본어에서 ""잠을 자다""라는 뜻을 가지고 있습니다.",gpt-3.5-turbo
+ko_quiz_7,185,"우리말로는 ""추가""라고 합니다.",gpt-3.5-turbo
+ko_quiz_7,186,'걱세다'의 뜻으로 알맞은 것은 '강해지다'입니다.,gpt-3.5-turbo
+ko_quiz_7,187,탁한 물,gpt-3.5-turbo
+ko_quiz_7,188,3,gpt-3.5-turbo
+ko_quiz_7,189,3,gpt-3.5-turbo
+ko_quiz_7,190,2,gpt-3.5-turbo
+ko_quiz_7,191,3,gpt-3.5-turbo
+ko_quiz_7,192,1,gpt-3.5-turbo
+ko_quiz_7,193,"빈틈없이 아주 여무진 사람을 뜻하는 우리말은 ""완전무결한 사람""입니다.",gpt-3.5-turbo
+ko_quiz_7,194,2,gpt-3.5-turbo
+ko_quiz_7,195,1,gpt-3.5-turbo
+ko_quiz_7,196,"'까세다'는 한국어 속어로, 상대방을 놀리거나 무시하는 행동을 의미합니다.",gpt-3.5-turbo
+ko_quiz_7,197,2,gpt-3.5-turbo
+ko_quiz_7,198,2,gpt-3.5-turbo
+ko_quiz_7,199,3,gpt-3.5-turbo
+ko_quiz_7,200,3,gpt-3.5-turbo
+ko_quiz_7,201,1,gpt-3.5-turbo
+ko_quiz_7,202,"'코대답'은 주로 어떤 말이나 행동에 대해 적절한 대답이나 응답을 주지 않고 거절하거나 대꾸하지 않는 것을 의미합니다. 예를 들어, 상대방이나 어떤 제안에 대해 적절한 대답 대신에 무시하거나 너무 경솔하게 대응하는 것을 '코대답'이라고 할 수 있습니다.",gpt-3.5-turbo
+ko_quiz_7,203,"'두루딱딱이'는 알 수 없습니다. 해당 단어에 대한 뜻이나 정보를 더 제공해주시면, 더 정확한 답변을 드릴 수 있을 것입니다.",gpt-3.5-turbo
+ko_quiz_7,204,1,gpt-3.5-turbo
+ko_quiz_7,205,1,gpt-3.5-turbo
+ko_quiz_7,206,2,gpt-3.5-turbo
+ko_quiz_7,207,2,gpt-3.5-turbo
+ko_quiz_7,208,3,gpt-3.5-turbo
+ko_quiz_7,209,1,gpt-3.5-turbo
+ko_quiz_7,210,3,gpt-3.5-turbo
+ko_quiz_7,211,'난벌'은 '꽃가루를 수염에 맺힌 벌'이라는 뜻입니다.,gpt-3.5-turbo
+ko_quiz_7,212,2,gpt-3.5-turbo
+ko_quiz_7,213,2,gpt-3.5-turbo
+ko_quiz_7,214,2,gpt-3.5-turbo
+ko_quiz_7,215,3,gpt-3.5-turbo
+ko_quiz_7,216,3,gpt-3.5-turbo
+ko_quiz_7,217,3,gpt-3.5-turbo
+ko_quiz_7,218,"우리말에서 ""놀이 등의 일로 여러 사람이 모이는 일""을 뜻하는 표현은 ""모임""입니다.",gpt-3.5-turbo
+ko_quiz_7,219,1,gpt-3.5-turbo
+ko_quiz_7,220,1,gpt-3.5-turbo
+ko_quiz_7,221,사리다,gpt-3.5-turbo
+ko_quiz_7,222,"해당 문장에서 '다붓이'라는 단어의 뜻을 파악하기 어려우므로, 해당 단어의 정확한 뜻을 제공할 수 없습니다. 하지만, 주어진 문맥을 고려할 때, 첫 번째 '이면 1'로 해석할 수도 있습니다.",gpt-3.5-turbo
+ko_quiz_7,223,1,gpt-3.5-turbo
+ko_quiz_7,224,1,gpt-3.5-turbo
+ko_quiz_7,225,3,gpt-3.5-turbo
+ko_quiz_7,226,2,gpt-3.5-turbo
+ko_quiz_7,227,3,gpt-3.5-turbo
+ko_quiz_7,228,3,gpt-3.5-turbo
+ko_quiz_7,229,"""모두""",gpt-3.5-turbo
+ko_quiz_7,230,2,gpt-3.5-turbo
+ko_quiz_7,231,"이러고 심술을 부리는 짓을 뜻하는 우리말은 ""악수를 부리다""입니다.",gpt-3.5-turbo
+ko_quiz_7,232,2,gpt-3.5-turbo
+ko_quiz_7,233,3,gpt-3.5-turbo
+ko_quiz_7,234,"""새금물""은 어떤 사건이나 일이 처음으로 일어날 때, 처음 생겨난 것을 가리키는 말입니다. ""새롭게 일어난 일""이라고 해석할 수 있습니다.",gpt-3.5-turbo
+ko_quiz_7,235,2,gpt-3.5-turbo
+ko_quiz_7,236,2,gpt-3.5-turbo
+ko_quiz_7,237,1,gpt-3.5-turbo
+ko_quiz_7,238,2,gpt-3.5-turbo
+ko_quiz_7,239,"나들이할 때 착용하는 옷이나 신발을 뜻하는 우리말은 ""외출복""이라고 할 수 있습니다. ",gpt-3.5-turbo
+ko_quiz_7,240,"'소록소록'은 사물이나 사람이 많이 모여 있는 모습을 묘사하는 소리말로, '줄지어 이루어져 있는 모습'이라는 뜻을 갖습니다. 예를 들어, ""사람들이 소록소록 모여 있어서 북적거리고 있다""라고 할 수 있습니다.",gpt-3.5-turbo
+ko_quiz_7,241,2,gpt-3.5-turbo
+ko_quiz_7,242,1,gpt-3.5-turbo
+ko_quiz_7,243,"잠재적인 답은 ""임팩트가 있다"" 일 수 있습니다. 이 표현은 어떤 행동이나 말이 중요하거나 영향력이 있다는 것을 의미합니다. ""점잖다""는 조심스러우며 예의 바르다는 뜻이기 때문에, 이 단어와는 동떨어져 있습니다. 그러나 문맥에 따라 다른 우리말 표현이 적절할 수도 있습니다.",gpt-3.5-turbo
+ko_quiz_7,244,2,gpt-3.5-turbo
+ko_quiz_7,245,2,gpt-3.5-turbo
+ko_quiz_7,246,2,gpt-3.5-turbo
+ko_quiz_7,247,고개를 앞뒤로 천천히 끄덕거리다는 '묵묵부답하다'라는 우리말을 뜻합니다.,gpt-3.5-turbo
+ko_quiz_7,248,2,gpt-3.5-turbo
+ko_quiz_7,249,"'단출내기'는 문장이나 표현을 더 간결하고 짧게 표현하는 것을 의미합니다. 따라서 '단축하다', '간추리다', '요약하다'와 같은 뜻으로 사용할 수 있습니다.",gpt-3.5-turbo
+ko_quiz_7,250,2,gpt-3.5-turbo
+ko_quiz_7,251,"'데알다'는 '데안다'라고도 표현하며, 많은 사람들이 품질이 좋은 제품을 좋게 평가하는 것을 뜻합니다. 예를 들면, ""이 제품은 데알다!""라는 표현은 ""이 제품은 품질이 좋다!""라는 의미입니다.",gpt-3.5-turbo
+ko_quiz_7,252,3,gpt-3.5-turbo
+ko_quiz_7,253,"'새물'의 뜻으로 알맞은 것은 ""새의 몸""이다.",gpt-3.5-turbo
+ko_quiz_7,254,3,gpt-3.5-turbo
+ko_quiz_7,255,2,gpt-3.5-turbo
+ko_quiz_7,256,"'이면 2, '이야기를 듣고 느끼는 재미 '",gpt-3.5-turbo
+ko_quiz_7,257,대충 알다,gpt-3.5-turbo
+ko_quiz_7,258,3,gpt-3.5-turbo
+ko_quiz_7,259,2,gpt-3.5-turbo
+ko_quiz_7,260,1,gpt-3.5-turbo
+ko_quiz_7,261,2,gpt-3.5-turbo
+ko_quiz_7,262,2,gpt-3.5-turbo
+ko_quiz_7,263,2,gpt-3.5-turbo
+ko_quiz_7,264,3,gpt-3.5-turbo
+ko_quiz_7,265,1,gpt-3.5-turbo
+ko_quiz_7,266,1,gpt-3.5-turbo
+ko_quiz_7,267,"잔돈을 뜻하는 우리말은 ""잔돈을 받다"" 또는 ""잔돈을 거슬러 받다""와 같은 표현들을 사용합니다. 잔돈은 구매한 물건 가격을 제외한 나머지 돈을 의미합니다.",gpt-3.5-turbo
+ko_quiz_7,268,1,gpt-3.5-turbo
+ko_quiz_7,269,2,gpt-3.5-turbo
+ko_quiz_7,270,1,gpt-3.5-turbo
+ko_quiz_7,271,2,gpt-3.5-turbo
+ko_quiz_7,272,3,gpt-3.5-turbo
+ko_quiz_7,273,2,gpt-3.5-turbo
+ko_quiz_7,274,3,gpt-3.5-turbo
+ko_quiz_7,275,"""된바람""은 한국어 구어에서 자주 사용되는 표현으로, 원래는 ""불효자""를 의미합니다. 하지만 현재는 ""바람을 피우는 사람""이나 ""바람을 피운 측면""을 뜻하기도 합니다. 즉, 일반적으로는 한 번 사귀다가 서로 연락을 끊고 뒤늦게 전여자(남자)가 이성친구에게 연락을 한다는 말로 사용되곤 합니다. 이 표현은 부정적인 뉘앙스로 말하며, 쓰는 사람에 따라 다소 규모가 더디곤 합니다. 예문으로는 ""그래? 그런데 어제 혜란이에게 연락이 왔더라고. 왠 걸 원한다고 했어.  또 돌아올지 싶지만, 너무 속상하게 됐다. 한번 바람 피운 거 아닌가 생각이 드네."" 와 같이 사용될 수 있습니다.",gpt-3.5-turbo
+ko_quiz_7,276,이 문장에서 '떠세'라는 표현은 힘을 내세우고 억지로 처리하는 것을 의미합니다. 따라서 정답은 1입니다.,gpt-3.5-turbo
+ko_quiz_7,277,"일상 대화에서 ""헝클어진다""라고 할 수 있습니다.",gpt-3.5-turbo
+ko_quiz_7,278,"일을 어그러지게 하다를 뜻하는 우리말은 ""일자를 벗어나게 하다""이다.",gpt-3.5-turbo
+ko_quiz_7,279,2,gpt-3.5-turbo
+ko_quiz_7,280,1,gpt-3.5-turbo
+ko_quiz_7,281,3,gpt-3.5-turbo
+ko_quiz_7,282,1,gpt-3.5-turbo
+ko_quiz_7,283,'앞짧은소리'의 뜻으로는 사이(Pause) 또는 공기(Puff)와 같은 의미로 사용될 수 있습니다.,gpt-3.5-turbo
+ko_quiz_7,284,3,gpt-3.5-turbo
+ko_quiz_7,285,"몸이 굳고 억세다을 뜻하는 우리말은 ""뻣뻣하다""입니다.",gpt-3.5-turbo
+ko_quiz_7,286,1,gpt-3.5-turbo
+ko_quiz_7,287,"-﻿ '되작이다'는 한자로 된 속어로, 감탄사와 관용구에 사용되며 ""잘 됐다"", ""되려고만 하면 안 돼지"" 등의 의미로 사용됩니다.",gpt-3.5-turbo
+ko_quiz_7,288,3,gpt-3.5-turbo
+ko_quiz_7,289,3,gpt-3.5-turbo
+ko_quiz_7,290,1,gpt-3.5-turbo
+ko_quiz_7,291,1,gpt-3.5-turbo
+ko_quiz_7,292,3,gpt-3.5-turbo
+ko_quiz_7,293,2,gpt-3.5-turbo
+ko_quiz_7,294,"""모양이 기름하게 동글다""는 비유적인 표현으로 사용되며, ""돈독하다""라는 뜻입니다.",gpt-3.5-turbo
+ko_quiz_7,295,"'거춤거춤'은 한국어에서 사람이나 동물이 춤을 추듯이 매우 활발하게 움직이는 모습을 나타내는 표현입니다. 예를 들어, ""그 아이는 노래에 맞춰 거춤거춤 춤을 췄다""와 같이 사용됩니다.",gpt-3.5-turbo
+ko_quiz_7,296,2,gpt-3.5-turbo
+ko_quiz_7,297,2,gpt-3.5-turbo
+ko_quiz_7,298,1,gpt-3.5-turbo
+ko_quiz_7,299,3,gpt-3.5-turbo
+ko_quiz_7,300,3,gpt-3.5-turbo
+ko_quiz_7,301,2,gpt-3.5-turbo
+ko_quiz_7,302,2,gpt-3.5-turbo
+ko_quiz_7,303,"음식물에서 생긴 구더기를 뜻하는 우리말은 ""썩은 물""이나 ""더미""입니다.",gpt-3.5-turbo
+ko_quiz_7,304,2,gpt-3.5-turbo
+ko_quiz_7,305,'콩팔칠팔'은 10번째 날짜를 의미합니다. ,gpt-3.5-turbo
+ko_quiz_7,306,2,gpt-3.5-turbo
+ko_quiz_7,307,2,gpt-3.5-turbo
+ko_quiz_7,308,'고수련 '이면 1,gpt-3.5-turbo
+ko_quiz_7,309,2,gpt-3.5-turbo
+ko_quiz_7,310,답은 3입니다. '되술래잡다'는 아무 잘못이나 관계가 없는 사람을 헐뜯거나 죄인으로 몰다는 뜻입니다.,gpt-3.5-turbo
+ko_quiz_7,311,1,gpt-3.5-turbo
+ko_quiz_7,312,2,gpt-3.5-turbo
+ko_quiz_7,313,불면증,gpt-3.5-turbo
+ko_quiz_7,314,2,gpt-3.5-turbo
+ko_quiz_7,315,2,gpt-3.5-turbo
+ko_quiz_7,316,3,gpt-3.5-turbo
+ko_quiz_7,317,1,gpt-3.5-turbo
+ko_quiz_7,318,1,gpt-3.5-turbo
+ko_quiz_7,319,"남모르게 틈틈이는 일상 생활에서 소홀하거나 빈틈없이 지속적으로 하는 것을 뜻합니다. 그러므로 ""규칙적으로, 작은 틈도 놓치지 않고""라고 해석할 수 있습니다.",gpt-3.5-turbo
+ko_quiz_7,320,2,gpt-3.5-turbo
+ko_quiz_7,321,2,gpt-3.5-turbo
+ko_quiz_7,322,1,gpt-3.5-turbo
+ko_quiz_7,323,2,gpt-3.5-turbo
+ko_quiz_7,324,2,gpt-3.5-turbo
+ko_quiz_7,325,2,gpt-3.5-turbo
+ko_quiz_7,326,1,gpt-3.5-turbo
+ko_quiz_7,327,1,gpt-3.5-turbo
+ko_quiz_7,328,2,gpt-3.5-turbo
+ko_quiz_7,329,1,gpt-3.5-turbo
+ko_quiz_7,330,"'군드러지다'의 뜻은 ""어떤 특징이나 행동이 강력하게 드러나다""입니다.",gpt-3.5-turbo
+ko_quiz_7,331,3,gpt-3.5-turbo
+ko_quiz_7,332,2,gpt-3.5-turbo
+ko_quiz_7,333,1,gpt-3.5-turbo
+ko_quiz_7,334,"푹 익어서 무른 모양을 뜻하는 우리말은 ""익다""입니다.",gpt-3.5-turbo
+ko_quiz_7,335,2,gpt-3.5-turbo
+ko_quiz_7,336,"동에서 부는 바람을 이르는 말을 ""동풍""이라고 합니다.",gpt-3.5-turbo
+ko_quiz_7,337,2,gpt-3.5-turbo
+ko_quiz_7,338,"""그루잠""이라는 단어는 한국어에서 일본어로 번역된 용어로, ""휴식"" 또는 ""졸음""을 의미합니다.",gpt-3.5-turbo
+ko_quiz_7,339,2,gpt-3.5-turbo
+ko_quiz_7,340,1,gpt-3.5-turbo
+ko_quiz_7,341,2,gpt-3.5-turbo
+ko_quiz_7,342,2,gpt-3.5-turbo
+ko_quiz_7,343,가죽으로 만든 우리 고유의 신을(를) 뜻하는 우리말은 '토투워'입니다.,gpt-3.5-turbo
+ko_quiz_7,344,1,gpt-3.5-turbo

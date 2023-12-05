@@ -1,0 +1,140 @@
+﻿task_name,index,result,model_name
+ko_quiz_3,0,"쓰는 - 필통
+빈 - 병
+깨진 - 유리
+중 버는 - 가방
+자랑 말고 - 하울링",gpt-3.5-turbo
+ko_quiz_3,1,"은행나무 ""마주"" 느티나무 ""서야"" 동백나무.",gpt-3.5-turbo
+ko_quiz_3,2,김치입니다.,gpt-3.5-turbo
+ko_quiz_3,3,혀,gpt-3.5-turbo
+ko_quiz_3,4,"앉아서 ""맘먹고""",gpt-3.5-turbo
+ko_quiz_3,5,안녕,gpt-3.5-turbo
+ko_quiz_3,6,염소,gpt-3.5-turbo
+ko_quiz_3,7,불난 데서 이야기한다에서 불난 데서 분리하여 들어가는 것 같습니다.,gpt-3.5-turbo
+ko_quiz_3,8,항상,gpt-3.5-turbo
+ko_quiz_3,9,인생,gpt-3.5-turbo
+ko_quiz_3,10,"삼월 - 유월 ""삼월 - 칠월 "" ""칠월 - 구월 "" 중 보리 안 패는 ""유월"" 없고 나락 안 패는 ""칠월"" 없다에서 ""구월"" 에 들어갈 단어로만 대답하시오.",gpt-3.5-turbo
+ko_quiz_3,11,비온다,gpt-3.5-turbo
+ko_quiz_3,12,"한 잔 - 반 잔 ""술에 눈물 나고""",gpt-3.5-turbo
+ko_quiz_3,13,"원수 - 은혜 ""은혜 - 원수 ""선수 - 지혜 "" 중 밤 잔 ? 없고 날 샌 ? 없다에서 ?
+
+답: 담",gpt-3.5-turbo
+ko_quiz_3,14,중국,gpt-3.5-turbo
+ko_quiz_3,15,보혈,gpt-3.5-turbo
+ko_quiz_3,16,곰,gpt-3.5-turbo
+ko_quiz_3,17,사람,gpt-3.5-turbo
+ko_quiz_3,18,"""햄스터""",gpt-3.5-turbo
+ko_quiz_3,19,마음,gpt-3.5-turbo
+ko_quiz_3,20,봄비는 맑아요. 가을비는 적어요.,gpt-3.5-turbo
+ko_quiz_3,21,절다,gpt-3.5-turbo
+ko_quiz_3,22,안경,gpt-3.5-turbo
+ko_quiz_3,23,"맞춤법으로 나타내면 ""노수와 쌀 중 입맛이 나자? 떨어진다에서?"" 입니다. 혹은 ""노수와 쌀 중 입맛이 나자? 에""입니다. 이 문장에서는 ""콩""이 빠져 있기 때문에 ""쌀""이나 ""콩"" 중에서 선택해야 합니다. 따라서 정확한 대답은 ""쌀"" 또는 ""콩""입니다.",gpt-3.5-turbo
+ko_quiz_3,24,"코끼리, 발레, 간장",gpt-3.5-turbo
+ko_quiz_3,25,넘지,gpt-3.5-turbo
+ko_quiz_3,26,주인,gpt-3.5-turbo
+ko_quiz_3,27,자루,gpt-3.5-turbo
+ko_quiz_3,28,대화,gpt-3.5-turbo
+ko_quiz_3,29,다시 생각해보니 못 봤다.,gpt-3.5-turbo
+ko_quiz_3,30,"심고, 기르다",gpt-3.5-turbo
+ko_quiz_3,31,바람,gpt-3.5-turbo
+ko_quiz_3,32,개가 닭을 쫓던 마당에서 쳐다보던 것입니다.,gpt-3.5-turbo
+ko_quiz_3,33,얼음,gpt-3.5-turbo
+ko_quiz_3,34,속,gpt-3.5-turbo
+ko_quiz_3,35,사기,gpt-3.5-turbo
+ko_quiz_3,36,즐겁게,gpt-3.5-turbo
+ko_quiz_3,37,세살,gpt-3.5-turbo
+ko_quiz_3,38,"며느리 - 딸 ""봄볕은"" 
+딸 - 며느리 ""가을볕은""",gpt-3.5-turbo
+ko_quiz_3,39,우산,gpt-3.5-turbo
+ko_quiz_3,40,ACB,gpt-3.5-turbo
+ko_quiz_3,41,가래,gpt-3.5-turbo
+ko_quiz_3,42,대답 : 고추,gpt-3.5-turbo
+ko_quiz_3,43,"위 문장에는 ""손"" ""돈"" ""칼"" 중 어두운 밤에? 내미는 격에서? 에 들어갈 단어로만 대답해야합니다.
+
+가장 어울리는 단어는 ""칼""입니다. 또는 ""칼을""로 답할 수도 있습니다.",gpt-3.5-turbo
+ko_quiz_3,44,날개,gpt-3.5-turbo
+ko_quiz_3,45,족제비는 눈.,gpt-3.5-turbo
+ko_quiz_3,46,"고기는 안 잡히고 ""돌맹이""만 잡힌다.",gpt-3.5-turbo
+ko_quiz_3,47,"무쇠 ""이"".",gpt-3.5-turbo
+ko_quiz_3,48,금칠,gpt-3.5-turbo
+ko_quiz_3,49,열매,gpt-3.5-turbo
+ko_quiz_3,50,통나무,gpt-3.5-turbo
+ko_quiz_3,51,호랑이,gpt-3.5-turbo
+ko_quiz_3,52,하는,gpt-3.5-turbo
+ko_quiz_3,53,학문,gpt-3.5-turbo
+ko_quiz_3,54,간고기,gpt-3.5-turbo
+ko_quiz_3,55,하늘,gpt-3.5-turbo
+ko_quiz_3,56,먹자,gpt-3.5-turbo
+ko_quiz_3,57,모르다,gpt-3.5-turbo
+ko_quiz_3,58,"처음 물음표에는 '어디에', 두 번째 물음표에는 '한국'이 들어갑니다.",gpt-3.5-turbo
+ko_quiz_3,59,사자,gpt-3.5-turbo
+ko_quiz_3,60,등잔불,gpt-3.5-turbo
+ko_quiz_3,61,"들어갈 단어로는 ""구멍""이 들어갑니다.",gpt-3.5-turbo
+ko_quiz_3,62,식사,gpt-3.5-turbo
+ko_quiz_3,63,빈,gpt-3.5-turbo
+ko_quiz_3,64,찰밥,gpt-3.5-turbo
+ko_quiz_3,65,"앞서 제시된 정보만으로는 이원 단어를 완성할 수 없으므로, 구체적인 질문이나 문맥을 제공해주세요.",gpt-3.5-turbo
+ko_quiz_3,66,푸른 바다,gpt-3.5-turbo
+ko_quiz_3,67,주객이 못 들어갈 대답입니다.,gpt-3.5-turbo
+ko_quiz_3,68,바늘,gpt-3.5-turbo
+ko_quiz_3,69,"강 ""고양이 ""도둑 "" 중 ""도둑""
+
+담 넘어가듯에서 ""도둑 "" 에 ""들어갈"" 단어로만 대답하시오. ""담 넘어가듯""",gpt-3.5-turbo
+ko_quiz_3,70,"벗 줄 것은 없어도 ""도둑""은 줄 것은 있다.",gpt-3.5-turbo
+ko_quiz_3,71,동네,gpt-3.5-turbo
+ko_quiz_3,72,"""얼른""과 ""많이"" 중 아이는 ""얼른"" 낳아서 크게 길러라에서 ""얼른""에 들어갈 단어로만 대답하시오.",gpt-3.5-turbo
+ko_quiz_3,73,"인정 - 진상 ""바리 ""
+감정 - 진심 ""꿴다 ""
+진심 - 감정 ""꼬치 """,gpt-3.5-turbo
+ko_quiz_3,74,"한식 ""청명"" ""우수"" 중 정성이 있으면 ""맛""에도 세배 간다에서 ""맛""이 들어갈 단어입니다.",gpt-3.5-turbo
+ko_quiz_3,75,난다,gpt-3.5-turbo
+ko_quiz_3,76,"'짖는 ""개""는 물지 않는다'에서 ?에 들어갈 단어는 ""개""입니다.",gpt-3.5-turbo
+ko_quiz_3,77,비 오는 날은 소꼬리입니다.,gpt-3.5-turbo
+ko_quiz_3,78,조금씩,gpt-3.5-turbo
+ko_quiz_3,79,할로윈 마녀,gpt-3.5-turbo
+ko_quiz_3,80,지렁이,gpt-3.5-turbo
+ko_quiz_3,81,클수록,gpt-3.5-turbo
+ko_quiz_3,82,잠시,gpt-3.5-turbo
+ko_quiz_3,83,부담,gpt-3.5-turbo
+ko_quiz_3,84,양,gpt-3.5-turbo
+ko_quiz_3,85,"장비 ""선비"" 유비 ""신하"" 관우 ""용감함""",gpt-3.5-turbo
+ko_quiz_3,86,"1. 워낭 소리 - 부엉이
+2. 노래 소리 - 새들
+3. 울음 소리 - 강아지",gpt-3.5-turbo
+ko_quiz_3,87,웃음,gpt-3.5-turbo
+ko_quiz_3,88,냄비,gpt-3.5-turbo
+ko_quiz_3,89,바다,gpt-3.5-turbo
+ko_quiz_3,90,"죽사발이 웃음이요, 밥사발이 눈물이라",gpt-3.5-turbo
+ko_quiz_3,91,옆구리에서 바지춤을 해서 정신은 빠졌다.,gpt-3.5-turbo
+ko_quiz_3,92,"밥상머리 "" ""양지머리 "" ""책상머리 "" 중 감기는 책상머리에 내려앉는다.",gpt-3.5-turbo
+ko_quiz_3,93,반도,gpt-3.5-turbo
+ko_quiz_3,94,"여름비 - 가을비: 가을
+여름비 - 봄비: 봄
+여름비 - 겨울비: 겨울",gpt-3.5-turbo
+ko_quiz_3,95,껍질 알맹이,gpt-3.5-turbo
+ko_quiz_3,96,과일,gpt-3.5-turbo
+ko_quiz_3,97,앞으로는 불허,gpt-3.5-turbo
+ko_quiz_3,98,고통,gpt-3.5-turbo
+ko_quiz_3,99,눈,gpt-3.5-turbo
+ko_quiz_3,100,"좁쌀에는 쌀이, 판다에서는 판다가 들어갑니다.",gpt-3.5-turbo
+ko_quiz_3,101,나루 건너 놀다,gpt-3.5-turbo
+ko_quiz_3,102,이응,gpt-3.5-turbo
+ko_quiz_3,103,맥주,gpt-3.5-turbo
+ko_quiz_3,104,"바늘 - 황소 ""쏠린"" ""작은 - 먼지 ""미세한""젖은 - 비 ""송송한"" 중 ""작은구멍""으로 ""바람"" 들어온다.",gpt-3.5-turbo
+ko_quiz_3,105,식품,gpt-3.5-turbo
+ko_quiz_3,106,구더기,gpt-3.5-turbo
+ko_quiz_3,107,동작,gpt-3.5-turbo
+ko_quiz_3,108,속,gpt-3.5-turbo
+ko_quiz_3,109,"뱁새 - 황새 ""참새-박새"" 중 ""황새""가 ""박새""를 따라가면 다리가 찢어진다에서 ""황새""에 들어갈 단어로만 대답하시오.",gpt-3.5-turbo
+ko_quiz_3,110,도구,gpt-3.5-turbo
+ko_quiz_3,111,있다,gpt-3.5-turbo
+ko_quiz_3,112,토로이드,gpt-3.5-turbo
+ko_quiz_3,113,여자,gpt-3.5-turbo
+ko_quiz_3,114,노란 하늘,gpt-3.5-turbo
+ko_quiz_3,115,보름달,gpt-3.5-turbo
+ko_quiz_3,116,"개똥 ""말똥""",gpt-3.5-turbo
+ko_quiz_3,117,어디서든,gpt-3.5-turbo
+ko_quiz_3,118,머리털을 베어 신발 앞머리를 삼다에서 머리털을 베어 머리에 들어갈 수 있다.,gpt-3.5-turbo
+ko_quiz_3,119,귀염,gpt-3.5-turbo
+ko_quiz_3,120,식약처,gpt-3.5-turbo
+ko_quiz_3,121,바지,gpt-3.5-turbo
