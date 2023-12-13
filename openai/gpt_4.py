@@ -5,8 +5,8 @@ import pandas as pd
 
 input_data_dirs = [
         #"../../TaskManager/number_1/number_1.csv",
-        "../../TaskManager/number_2/number_2.csv",
-        "../../TaskManager/number_3/number_3.csv",
+        #"../../TaskManager/number_2/number_2.csv",
+        #"../../TaskManager/number_3/number_3.csv",
         # "../../TaskManager/Reasoning/data.csv",
         "../../TaskManager/spelling_correct/spelling_correct.csv",
         # "../../TaskManager/summarization/data.csv",
