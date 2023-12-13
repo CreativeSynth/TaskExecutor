@@ -45,8 +45,7 @@ class TaskReader:
     
     def get_input_data_dirs(self):
         return self.data_dirs
+    
 
-
-taskReader = TaskReader("../TaskManager")
-
-print(taskReader.get_input_data_dirs())
+if __name__=="__main__":
+    taskReader = TaskReader("../TaskManager")
