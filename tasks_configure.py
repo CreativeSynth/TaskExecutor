@@ -49,4 +49,3 @@ class TaskReader:
 
 if __name__=="__main__":
     taskReader = TaskReader("../TaskManager")
-    print("hi!")
