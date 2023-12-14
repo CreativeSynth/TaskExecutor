@@ -2,10 +2,16 @@ import pandas as pd
 import sys
 sys.path.append('../')
 from tasks_configure import TaskReader
+from vllm import LLM, SamplingParams
+from collections.abc import Iterable
+
+
+def messages_to_string(prompts: Iterable[str]):
+    return [f"아래는 작업을 설명하는 명령어입니다. 요청을 적절히 완료하는 응답을 작성하세요.\n\n### 명령어:\n{instruction}\n\n### 응답:\n" for instruction in prompts]
+
 
 result_data = pd.DataFrame()
 rerun = False
-
 try:
     result_data = pd.read_csv("result.csv")
     rerun = True
@@ -17,10 +23,10 @@ taskReader = TaskReader("../../TaskManager")
 if taskReader.get_input_data_dirs == []:
     exit
 
-MAX_TOKENS = 256
+MAX_TOKENS = 512
 MAX_BATCH_SIZE = 128
-#sampling_params = SamplingParams(temperature=0.8, top_p=0.95, max_tokens=MAX_TOKENS)
-#llm = LLM(model="nlpai-lab/kullm-polyglot-12.8b-v2", tensor_parallel_size=4)
+sampling_params = SamplingParams(temperature=0.8, top_p=0.95, max_tokens=MAX_TOKENS)
+llm = LLM(model="nlpai-lab/kullm-polyglot-12.8b-v2", tensor_parallel_size=4)
 
 
 total_len = len(taskReader.get_input_data_dirs())
@@ -63,12 +69,18 @@ for ind, input_data_dir in enumerate(taskReader.get_input_data_dirs()):
             subdata = data.iloc[st_pos:end_pos].copy()
             prompts = subdata["prompt"].to_list()
 
-            outputs = prompts # generate data
+            prompts = messages_to_string(prompts) # generate prompts
+
+            outputs = llm.generate(prompts, sampling_params) # generate data
+
+            outputs = [output.outputs[0].text for output in outputs] # 결과 텍스트만 가져옴
 
             subdata["result"] = outputs
             subdata["model_name"] = "kullm12.8b"
             result_data = pd.concat([result_data, subdata[["task_name","index", "result", "model_name"]]], ignore_index=True)
             st_pos += bs # go to next position
+            if bs < MAX_BATCH_SIZE:
+                bs *= 2
         except Exception as e:
             print(f"[{ind}/{total_len}]: {input_data_dir} 처리 중 에러 발생. bath size = {bs}, pos = {st_pos}")
             print(e)
