@@ -37,6 +37,7 @@ for input_data_dir in tqdm(taskReader.get_input_data_dirs()):
     success = False
     bs = MAX_BATCH_SIZE # initial batch size
     st_pos = 0 # processing starting position
+    
     while bs > 0 and st_pos < len(data):
         try:
             end_pos = min(len(data), st_pos + bs)
