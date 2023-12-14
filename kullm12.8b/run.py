@@ -49,9 +49,6 @@ for input_data_dir in tqdm(taskReader.get_input_data_dirs()):
             subdata["result"] = outputs
             subdata["model_name"] = "kullm12.8b"
             output_data = pd.concat([output_data, subdata[["task_name","index", "result", "model_name"]]], ignore_index=True)
-
-            # 디버깅 목적으로 상위 2개 확인
-            print(outputs[:min(2, len(outputs))])
             st_pos += bs # go to next position
         except Exception as e:
             print(f"{input_data_dir} 처리 중 에러 발생. bath size = {bs}, pos = {st_pos}")
