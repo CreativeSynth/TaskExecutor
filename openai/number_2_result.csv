@@ -1,0 +1,1006 @@
+﻿task_name,index,result,model_name
+number_2,1,1,gpt-3.5-turbo
+number_2,2,3,gpt-3.5-turbo
+number_2,3,3,gpt-3.5-turbo
+number_2,4,사를 수로 변환하면 4입니다.,gpt-3.5-turbo
+number_2,5,20,gpt-3.5-turbo
+number_2,6,6,gpt-3.5-turbo
+number_2,7,칠을 수로 변환하면 7입니다.,gpt-3.5-turbo
+number_2,8,"""팔""을 수로 변환하면 8이 됩니다.",gpt-3.5-turbo
+number_2,9,6,gpt-3.5-turbo
+number_2,10,십은 '10'으로 수로 변환됩니다.,gpt-3.5-turbo
+number_2,11,11,gpt-3.5-turbo
+number_2,12,12,gpt-3.5-turbo
+number_2,13,십삼은 13입니다.,gpt-3.5-turbo
+number_2,14,14,gpt-3.5-turbo
+number_2,15,"""십오""는 한자 표기법으로 ""15""를 나타냅니다. 따라서 대답은 ""15""입니다.",gpt-3.5-turbo
+number_2,16,16,gpt-3.5-turbo
+number_2,17,17,gpt-3.5-turbo
+number_2,18,십팔을 수로 변환하면 18입니다.,gpt-3.5-turbo
+number_2,19,19,gpt-3.5-turbo
+number_2,20,20,gpt-3.5-turbo
+number_2,21,21,gpt-3.5-turbo
+number_2,22,22,gpt-3.5-turbo
+number_2,23,23,gpt-3.5-turbo
+number_2,24,24,gpt-3.5-turbo
+number_2,25,25,gpt-3.5-turbo
+number_2,26,26,gpt-3.5-turbo
+number_2,27,27,gpt-3.5-turbo
+number_2,28,28,gpt-3.5-turbo
+number_2,29,29,gpt-3.5-turbo
+number_2,30,30,gpt-3.5-turbo
+number_2,31,31,gpt-3.5-turbo
+number_2,32,32,gpt-3.5-turbo
+number_2,33,33,gpt-3.5-turbo
+number_2,34,34,gpt-3.5-turbo
+number_2,35,35,gpt-3.5-turbo
+number_2,36,36,gpt-3.5-turbo
+number_2,37,37,gpt-3.5-turbo
+number_2,38,38,gpt-3.5-turbo
+number_2,39,39,gpt-3.5-turbo
+number_2,40,40,gpt-3.5-turbo
+number_2,41,41,gpt-3.5-turbo
+number_2,42,42,gpt-3.5-turbo
+number_2,43,43,gpt-3.5-turbo
+number_2,44,44,gpt-3.5-turbo
+number_2,45,45,gpt-3.5-turbo
+number_2,46,사십육을 수로 변환하면 46입니다.,gpt-3.5-turbo
+number_2,47,47,gpt-3.5-turbo
+number_2,48,48,gpt-3.5-turbo
+number_2,49,"""사십구""를 수로 변환하면 49가 됩니다.",gpt-3.5-turbo
+number_2,50,50,gpt-3.5-turbo
+number_2,51,51,gpt-3.5-turbo
+number_2,52,52,gpt-3.5-turbo
+number_2,53,53,gpt-3.5-turbo
+number_2,54,"""오십사""는 한글로 작성된 수입니다. 수로 변환하려면 아래와 같이 수를 적어 보겠습니다.
+
+54",gpt-3.5-turbo
+number_2,55,55,gpt-3.5-turbo
+number_2,56,56,gpt-3.5-turbo
+number_2,57,57,gpt-3.5-turbo
+number_2,58,58,gpt-3.5-turbo
+number_2,59,"""오십구""를 수로 변환하면 59입니다.",gpt-3.5-turbo
+number_2,60,60,gpt-3.5-turbo
+number_2,61,61,gpt-3.5-turbo
+number_2,62,62,gpt-3.5-turbo
+number_2,63,63,gpt-3.5-turbo
+number_2,64,64,gpt-3.5-turbo
+number_2,65,65,gpt-3.5-turbo
+number_2,66,66,gpt-3.5-turbo
+number_2,67,67,gpt-3.5-turbo
+number_2,68,68,gpt-3.5-turbo
+number_2,69,"""육십구""를 숫자로 변환하면 69입니다.",gpt-3.5-turbo
+number_2,70,70,gpt-3.5-turbo
+number_2,71,71,gpt-3.5-turbo
+number_2,72,72,gpt-3.5-turbo
+number_2,73,73,gpt-3.5-turbo
+number_2,74,74,gpt-3.5-turbo
+number_2,75,75,gpt-3.5-turbo
+number_2,76,76,gpt-3.5-turbo
+number_2,77,77,gpt-3.5-turbo
+number_2,78,78,gpt-3.5-turbo
+number_2,79,79,gpt-3.5-turbo
+number_2,80,80,gpt-3.5-turbo
+number_2,81,81,gpt-3.5-turbo
+number_2,82,82,gpt-3.5-turbo
+number_2,83,83,gpt-3.5-turbo
+number_2,84,84,gpt-3.5-turbo
+number_2,85,85,gpt-3.5-turbo
+number_2,86,86,gpt-3.5-turbo
+number_2,87,87,gpt-3.5-turbo
+number_2,88,88,gpt-3.5-turbo
+number_2,89,89,gpt-3.5-turbo
+number_2,90,90,gpt-3.5-turbo
+number_2,91,91,gpt-3.5-turbo
+number_2,92,92,gpt-3.5-turbo
+number_2,93,93,gpt-3.5-turbo
+number_2,94,94,gpt-3.5-turbo
+number_2,95,구십오를 수로 변환하면 95입니다.,gpt-3.5-turbo
+number_2,96,96,gpt-3.5-turbo
+number_2,97,97,gpt-3.5-turbo
+number_2,98,98,gpt-3.5-turbo
+number_2,99,99,gpt-3.5-turbo
+number_2,100,100,gpt-3.5-turbo
+number_2,101,113,gpt-3.5-turbo
+number_2,102,백십육을 숫자로 변환하면 116입니다.,gpt-3.5-turbo
+number_2,103,127,gpt-3.5-turbo
+number_2,104,129,gpt-3.5-turbo
+number_2,105,134,gpt-3.5-turbo
+number_2,106,137,gpt-3.5-turbo
+number_2,107,114,gpt-3.5-turbo
+number_2,108,백사십사를 수로 변환하면 144입니다.,gpt-3.5-turbo
+number_2,109,145,gpt-3.5-turbo
+number_2,110,"""백사십칠""을 수로 변환하면 147입니다.",gpt-3.5-turbo
+number_2,111,184,gpt-3.5-turbo
+number_2,112,149,gpt-3.5-turbo
+number_2,113,150,gpt-3.5-turbo
+number_2,114,155,gpt-3.5-turbo
+number_2,115,156,gpt-3.5-turbo
+number_2,116,159,gpt-3.5-turbo
+number_2,117,961,gpt-3.5-turbo
+number_2,118,692,gpt-3.5-turbo
+number_2,119,백칠십은 수로 변환하면 170입니다.,gpt-3.5-turbo
+number_2,120,781,gpt-3.5-turbo
+number_2,121,"백칠십사를 영어로 번역하면 ""One hundred seventy-four""입니다. 그러나 수로 변환하면 ""174""가 됩니다. 따라서 대답은 174입니다.",gpt-3.5-turbo
+number_2,122,175,gpt-3.5-turbo
+number_2,123,백칠십칠을 수로 변환하면 177이 됩니다.,gpt-3.5-turbo
+number_2,124,873,gpt-3.5-turbo
+number_2,125,86,gpt-3.5-turbo
+number_2,126,867,gpt-3.5-turbo
+number_2,127,191,gpt-3.5-turbo
+number_2,128,192,gpt-3.5-turbo
+number_2,129,194,gpt-3.5-turbo
+number_2,130,197,gpt-3.5-turbo
+number_2,131,199,gpt-3.5-turbo
+number_2,132,200,gpt-3.5-turbo
+number_2,133,210,gpt-3.5-turbo
+number_2,134,212,gpt-3.5-turbo
+number_2,135,213,gpt-3.5-turbo
+number_2,136,217,gpt-3.5-turbo
+number_2,137,222,gpt-3.5-turbo
+number_2,138,224,gpt-3.5-turbo
+number_2,139,228,gpt-3.5-turbo
+number_2,140,232,gpt-3.5-turbo
+number_2,141,241,gpt-3.5-turbo
+number_2,142,242,gpt-3.5-turbo
+number_2,143,247,gpt-3.5-turbo
+number_2,144,248,gpt-3.5-turbo
+number_2,145,249,gpt-3.5-turbo
+number_2,146,255,gpt-3.5-turbo
+number_2,147,256,gpt-3.5-turbo
+number_2,148,261,gpt-3.5-turbo
+number_2,149,263,gpt-3.5-turbo
+number_2,150,264,gpt-3.5-turbo
+number_2,151,266,gpt-3.5-turbo
+number_2,152,268,gpt-3.5-turbo
+number_2,153,281,gpt-3.5-turbo
+number_2,154,282,gpt-3.5-turbo
+number_2,155,286,gpt-3.5-turbo
+number_2,156,294,gpt-3.5-turbo
+number_2,157,295,gpt-3.5-turbo
+number_2,158,300,gpt-3.5-turbo
+number_2,159,301,gpt-3.5-turbo
+number_2,160,300,gpt-3.5-turbo
+number_2,161,303,gpt-3.5-turbo
+number_2,162,308,gpt-3.5-turbo
+number_2,163,"""삼백십삼""은 수로 변환하면 313입니다.",gpt-3.5-turbo
+number_2,164,삼백십사를 수로 변환하면 334입니다.,gpt-3.5-turbo
+number_2,165,"""삼백십육""을 수로 변환하면 366입니다.",gpt-3.5-turbo
+number_2,166,"""삼백십칠""을 수로 변환하면 317입니다.",gpt-3.5-turbo
+number_2,167,"""삼백십구""를 수로 변환하면 339 입니다.",gpt-3.5-turbo
+number_2,168,322,gpt-3.5-turbo
+number_2,169,324,gpt-3.5-turbo
+number_2,170,330,gpt-3.5-turbo
+number_2,171,332,gpt-3.5-turbo
+number_2,172,337,gpt-3.5-turbo
+number_2,173,338,gpt-3.5-turbo
+number_2,174,"""삼백사십""는 수로 변환하면 340입니다.",gpt-3.5-turbo
+number_2,175,342,gpt-3.5-turbo
+number_2,176,343,gpt-3.5-turbo
+number_2,177,350,gpt-3.5-turbo
+number_2,178,359,gpt-3.5-turbo
+number_2,179,"""삼백육십""을 수로 변환하면 360입니다.",gpt-3.5-turbo
+number_2,180,366,gpt-3.5-turbo
+number_2,181,373,gpt-3.5-turbo
+number_2,182,375,gpt-3.5-turbo
+number_2,183,376,gpt-3.5-turbo
+number_2,184,378,gpt-3.5-turbo
+number_2,185,382,gpt-3.5-turbo
+number_2,186,384,gpt-3.5-turbo
+number_2,187,390,gpt-3.5-turbo
+number_2,188,393,gpt-3.5-turbo
+number_2,189,398,gpt-3.5-turbo
+number_2,190,400,gpt-3.5-turbo
+number_2,191,403,gpt-3.5-turbo
+number_2,192,406,gpt-3.5-turbo
+number_2,193,407,gpt-3.5-turbo
+number_2,194,341,gpt-3.5-turbo
+number_2,195,"""사백십이""를 수로 변환하면 412입니다.",gpt-3.5-turbo
+number_2,196,"전달해주신 ""사백십사""를 수로 변환하면 414입니다.",gpt-3.5-turbo
+number_2,197,"""사백십육""을 수로 변환하면 416입니다.",gpt-3.5-turbo
+number_2,198,417,gpt-3.5-turbo
+number_2,199,"""사백십팔""을 수로 변환하면 418이 됩니다.",gpt-3.5-turbo
+number_2,200,"""사백십구""를 수로 변환하면 419입니다.",gpt-3.5-turbo
+number_2,201,이 수를 숫자로 변환하면 422입니다.,gpt-3.5-turbo
+number_2,202,424,gpt-3.5-turbo
+number_2,203,428,gpt-3.5-turbo
+number_2,204,431,gpt-3.5-turbo
+number_2,205,"""사백삼십삼""을 수로 변환하면 433입니다.",gpt-3.5-turbo
+number_2,206,437,gpt-3.5-turbo
+number_2,207,440,gpt-3.5-turbo
+number_2,208,442,gpt-3.5-turbo
+number_2,209,443,gpt-3.5-turbo
+number_2,210,449,gpt-3.5-turbo
+number_2,211,452,gpt-3.5-turbo
+number_2,212,453,gpt-3.5-turbo
+number_2,213,459,gpt-3.5-turbo
+number_2,214,"모든 글자와 문장은 무시하고 ""사백육십""을 숫자로 변환한 값인 460을 출력합니다.",gpt-3.5-turbo
+number_2,215,461,gpt-3.5-turbo
+number_2,216,463,gpt-3.5-turbo
+number_2,217,464,gpt-3.5-turbo
+number_2,218,472,gpt-3.5-turbo
+number_2,219,474,gpt-3.5-turbo
+number_2,220,478,gpt-3.5-turbo
+number_2,221,486,gpt-3.5-turbo
+number_2,222,사백팔십팔을 수로 변환하면 488입니다.,gpt-3.5-turbo
+number_2,223,"""사백팔십구""를 숫자로 변환하면 489입니다.",gpt-3.5-turbo
+number_2,224,490,gpt-3.5-turbo
+number_2,225,"""사백구십일""은 491로 변환됩니다.",gpt-3.5-turbo
+number_2,226,"""사백구십이""는 수로 변환하면 492입니다.",gpt-3.5-turbo
+number_2,227,4903,gpt-3.5-turbo
+number_2,228,494,gpt-3.5-turbo
+number_2,229,497,gpt-3.5-turbo
+number_2,230,오백사를 수로 변환하면 504가 됩니다.,gpt-3.5-turbo
+number_2,231,오백육을 수로 변환하면 506입니다.,gpt-3.5-turbo
+number_2,232,오백칠은 507입니다.,gpt-3.5-turbo
+number_2,233,"""오백십일""을 수로 변환하면 511이 됩니다.",gpt-3.5-turbo
+number_2,234,오백십칠은 517으로 변환됩니다.,gpt-3.5-turbo
+number_2,235,오백십구를 수로 변환하면 589입니다.,gpt-3.5-turbo
+number_2,236,520,gpt-3.5-turbo
+number_2,237,527,gpt-3.5-turbo
+number_2,238,오백삼십을 수로 변환하면 530입니다.,gpt-3.5-turbo
+number_2,239,오백삼십삼을 수로 변환하면 533입니다.,gpt-3.5-turbo
+number_2,240,오백삼십오를 수로 변환하면 535입니다.,gpt-3.5-turbo
+number_2,241,536,gpt-3.5-turbo
+number_2,242,538,gpt-3.5-turbo
+number_2,243,542,gpt-3.5-turbo
+number_2,244,오백오십일을 수로 변환하면 551입니다.,gpt-3.5-turbo
+number_2,245,553,gpt-3.5-turbo
+number_2,246,오백오십육을 수로 변환하면 556이 됩니다.,gpt-3.5-turbo
+number_2,247,566,gpt-3.5-turbo
+number_2,248,569,gpt-3.5-turbo
+number_2,249,570,gpt-3.5-turbo
+number_2,250,571,gpt-3.5-turbo
+number_2,251,573,gpt-3.5-turbo
+number_2,252,574,gpt-3.5-turbo
+number_2,253,576,gpt-3.5-turbo
+number_2,254,577,gpt-3.5-turbo
+number_2,255,579,gpt-3.5-turbo
+number_2,256,580,gpt-3.5-turbo
+number_2,257,581,gpt-3.5-turbo
+number_2,258,582,gpt-3.5-turbo
+number_2,259,오백팔십오는 585입니다.,gpt-3.5-turbo
+number_2,260,578,gpt-3.5-turbo
+number_2,261,592,gpt-3.5-turbo
+number_2,262,5907,gpt-3.5-turbo
+number_2,263,598,gpt-3.5-turbo
+number_2,264,589,gpt-3.5-turbo
+number_2,265,육백을 수로 변환하면 600입니다.,gpt-3.5-turbo
+number_2,266,육백일을 수로 변환하면 611 입니다.,gpt-3.5-turbo
+number_2,267,602,gpt-3.5-turbo
+number_2,268,육백사를 수로 변환하면 604입니다.,gpt-3.5-turbo
+number_2,269,"""육백구""를 수로 변환하면 609입니다.",gpt-3.5-turbo
+number_2,270,"""육백십""를 수로 변환하면 610입니다.",gpt-3.5-turbo
+number_2,271,613,gpt-3.5-turbo
+number_2,272,"""육백십사""를 수로 변환하면 614입니다.",gpt-3.5-turbo
+number_2,273,618,gpt-3.5-turbo
+number_2,274,620,gpt-3.5-turbo
+number_2,275,621,gpt-3.5-turbo
+number_2,276,624,gpt-3.5-turbo
+number_2,277,630,gpt-3.5-turbo
+number_2,278,634,gpt-3.5-turbo
+number_2,279,636,gpt-3.5-turbo
+number_2,280,637,gpt-3.5-turbo
+number_2,281,639,gpt-3.5-turbo
+number_2,282,642,gpt-3.5-turbo
+number_2,283,"""육백사십사""는 644입니다.",gpt-3.5-turbo
+number_2,284,646,gpt-3.5-turbo
+number_2,285,647,gpt-3.5-turbo
+number_2,286,648,gpt-3.5-turbo
+number_2,287,651,gpt-3.5-turbo
+number_2,288,653,gpt-3.5-turbo
+number_2,289,657,gpt-3.5-turbo
+number_2,290,659,gpt-3.5-turbo
+number_2,291,662,gpt-3.5-turbo
+number_2,292,666,gpt-3.5-turbo
+number_2,293,666,gpt-3.5-turbo
+number_2,294,670,gpt-3.5-turbo
+number_2,295,672,gpt-3.5-turbo
+number_2,296,673,gpt-3.5-turbo
+number_2,297,676,gpt-3.5-turbo
+number_2,298,679,gpt-3.5-turbo
+number_2,299,680,gpt-3.5-turbo
+number_2,300,681,gpt-3.5-turbo
+number_2,301,685,gpt-3.5-turbo
+number_2,302,688,gpt-3.5-turbo
+number_2,303,689,gpt-3.5-turbo
+number_2,304,"무작위 수를 사용하여 대답하는 대신, ""육백구십이""를 수로 변환해보겠습니다.
+
+""육백구십이""를 수로 변환한 결과는 692입니다.",gpt-3.5-turbo
+number_2,305,965,gpt-3.5-turbo
+number_2,306,697,gpt-3.5-turbo
+number_2,307,690,gpt-3.5-turbo
+number_2,308,709,gpt-3.5-turbo
+number_2,309,713,gpt-3.5-turbo
+number_2,310,734,gpt-3.5-turbo
+number_2,311,"""칠백십오""를 수로 변환하면 705입니다.",gpt-3.5-turbo
+number_2,312,716,gpt-3.5-turbo
+number_2,313,"""칠백이십""는 720입니다.",gpt-3.5-turbo
+number_2,314,721,gpt-3.5-turbo
+number_2,315,724,gpt-3.5-turbo
+number_2,316,726,gpt-3.5-turbo
+number_2,317,732,gpt-3.5-turbo
+number_2,318,736,gpt-3.5-turbo
+number_2,319,740,gpt-3.5-turbo
+number_2,320,"""칠백사십일""을 수로 변환하면 740입니다.",gpt-3.5-turbo
+number_2,321,742,gpt-3.5-turbo
+number_2,322,743,gpt-3.5-turbo
+number_2,323,745,gpt-3.5-turbo
+number_2,324,748,gpt-3.5-turbo
+number_2,325,753,gpt-3.5-turbo
+number_2,326,754,gpt-3.5-turbo
+number_2,327,757,gpt-3.5-turbo
+number_2,328,758,gpt-3.5-turbo
+number_2,329,764,gpt-3.5-turbo
+number_2,330,767,gpt-3.5-turbo
+number_2,331,"""칠백칠십일""을 수로 변환하면 771입니다.",gpt-3.5-turbo
+number_2,332,777,gpt-3.5-turbo
+number_2,333,780,gpt-3.5-turbo
+number_2,334,781,gpt-3.5-turbo
+number_2,335,"""칠백구십이""는 792입니다.",gpt-3.5-turbo
+number_2,336,796,gpt-3.5-turbo
+number_2,337,799,gpt-3.5-turbo
+number_2,338,팔백일을 수로 변환하면 정답은 801입니다.,gpt-3.5-turbo
+number_2,339,800,gpt-3.5-turbo
+number_2,340,805,gpt-3.5-turbo
+number_2,341,806,gpt-3.5-turbo
+number_2,342,팔백팔은 수로 변환하면 808입니다.,gpt-3.5-turbo
+number_2,343,890,gpt-3.5-turbo
+number_2,344,811,gpt-3.5-turbo
+number_2,345,804,gpt-3.5-turbo
+number_2,346,"""팔백십오""는 805입니다.",gpt-3.5-turbo
+number_2,347,"""팔백십칠""을 수로 변환하면 817입니다.",gpt-3.5-turbo
+number_2,348,823,gpt-3.5-turbo
+number_2,349,824,gpt-3.5-turbo
+number_2,350,831,gpt-3.5-turbo
+number_2,351,"""팔백삼십삼""을 수로 변환하면 833입니다.",gpt-3.5-turbo
+number_2,352,"""팔백사십""를 수로 변환하면 840입니다.",gpt-3.5-turbo
+number_2,353,847,gpt-3.5-turbo
+number_2,354,851,gpt-3.5-turbo
+number_2,355,852,gpt-3.5-turbo
+number_2,356,853,gpt-3.5-turbo
+number_2,357,860,gpt-3.5-turbo
+number_2,358,866,gpt-3.5-turbo
+number_2,359,869,gpt-3.5-turbo
+number_2,360,873,gpt-3.5-turbo
+number_2,361,874,gpt-3.5-turbo
+number_2,362,"""팔백팔십""를 수로 변환하면 880이 됩니다.",gpt-3.5-turbo
+number_2,363,881,gpt-3.5-turbo
+number_2,364,883,gpt-3.5-turbo
+number_2,365,"적힌 숫자 ""팔백팔십사""를 수로 변환하여 대답하면, 884가 됩니다.",gpt-3.5-turbo
+number_2,366,885,gpt-3.5-turbo
+number_2,367,팔백팔십칠은 수로 변환하면 877입니다.,gpt-3.5-turbo
+number_2,368,"""팔백팔십구""는 889입니다.",gpt-3.5-turbo
+number_2,369,팔백구십이를 수로 변환하면 892가 됩니다.,gpt-3.5-turbo
+number_2,370,"""팔백구십삼""은 893 입니다.",gpt-3.5-turbo
+number_2,371,895,gpt-3.5-turbo
+number_2,372,900,gpt-3.5-turbo
+number_2,373,900,gpt-3.5-turbo
+number_2,374,백 십 삼의 수로 변환하면 193 입니다.,gpt-3.5-turbo
+number_2,375,922,gpt-3.5-turbo
+number_2,376,923,gpt-3.5-turbo
+number_2,377,208,gpt-3.5-turbo
+number_2,378,구백이십구를 수로 변환하면 929입니다.,gpt-3.5-turbo
+number_2,379,932,gpt-3.5-turbo
+number_2,380,893,gpt-3.5-turbo
+number_2,381,935,gpt-3.5-turbo
+number_2,382,938,gpt-3.5-turbo
+number_2,383,946,gpt-3.5-turbo
+number_2,384,9408,gpt-3.5-turbo
+number_2,385,950,gpt-3.5-turbo
+number_2,386,구백오십팔은 584이다.,gpt-3.5-turbo
+number_2,387,"""구백육십""은 수로 나타내면 960입니다.",gpt-3.5-turbo
+number_2,388,963,gpt-3.5-turbo
+number_2,389,967,gpt-3.5-turbo
+number_2,390,"문자열 ""구백육십팔""을 수로 변환하면 ""968""입니다.",gpt-3.5-turbo
+number_2,391,873,gpt-3.5-turbo
+number_2,392,976,gpt-3.5-turbo
+number_2,393,"구백팔십을 수로 변환하면 ""980""이 됩니다.",gpt-3.5-turbo
+number_2,394,"""구백팔십일""을 수로 변환하면 981입니다.",gpt-3.5-turbo
+number_2,395,984,gpt-3.5-turbo
+number_2,396,985,gpt-3.5-turbo
+number_2,397,988,gpt-3.5-turbo
+number_2,398,989,gpt-3.5-turbo
+number_2,399,"""구백구십삼""을 수로 변환하면 993입니다.",gpt-3.5-turbo
+number_2,400,1013,gpt-3.5-turbo
+number_2,401,1016,gpt-3.5-turbo
+number_2,402,105,gpt-3.5-turbo
+number_2,403,165,gpt-3.5-turbo
+number_2,404,1129,gpt-3.5-turbo
+number_2,405,"천백삼십구를 수로 변환하면 1,339입니다.",gpt-3.5-turbo
+number_2,406,천백오십구는 1059입니다.,gpt-3.5-turbo
+number_2,407,천백구십이를 수로 변환하면 1992입니다.,gpt-3.5-turbo
+number_2,408,1996,gpt-3.5-turbo
+number_2,409,천이백팔을 수로 변환하면 1208입니다.,gpt-3.5-turbo
+number_2,410,"천이백십사는 1,214로 변환됩니다.",gpt-3.5-turbo
+number_2,411,1242,gpt-3.5-turbo
+number_2,412,1245,gpt-3.5-turbo
+number_2,413,1248,gpt-3.5-turbo
+number_2,414,답은 2171입니다.,gpt-3.5-turbo
+number_2,415,"1,284",gpt-3.5-turbo
+number_2,416,1315,gpt-3.5-turbo
+number_2,417,답은 1323입니다.,gpt-3.5-turbo
+number_2,418,1328,gpt-3.5-turbo
+number_2,419,1349,gpt-3.5-turbo
+number_2,420,1357,gpt-3.5-turbo
+number_2,421,1358,gpt-3.5-turbo
+number_2,422,1377,gpt-3.5-turbo
+number_2,423,1394,gpt-3.5-turbo
+number_2,424,1395,gpt-3.5-turbo
+number_2,425,"천사백이십사를 수로 변환하면 1,124가 됩니다.",gpt-3.5-turbo
+number_2,426,천사백이십구를 수로 변환하면 129입니다.,gpt-3.5-turbo
+number_2,427,"""천사백삼십이""를 수로 변환하면 1,132입니다.",gpt-3.5-turbo
+number_2,428,156,gpt-3.5-turbo
+number_2,429,157,gpt-3.5-turbo
+number_2,430,1990,gpt-3.5-turbo
+number_2,431,1985,gpt-3.5-turbo
+number_2,432,천사백구십육을 수로 변환하면 1996입니다.,gpt-3.5-turbo
+number_2,433,천오백오는 1505입니다.,gpt-3.5-turbo
+number_2,434,154,gpt-3.5-turbo
+number_2,435,1522,gpt-3.5-turbo
+number_2,436,천오백이십육을 수로 변환하면 1526입니다.,gpt-3.5-turbo
+number_2,437,천오백사십일을 수로 변환하면 1541입니다.,gpt-3.5-turbo
+number_2,438,1586,gpt-3.5-turbo
+number_2,439,1859,gpt-3.5-turbo
+number_2,440,1958,gpt-3.5-turbo
+number_2,441,천육백구는 169로 변환됩니다.,gpt-3.5-turbo
+number_2,442,1622,gpt-3.5-turbo
+number_2,443,6364,gpt-3.5-turbo
+number_2,444,654,gpt-3.5-turbo
+number_2,445,1666,gpt-3.5-turbo
+number_2,446,1873,gpt-3.5-turbo
+number_2,447,천육백팔십구를 수로 변환하면 1689입니다.,gpt-3.5-turbo
+number_2,448,1969,gpt-3.5-turbo
+number_2,449,천칠백십은 1710입니다.,gpt-3.5-turbo
+number_2,450,천칠백십사를 수로 변환하면 1714입니다.,gpt-3.5-turbo
+number_2,451,1736,gpt-3.5-turbo
+number_2,452,천칠백육십육을 수로 변환하면 1766입니다.,gpt-3.5-turbo
+number_2,453,1924,gpt-3.5-turbo
+number_2,454,천팔백십사의 수로 변환하면 1814입니다.,gpt-3.5-turbo
+number_2,455,1827,gpt-3.5-turbo
+number_2,456,천팔백육십을 수로 변환하면 1860이 됩니다.,gpt-3.5-turbo
+number_2,457,천팔백육십구를 수로 변환하면 1869입니다.,gpt-3.5-turbo
+number_2,458,천구백십을 수로 변환하면 1910이 됩니다.,gpt-3.5-turbo
+number_2,459,1944,gpt-3.5-turbo
+number_2,460,1205,gpt-3.5-turbo
+number_2,461,993,gpt-3.5-turbo
+number_2,462,1964,gpt-3.5-turbo
+number_2,463,1966,gpt-3.5-turbo
+number_2,464,1973,gpt-3.5-turbo
+number_2,465,"천구백팔십오는 수로 변환하면 1,985입니다.",gpt-3.5-turbo
+number_2,466,2000,gpt-3.5-turbo
+number_2,467,425,gpt-3.5-turbo
+number_2,468,2,gpt-3.5-turbo
+number_2,469,2016,gpt-3.5-turbo
+number_2,470,2049,gpt-3.5-turbo
+number_2,471,2059,gpt-3.5-turbo
+number_2,472,1873,gpt-3.5-turbo
+number_2,473,1235,gpt-3.5-turbo
+number_2,474,1964,gpt-3.5-turbo
+number_2,475,1173,gpt-3.5-turbo
+number_2,476,2120,gpt-3.5-turbo
+number_2,477,2023,gpt-3.5-turbo
+number_2,478,1230,gpt-3.5-turbo
+number_2,479,2183,gpt-3.5-turbo
+number_2,480,1923,gpt-3.5-turbo
+number_2,481,2310,gpt-3.5-turbo
+number_2,482,이천삼백십이를 수로 변환하면 2312입니다.,gpt-3.5-turbo
+number_2,483,이천삼백이십팔를 수로 변환하면 2328입니다.,gpt-3.5-turbo
+number_2,484,이천삼백구십삼를 수로 변환하면 2393입니다.,gpt-3.5-turbo
+number_2,485,이천삼백구십오를 수로 변환하면 2395입니다.,gpt-3.5-turbo
+number_2,486,"이천사백사를 수로 변환하면 2,404입니다.",gpt-3.5-turbo
+number_2,487,2414,gpt-3.5-turbo
+number_2,488,이천사백십육은 2416입니다.,gpt-3.5-turbo
+number_2,489,"이천사백이십이를 수로 변환하면 2,422입니다.",gpt-3.5-turbo
+number_2,490,2033,gpt-3.5-turbo
+number_2,491,2343,gpt-3.5-turbo
+number_2,492,2353,gpt-3.5-turbo
+number_2,493,2161,gpt-3.5-turbo
+number_2,494,2364,gpt-3.5-turbo
+number_2,495,2372,gpt-3.5-turbo
+number_2,496,이천사백팔십칠을 수로 변환하면 2487입니다.,gpt-3.5-turbo
+number_2,497,21494,gpt-3.5-turbo
+number_2,498,"이천사백구십팔을 수로 변환하면 2,498입니다.",gpt-3.5-turbo
+number_2,499,2512,gpt-3.5-turbo
+number_2,500,2521,gpt-3.5-turbo
+number_2,501,2529,gpt-3.5-turbo
+number_2,502,"입력한 문자열 ""이천오백오십육""을 수로 변환하면 2556입니다.",gpt-3.5-turbo
+number_2,503,2570,gpt-3.5-turbo
+number_2,504,2579,gpt-3.5-turbo
+number_2,505,2519,gpt-3.5-turbo
+number_2,506,25198,gpt-3.5-turbo
+number_2,507,1663,gpt-3.5-turbo
+number_2,508,"예, ""이천육백사""를 수로 변환하면 2604입니다.",gpt-3.5-turbo
+number_2,509,1622,gpt-3.5-turbo
+number_2,510,1627,gpt-3.5-turbo
+number_2,511,1682,gpt-3.5-turbo
+number_2,512,2019,gpt-3.5-turbo
+number_2,513,1729,gpt-3.5-turbo
+number_2,514,1732,gpt-3.5-turbo
+number_2,515,이천칠백사십일을 수로 변환하면 2741입니다.,gpt-3.5-turbo
+number_2,516,이천칠백사십삼을 수로 변환하면 2743입니다.,gpt-3.5-turbo
+number_2,517,1750,gpt-3.5-turbo
+number_2,518,1753,gpt-3.5-turbo
+number_2,519,1767,gpt-3.5-turbo
+number_2,520,1800,gpt-3.5-turbo
+number_2,521,1877,gpt-3.5-turbo
+number_2,522,1809,gpt-3.5-turbo
+number_2,523,1820,gpt-3.5-turbo
+number_2,524,1827,gpt-3.5-turbo
+number_2,525,1833,gpt-3.5-turbo
+number_2,526,1840,gpt-3.5-turbo
+number_2,527,1842,gpt-3.5-turbo
+number_2,528,1855,gpt-3.5-turbo
+number_2,529,1859,gpt-3.5-turbo
+number_2,530,1860,gpt-3.5-turbo
+number_2,531,1864,gpt-3.5-turbo
+number_2,532,1865,gpt-3.5-turbo
+number_2,533,1869,gpt-3.5-turbo
+number_2,534,"이천팔백팔십이를 수로 변환하면 2,882입니다.",gpt-3.5-turbo
+number_2,535,1980,gpt-3.5-turbo
+number_2,536,"이천구백이십삼을 숫자로 변환하면 2,923입니다.",gpt-3.5-turbo
+number_2,537,1824,gpt-3.5-turbo
+number_2,538,2137,gpt-3.5-turbo
+number_2,539,2069,gpt-3.5-turbo
+number_2,540,이천구백칠십오는 2175입니다.,gpt-3.5-turbo
+number_2,541,3010,gpt-3.5-turbo
+number_2,542,1039,gpt-3.5-turbo
+number_2,543,3776,gpt-3.5-turbo
+number_2,544,3778,gpt-3.5-turbo
+number_2,545,3990,gpt-3.5-turbo
+number_2,546,"삼천백십오는 3,115 이다.",gpt-3.5-turbo
+number_2,547,3121,gpt-3.5-turbo
+number_2,548,3131,gpt-3.5-turbo
+number_2,549,3144,gpt-3.5-turbo
+number_2,550,"삼천백육십삼를 수로 변환하면 3,163입니다.",gpt-3.5-turbo
+number_2,551,3179,gpt-3.5-turbo
+number_2,552,3303,gpt-3.5-turbo
+number_2,553,"답: 3,225",gpt-3.5-turbo
+number_2,554,3281,gpt-3.5-turbo
+number_2,555,3284,gpt-3.5-turbo
+number_2,556,3298,gpt-3.5-turbo
+number_2,557,3322,gpt-3.5-turbo
+number_2,558,3324,gpt-3.5-turbo
+number_2,559,3339,gpt-3.5-turbo
+number_2,560,"삼천삼백사십팔을 수로 변환하면 3,348입니다.",gpt-3.5-turbo
+number_2,561,"삼천삼백오십일을 수로 변환하면 3,351입니다.",gpt-3.5-turbo
+number_2,562,3363,gpt-3.5-turbo
+number_2,563,3377,gpt-3.5-turbo
+number_2,564,3382,gpt-3.5-turbo
+number_2,565,3395,gpt-3.5-turbo
+number_2,566,3410,gpt-3.5-turbo
+number_2,567,3454,gpt-3.5-turbo
+number_2,568,3459,gpt-3.5-turbo
+number_2,569,3463,gpt-3.5-turbo
+number_2,570,3471,gpt-3.5-turbo
+number_2,571,3486,gpt-3.5-turbo
+number_2,572,3521,gpt-3.5-turbo
+number_2,573,3535,gpt-3.5-turbo
+number_2,574,3536,gpt-3.5-turbo
+number_2,575,3537,gpt-3.5-turbo
+number_2,576,"문자열 ""삼천오백오십""를 수로 변환하면 3,555가 됩니다.",gpt-3.5-turbo
+number_2,577,"삼천오백오십육""은 3,556으로 변환됩니다.",gpt-3.5-turbo
+number_2,578,3586,gpt-3.5-turbo
+number_2,579,3599,gpt-3.5-turbo
+number_2,580,"삼천육백이십삼을 수로 변환하면 3,623입니다.",gpt-3.5-turbo
+number_2,581,"삼천육백이십육을 수로 변환하면 3,626입니다.",gpt-3.5-turbo
+number_2,582,3657,gpt-3.5-turbo
+number_2,583,3675,gpt-3.5-turbo
+number_2,584,"당신이 제시한 ""삼천육백팔십이""를 수로 변환하면 3682입니다.",gpt-3.5-turbo
+number_2,585,3698,gpt-3.5-turbo
+number_2,586,3713,gpt-3.5-turbo
+number_2,587,3730,gpt-3.5-turbo
+number_2,588,3738,gpt-3.5-turbo
+number_2,589,3741,gpt-3.5-turbo
+number_2,590,3754,gpt-3.5-turbo
+number_2,591,3759,gpt-3.5-turbo
+number_2,592,3760,gpt-3.5-turbo
+number_2,593,3765,gpt-3.5-turbo
+number_2,594,3769,gpt-3.5-turbo
+number_2,595,3771,gpt-3.5-turbo
+number_2,596,3774,gpt-3.5-turbo
+number_2,597,3778,gpt-3.5-turbo
+number_2,598,3795,gpt-3.5-turbo
+number_2,599,3776,gpt-3.5-turbo
+number_2,600,3852,gpt-3.5-turbo
+number_2,601,3893,gpt-3.5-turbo
+number_2,602,3917,gpt-3.5-turbo
+number_2,603,3920,gpt-3.5-turbo
+number_2,604,3922,gpt-3.5-turbo
+number_2,605,3925,gpt-3.5-turbo
+number_2,606,3932,gpt-3.5-turbo
+number_2,607,3399,gpt-3.5-turbo
+number_2,608,3945,gpt-3.5-turbo
+number_2,609,3790,gpt-3.5-turbo
+number_2,610,3987,gpt-3.5-turbo
+number_2,611,3997,gpt-3.5-turbo
+number_2,612,사천사를 수로 변환하면 4000입니다.,gpt-3.5-turbo
+number_2,613,사천육을 수로 변환하면 416입니다.,gpt-3.5-turbo
+number_2,614,"""사천십칠""은 한자로 표기하면 ""四千十七""입니다. 이를 수로 변환하면 4017입니다.",gpt-3.5-turbo
+number_2,615,149,gpt-3.5-turbo
+number_2,616,49,gpt-3.5-turbo
+number_2,617,94,gpt-3.5-turbo
+number_2,618,429,gpt-3.5-turbo
+number_2,619,사천백사십을 수로 변환하면 4140이 됩니다.,gpt-3.5-turbo
+number_2,620,"""사천백육십구""를 수로 변환하면 1469입니다.",gpt-3.5-turbo
+number_2,621,사천백구십은 490이다.,gpt-3.5-turbo
+number_2,622,2400,gpt-3.5-turbo
+number_2,623,426,gpt-3.5-turbo
+number_2,624,2140,gpt-3.5-turbo
+number_2,625,425,gpt-3.5-turbo
+number_2,626,사천이백오십일을 수로 변환하면 4251입니다.,gpt-3.5-turbo
+number_2,627,사천삼백이십을 수로 변환하면 4320입니다.,gpt-3.5-turbo
+number_2,628,4325,gpt-3.5-turbo
+number_2,629,433,gpt-3.5-turbo
+number_2,630,사천삼백삼십팔 = 4338,gpt-3.5-turbo
+number_2,631,사천삼백사십사는 3444로 변환됩니다.,gpt-3.5-turbo
+number_2,632,437,gpt-3.5-turbo
+number_2,633,4371,gpt-3.5-turbo
+number_2,634,4392,gpt-3.5-turbo
+number_2,635,"사천사백십을 수로 변환하면 4,410입니다.",gpt-3.5-turbo
+number_2,636,사천사백이십을 수로 변환하면 4320입니다.,gpt-3.5-turbo
+number_2,637,4323,gpt-3.5-turbo
+number_2,638,4330,gpt-3.5-turbo
+number_2,639,"사천사백삼십삼을 수로 변환하면 4,433입니다.",gpt-3.5-turbo
+number_2,640,"사천사백삼십팔를 수로 변환하면 4,538입니다.",gpt-3.5-turbo
+number_2,641,"사천사백사십팔을 숫자로 변환하면 4,438입니다.",gpt-3.5-turbo
+number_2,642,사천사백팔십구를 수로 변환하면 4489입니다.,gpt-3.5-turbo
+number_2,643,사천오백십일을 수로 변환하면 4511입니다.,gpt-3.5-turbo
+number_2,644,4532,gpt-3.5-turbo
+number_2,645,4566,gpt-3.5-turbo
+number_2,646,4577,gpt-3.5-turbo
+number_2,647,"사천오백팔십칠은 ""45787""입니다.",gpt-3.5-turbo
+number_2,648,4592,gpt-3.5-turbo
+number_2,649,4954,gpt-3.5-turbo
+number_2,650,4161,gpt-3.5-turbo
+number_2,651,사천육백삼십이를 수로 변환하면 4632입니다.,gpt-3.5-turbo
+number_2,652,"""사천육백육십일""은 숫자 4661입니다.",gpt-3.5-turbo
+number_2,653,4665,gpt-3.5-turbo
+number_2,654,4671,gpt-3.5-turbo
+number_2,655,4763,gpt-3.5-turbo
+number_2,656,4682,gpt-3.5-turbo
+number_2,657,사천육백팔십사을 아라비아 숫자로 변환하면 4684이 됩니다.,gpt-3.5-turbo
+number_2,658,4374,gpt-3.5-turbo
+number_2,659,4379,gpt-3.5-turbo
+number_2,660,4766,gpt-3.5-turbo
+number_2,661,4376,gpt-3.5-turbo
+number_2,662,43789,gpt-3.5-turbo
+number_2,663,사천팔백십을 수로 변환하면 4810입니다.,gpt-3.5-turbo
+number_2,664,4383,gpt-3.5-turbo
+number_2,665,"사천팔백십사를 수로 변환하면 4,814입니다.",gpt-3.5-turbo
+number_2,666,"사천팔백사십오를 수로 변환하면 4,845입니다.",gpt-3.5-turbo
+number_2,667,"사천팔백육십구를 수로 변환하면 4,869입니다.",gpt-3.5-turbo
+number_2,668,사천구백십일을 수로 변환하면 4911입니다.,gpt-3.5-turbo
+number_2,669,"사천구백사십를 수로 변환하면 4,940입니다.",gpt-3.5-turbo
+number_2,670,496,gpt-3.5-turbo
+number_2,671,"오천이십칠을 수로 변환하면 5,217입니다.",gpt-3.5-turbo
+number_2,672,"오천삼십일의 수로 변환하면 5,031입니다.",gpt-3.5-turbo
+number_2,673,"오천사십육를 수로 변환하면 5,416입니다.",gpt-3.5-turbo
+number_2,674,"오천사십팔을 수로 변환하면 5,148입니다.",gpt-3.5-turbo
+number_2,675,오천오십을 수로 변환하면 5550입니다.,gpt-3.5-turbo
+number_2,676,오천육십삼을 수로 변환하면 563입니다.,gpt-3.5-turbo
+number_2,677,5788,gpt-3.5-turbo
+number_2,678,583,gpt-3.5-turbo
+number_2,679,594,gpt-3.5-turbo
+number_2,680,"다른 글자와 문장은 아무 대답도 하지 않고, ""오천구십구""를 수로 변환하여 대답하겠습니다. 
+
+오천구십구 수를 변환하면 5,999입니다.",gpt-3.5-turbo
+number_2,681,오천백십오를 수로 변환하면 5515이 됩니다.,gpt-3.5-turbo
+number_2,682,5424,gpt-3.5-turbo
+number_2,683,5626,gpt-3.5-turbo
+number_2,684,"""오천백오십구""를 수로 변환하면 559입니다.",gpt-3.5-turbo
+number_2,685,"오천백육십사를 수로 변환하면 5,164입니다.",gpt-3.5-turbo
+number_2,686,오천이백이십오는 수로 변환하면 5205입니다.,gpt-3.5-turbo
+number_2,687,5232,gpt-3.5-turbo
+number_2,688,5037,gpt-3.5-turbo
+number_2,689,"오천이백사십사를 수로 변환하면 5,244입니다.",gpt-3.5-turbo
+number_2,690,5610,gpt-3.5-turbo
+number_2,691,오천이백육십육를 수로 변환하면 5266입니다.,gpt-3.5-turbo
+number_2,692,"오천이백칠십칠를 수로 변환하면 5,277입니다.",gpt-3.5-turbo
+number_2,693,"원래 수는 ""오천삼백십칠""이다. 이 수를 숫자로 변환하면 5,317이다.",gpt-3.5-turbo
+number_2,694,"오천삼백이십오를 수로 변환하면 5,325입니다.",gpt-3.5-turbo
+number_2,695,오천삼백육십팔을 수로 변환하면 5368입니다.,gpt-3.5-turbo
+number_2,696,"오천삼백칠십은 숫자 ""5730""입니다.",gpt-3.5-turbo
+number_2,697,"오천삼백칠십사는 5,374로 변환됩니다.",gpt-3.5-turbo
+number_2,698,5382,gpt-3.5-turbo
+number_2,699,5390,gpt-3.5-turbo
+number_2,700,"오천사백오는 5,405로 수로 변환됩니다.",gpt-3.5-turbo
+number_2,701,5417,gpt-3.5-turbo
+number_2,702,5424,gpt-3.5-turbo
+number_2,703,오천사백삼십오를 수로 변환하면 5435입니다.,gpt-3.5-turbo
+number_2,704,5437,gpt-3.5-turbo
+number_2,705,오천사백사십오를 수로 변환하면 5455입니다.,gpt-3.5-turbo
+number_2,706,"오천사백팔십구를 수로 변환하면 5,489 입니다.",gpt-3.5-turbo
+number_2,707,5491,gpt-3.5-turbo
+number_2,708,5516,gpt-3.5-turbo
+number_2,709,5530,gpt-3.5-turbo
+number_2,710,오천오백오십팔을 수로 변환하면 5558입니다.,gpt-3.5-turbo
+number_2,711,오천오백팔십오는 수로 변환하면 5585입니다.,gpt-3.5-turbo
+number_2,712,5613,gpt-3.5-turbo
+number_2,713,5677,gpt-3.5-turbo
+number_2,714,5678,gpt-3.5-turbo
+number_2,715,5868,gpt-3.5-turbo
+number_2,716,오천육백팔십팔를 수로 변환하면 5688입니다.,gpt-3.5-turbo
+number_2,717,5733,gpt-3.5-turbo
+number_2,718,5788,gpt-3.5-turbo
+number_2,719,574,gpt-3.5-turbo
+number_2,720,오천칠백십오는 5715입니다.,gpt-3.5-turbo
+number_2,721,"오천칠백이십이를 수로 변환하면 5,722입니다.",gpt-3.5-turbo
+number_2,722,5739,gpt-3.5-turbo
+number_2,723,오천칠백사십육을 수로 변환하면 5746입니다.,gpt-3.5-turbo
+number_2,724,5760,gpt-3.5-turbo
+number_2,725,오천칠백육십사를 수로 변환하면 5764입니다.,gpt-3.5-turbo
+number_2,726,5766,gpt-3.5-turbo
+number_2,727,5767,gpt-3.5-turbo
+number_2,728,"오천칠백칠십팔은 5,778입니다.",gpt-3.5-turbo
+number_2,729,오천칠백팔십이 수로 변환하면 5782입니다.,gpt-3.5-turbo
+number_2,730,오천칠백구십을 수로 변환하면 5790입니다.,gpt-3.5-turbo
+number_2,731,5815,gpt-3.5-turbo
+number_2,732,5847,gpt-3.5-turbo
+number_2,733,5848,gpt-3.5-turbo
+number_2,734,오천팔백오십오를 수로 변환하면 5855입니다.,gpt-3.5-turbo
+number_2,735,5866,gpt-3.5-turbo
+number_2,736,5890,gpt-3.5-turbo
+number_2,737,5896,gpt-3.5-turbo
+number_2,738,오천구백십칠을 수로 변환하면 5917입니다.,gpt-3.5-turbo
+number_2,739,589,gpt-3.5-turbo
+number_2,740,5891,gpt-3.5-turbo
+number_2,741,"오천구백육십일을 수로 변환하면 5,961입니다.",gpt-3.5-turbo
+number_2,742,"오천구백육십팔을 숫자로 변환하면 5,968 입니다.",gpt-3.5-turbo
+number_2,743,5787,gpt-3.5-turbo
+number_2,744,육천구를 수로 변환하면 6900입니다.,gpt-3.5-turbo
+number_2,745,"육천이십오를 수로 변환하면 6,825 입니다.",gpt-3.5-turbo
+number_2,746,6333,gpt-3.5-turbo
+number_2,747,6477,gpt-3.5-turbo
+number_2,748,683,gpt-3.5-turbo
+number_2,749,6692,gpt-3.5-turbo
+number_2,750,6101,gpt-3.5-turbo
+number_2,751,"육천백육은 6,116입니다.",gpt-3.5-turbo
+number_2,752,6121,gpt-3.5-turbo
+number_2,753,6622,gpt-3.5-turbo
+number_2,754,6123,gpt-3.5-turbo
+number_2,755,6625,gpt-3.5-turbo
+number_2,756,육천백사십는 6천 140입니다.,gpt-3.5-turbo
+number_2,757,"이 문장의 수로 변환된 값은 6,156 입니다.",gpt-3.5-turbo
+number_2,758,"요청하신 숫자 ""육천백오십구""를 수로 변환하면 6,159입니다.",gpt-3.5-turbo
+number_2,759,6617,gpt-3.5-turbo
+number_2,760,6174,gpt-3.5-turbo
+number_2,761,6715,gpt-3.5-turbo
+number_2,762,6187,gpt-3.5-turbo
+number_2,763,6197,gpt-3.5-turbo
+number_2,764,6303,gpt-3.5-turbo
+number_2,765,6212,gpt-3.5-turbo
+number_2,766,"육천이백사십는 6,240입니다.",gpt-3.5-turbo
+number_2,767,"육천이백사십사를 수로 변환하면 6,244입니다.",gpt-3.5-turbo
+number_2,768,6272,gpt-3.5-turbo
+number_2,769,6576,gpt-3.5-turbo
+number_2,770,6279,gpt-3.5-turbo
+number_2,771,6293,gpt-3.5-turbo
+number_2,772,6316,gpt-3.5-turbo
+number_2,773,6345,gpt-3.5-turbo
+number_2,774,6352,gpt-3.5-turbo
+number_2,775,6358,gpt-3.5-turbo
+number_2,776,6366,gpt-3.5-turbo
+number_2,777,6373,gpt-3.5-turbo
+number_2,778,육천사백의 수로 변환하면 6400입니다.,gpt-3.5-turbo
+number_2,779,6414,gpt-3.5-turbo
+number_2,780,6418,gpt-3.5-turbo
+number_2,781,6422,gpt-3.5-turbo
+number_2,782,6436,gpt-3.5-turbo
+number_2,783,6438,gpt-3.5-turbo
+number_2,784,6463,gpt-3.5-turbo
+number_2,785,6472,gpt-3.5-turbo
+number_2,786,6502,gpt-3.5-turbo
+number_2,787,6511,gpt-3.5-turbo
+number_2,788,6518,gpt-3.5-turbo
+number_2,789,6534,gpt-3.5-turbo
+number_2,790,6535,gpt-3.5-turbo
+number_2,791,"6,550",gpt-3.5-turbo
+number_2,792,6563,gpt-3.5-turbo
+number_2,793,6579,gpt-3.5-turbo
+number_2,794,6582,gpt-3.5-turbo
+number_2,795,6633,gpt-3.5-turbo
+number_2,796,6618,gpt-3.5-turbo
+number_2,797,6654,gpt-3.5-turbo
+number_2,798,6662,gpt-3.5-turbo
+number_2,799,6677,gpt-3.5-turbo
+number_2,800,6866,gpt-3.5-turbo
+number_2,801,6693,gpt-3.5-turbo
+number_2,802,6694,gpt-3.5-turbo
+number_2,803,육천칠백사십사는 6744입니다.,gpt-3.5-turbo
+number_2,804,6749,gpt-3.5-turbo
+number_2,805,6793,gpt-3.5-turbo
+number_2,806,6795,gpt-3.5-turbo
+number_2,807,6810,gpt-3.5-turbo
+number_2,808,6815,gpt-3.5-turbo
+number_2,809,6817,gpt-3.5-turbo
+number_2,810,6841,gpt-3.5-turbo
+number_2,811,6852,gpt-3.5-turbo
+number_2,812,6875,gpt-3.5-turbo
+number_2,813,68084,gpt-3.5-turbo
+number_2,814,6916,gpt-3.5-turbo
+number_2,815,"해당 수를 변환하여 출력하면 ""6,926""입니다.",gpt-3.5-turbo
+number_2,816,6690,gpt-3.5-turbo
+number_2,817,6693,gpt-3.5-turbo
+number_2,818,6969,gpt-3.5-turbo
+number_2,819,7315,gpt-3.5-turbo
+number_2,820,724,gpt-3.5-turbo
+number_2,821,치천이십칠을 수로 변환하면 7217입니다.,gpt-3.5-turbo
+number_2,822,칠천육십사는 764입니다.,gpt-3.5-turbo
+number_2,823,7697,gpt-3.5-turbo
+number_2,824,753,gpt-3.5-turbo
+number_2,825,7575,gpt-3.5-turbo
+number_2,826,칠천백칠십육을 수로 변환하면 7176입니다.,gpt-3.5-turbo
+number_2,827,726,gpt-3.5-turbo
+number_2,828,7212,gpt-3.5-turbo
+number_2,829,7317,gpt-3.5-turbo
+number_2,830,7327,gpt-3.5-turbo
+number_2,831,7028,gpt-3.5-turbo
+number_2,832,7300,gpt-3.5-turbo
+number_2,833,"금액 ""칠천삼백육""을 수로 변환하면 7306입니다.",gpt-3.5-turbo
+number_2,834,칠천삼백팔을 수로 변환하면 7388입니다.,gpt-3.5-turbo
+number_2,835,7328,gpt-3.5-turbo
+number_2,836,7339,gpt-3.5-turbo
+number_2,837,7350,gpt-3.5-turbo
+number_2,838,7392,gpt-3.5-turbo
+number_2,839,7397,gpt-3.5-turbo
+number_2,840,7341,gpt-3.5-turbo
+number_2,841,7451,gpt-3.5-turbo
+number_2,842,4769,gpt-3.5-turbo
+number_2,843,"""칠천사백칠십사""를 수로 변환하면 7474입니다.",gpt-3.5-turbo
+number_2,844,7376,gpt-3.5-turbo
+number_2,845,7497,gpt-3.5-turbo
+number_2,846,"칠천오백일을 수로 변환하면 7,510이 됩니다.",gpt-3.5-turbo
+number_2,847,7514,gpt-3.5-turbo
+number_2,848,7516,gpt-3.5-turbo
+number_2,849,7570,gpt-3.5-turbo
+number_2,850,7573,gpt-3.5-turbo
+number_2,851,7617,gpt-3.5-turbo
+number_2,852,7634,gpt-3.5-turbo
+number_2,853,7758,gpt-3.5-turbo
+number_2,854,"칠천육백팔십삼을 수로 변환하면 7,683입니다.",gpt-3.5-turbo
+number_2,855,7690,gpt-3.5-turbo
+number_2,856,7779,gpt-3.5-turbo
+number_2,857,7756,gpt-3.5-turbo
+number_2,858,칠천칠백육십을 수로 변환하면 7760입니다.,gpt-3.5-turbo
+number_2,859,"칠천칠백육십구는 7,769입니다.",gpt-3.5-turbo
+number_2,860,칠천칠백구십팔을 수로 변환하면 7798입니다.,gpt-3.5-turbo
+number_2,861,7818,gpt-3.5-turbo
+number_2,862,7830,gpt-3.5-turbo
+number_2,863,7836,gpt-3.5-turbo
+number_2,864,7482,gpt-3.5-turbo
+number_2,865,7812,gpt-3.5-turbo
+number_2,866,7898,gpt-3.5-turbo
+number_2,867,7303,gpt-3.5-turbo
+number_2,868,7470,gpt-3.5-turbo
+number_2,869,"문장 ""칠천구백팔십구""는 수로 변환하면 7989입니다.",gpt-3.5-turbo
+number_2,870,7900,gpt-3.5-turbo
+number_2,871,8099,gpt-3.5-turbo
+number_2,872,8032,gpt-3.5-turbo
+number_2,873,8740,gpt-3.5-turbo
+number_2,874,8480,gpt-3.5-turbo
+number_2,875,8797,gpt-3.5-turbo
+number_2,876,"팔천백십육을 수로 변환하면 8,116입니다.",gpt-3.5-turbo
+number_2,877,8126,gpt-3.5-turbo
+number_2,878,"영어로 ""팔천백삼십이""를 숫자로 변환하면 8132입니다.",gpt-3.5-turbo
+number_2,879,8434,gpt-3.5-turbo
+number_2,880,"먼저 ""팔천백육십이""를 수로 변환하면 8,162입니다.",gpt-3.5-turbo
+number_2,881,8179,gpt-3.5-turbo
+number_2,882,"팔천백팔십은 8,180입니다.",gpt-3.5-turbo
+number_2,883,8095,gpt-3.5-turbo
+number_2,884,8498,gpt-3.5-turbo
+number_2,885,"팔천이백팔은 8,208입니다.",gpt-3.5-turbo
+number_2,886,8325,gpt-3.5-turbo
+number_2,887,팔천이백삼십육을 수로 변환하면 8236입니다.,gpt-3.5-turbo
+number_2,888,8459,gpt-3.5-turbo
+number_2,889,8269,gpt-3.5-turbo
+number_2,890,팔천이백팔십구를 수로 변환하면 8289입니다.,gpt-3.5-turbo
+number_2,891,"팔천삼백십팔을 수로 변환하면 8,318 입니다.",gpt-3.5-turbo
+number_2,892,8321,gpt-3.5-turbo
+number_2,893,8328,gpt-3.5-turbo
+number_2,894,팔천삼백사십팔을 수로 변환하면 8438입니다.,gpt-3.5-turbo
+number_2,895,"팔천삼백오십일을 수로 변환하면 8,351입니다.",gpt-3.5-turbo
+number_2,896,8400,gpt-3.5-turbo
+number_2,897,847,gpt-3.5-turbo
+number_2,898,8427,gpt-3.5-turbo
+number_2,899,"팔천사백사십일은 8,444,141입니다.",gpt-3.5-turbo
+number_2,900,8439,gpt-3.5-turbo
+number_2,901,8457,gpt-3.5-turbo
+number_2,902,8475,gpt-3.5-turbo
+number_2,903,8540,gpt-3.5-turbo
+number_2,904,팔천오백사십칠을 수로 변환하면 8547입니다.,gpt-3.5-turbo
+number_2,905,팔천육백이십일은 숫자로 8621입니다.,gpt-3.5-turbo
+number_2,906,8629,gpt-3.5-turbo
+number_2,907,8631,gpt-3.5-turbo
+number_2,908,8650,gpt-3.5-turbo
+number_2,909,7815,gpt-3.5-turbo
+number_2,910,8744,gpt-3.5-turbo
+number_2,911,8754,gpt-3.5-turbo
+number_2,912,"팔천칠백육십팔을 수로 변환하면 8,768입니다.",gpt-3.5-turbo
+number_2,913,8744,gpt-3.5-turbo
+number_2,914,"팔천칠백팔십는 8,780입니다.",gpt-3.5-turbo
+number_2,915,"팔천칠백팔십이를 수로 변환하면 8,782입니다.",gpt-3.5-turbo
+number_2,916,8791,gpt-3.5-turbo
+number_2,917,8096,gpt-3.5-turbo
+number_2,918,8797,gpt-3.5-turbo
+number_2,919,"""팔천팔백칠""은 수로 변환하면 8,807입니다.",gpt-3.5-turbo
+number_2,920,"팔천팔백사십오를 수로 변환하면 8,845입니다.",gpt-3.5-turbo
+number_2,921,8850,gpt-3.5-turbo
+number_2,922,"""팔천팔백육십""을 수로 변환하면 8,860입니다.",gpt-3.5-turbo
+number_2,923,"""팔천팔백육십육""을 수로 변환하면 8,866입니다.",gpt-3.5-turbo
+number_2,924,"팔천팔백팔십삼은 8,873으로 변환됩니다.",gpt-3.5-turbo
+number_2,925,8696,gpt-3.5-turbo
+number_2,926,4898,gpt-3.5-turbo
+number_2,927,8499,gpt-3.5-turbo
+number_2,928,8496,gpt-3.5-turbo
+number_2,929,"결과값은 8,968입니다.",gpt-3.5-turbo
+number_2,930,4869,gpt-3.5-turbo
+number_2,931,8470,gpt-3.5-turbo
+number_2,932,8494,gpt-3.5-turbo
+number_2,933,8496,gpt-3.5-turbo
+number_2,934,구천십사를 수로 변환하면 9914입니다.,gpt-3.5-turbo
+number_2,935,구천십구를 수로 변환하면 199입니다.,gpt-3.5-turbo
+number_2,936,"""구천사십구""를 수로 변환하면 4949입니다.",gpt-3.5-turbo
+number_2,937,구천육십오를 수로 변환하면 965입니다.,gpt-3.5-turbo
+number_2,938,199,gpt-3.5-turbo
+number_2,939,1012,gpt-3.5-turbo
+number_2,940,구천백팔을 수로 변환하면 1808입니다.,gpt-3.5-turbo
+number_2,941,9112,gpt-3.5-turbo
+number_2,942,"구천백이십육을 수로 변환하면 1,026입니다.",gpt-3.5-turbo
+number_2,943,구천백삼십구를 수로 변환하면 1939입니다.,gpt-3.5-turbo
+number_2,944,1964,gpt-3.5-turbo
+number_2,945,9321,gpt-3.5-turbo
+number_2,946,9823,gpt-3.5-turbo
+number_2,947,8924,gpt-3.5-turbo
+number_2,948,"구천이백사십오를 수로 변환하면 2,445입니다.",gpt-3.5-turbo
+number_2,949,2955,gpt-3.5-turbo
+number_2,950,9757,gpt-3.5-turbo
+number_2,951,2966,gpt-3.5-turbo
+number_2,952,2090,gpt-3.5-turbo
+number_2,953,2096,gpt-3.5-turbo
+number_2,954,구천이백구십구를 수로 변환하면 2999입니다.,gpt-3.5-turbo
+number_2,955,3925,gpt-3.5-turbo
+number_2,956,"구천삼백이십구를 수로 변환하면 3,209입니다.",gpt-3.5-turbo
+number_2,957,구천삼백삼십이를 수로 변환하면 3932입니다.,gpt-3.5-turbo
+number_2,958,"구천삼백사십을 수로 변환하면 3,440입니다.",gpt-3.5-turbo
+number_2,959,"구천삼백사십육을 수로 변환하면 3,446입니다.",gpt-3.5-turbo
+number_2,960,"구천삼백오십사는 3,954로 변환됩니다.",gpt-3.5-turbo
+number_2,961,3666,gpt-3.5-turbo
+number_2,962,"구천삼백구십삼은 3,993으로 변환됩니다.",gpt-3.5-turbo
+number_2,963,"구천사백칠십삼을 수로 변환하면 4,773입니다.",gpt-3.5-turbo
+number_2,964,9512,gpt-3.5-turbo
+number_2,965,9531,gpt-3.5-turbo
+number_2,966,"9,532",gpt-3.5-turbo
+number_2,967,구천오백오십일을 수로 변환하면 5951 입니다.,gpt-3.5-turbo
+number_2,968,구천오백육십오를 수로 변환하면 9565입니다.,gpt-3.5-turbo
+number_2,969,1891,gpt-3.5-turbo
+number_2,970,996,gpt-3.5-turbo
+number_2,971,9600,gpt-3.5-turbo
+number_2,972,"구천육백칠을 수로 변환하면 6,407입니다.",gpt-3.5-turbo
+number_2,973,"저는 인공지능이므로 ""구천육백십삼""을 수로 변환하여 대답할 수 있습니다. 그 수는 6,913입니다.",gpt-3.5-turbo
+number_2,974,구천육백사십일을 수로 변환하면 1941입니다.,gpt-3.5-turbo
+number_2,975,4966,gpt-3.5-turbo
+number_2,976,"구천육백오십칠은 6,557 입니다.",gpt-3.5-turbo
+number_2,977,9666,gpt-3.5-turbo
+number_2,978,구천육백칠십칠을 수로 변환하면 17677입니다.,gpt-3.5-turbo
+number_2,979,9867,gpt-3.5-turbo
+number_2,980,"구천칠백사를 수로 변환하면 7,804입니다.",gpt-3.5-turbo
+number_2,981,"구천칠백십을 수로 변환하면 7,810입니다.",gpt-3.5-turbo
+number_2,982,19824,gpt-3.5-turbo
+number_2,983,9374,gpt-3.5-turbo
+number_2,984,"구천칠백팔십은 수로 변환하면 8,780입니다.",gpt-3.5-turbo
+number_2,985,9782,gpt-3.5-turbo
+number_2,986,구천팔백사를 수로 변환하면 8414입니다.,gpt-3.5-turbo
+number_2,987,"구천팔백구를 수로 변환하면 1,899입니다.",gpt-3.5-turbo
+number_2,988,천팔백십구를 수로 변환하면 1899입니다.,gpt-3.5-turbo
+number_2,989,"당신이 제시한 ""구천팔백오십육""을 수로 변환하면 9856이 됩니다.",gpt-3.5-turbo
+number_2,990,1870,gpt-3.5-turbo
+number_2,991,"구천팔백팔십팔을 수로 변환하면 8,888이 됩니다.",gpt-3.5-turbo
+number_2,992,구천구백이십을 수로 변환하면 9820입니다.,gpt-3.5-turbo
+number_2,993,구천구백이십사는 수로 변환하면 9924입니다.,gpt-3.5-turbo
+number_2,994,구천구백이십오를 수로 변환하면 9925입니다.,gpt-3.5-turbo
+number_2,995,구천구백오십삼는 9953입니다.,gpt-3.5-turbo
+number_2,996,"구천구백오십사를 수로 변환하면 9,954입니다.",gpt-3.5-turbo
+number_2,997,9960,gpt-3.5-turbo
+number_2,998,"구천구백칠십오를 수로 변환하면 9,875입니다.",gpt-3.5-turbo
+number_2,999,"구천구백팔십육을 수로 변환하면 9,986입니다.",gpt-3.5-turbo
