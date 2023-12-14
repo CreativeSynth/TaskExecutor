@@ -48,7 +48,7 @@ for input_data_dir in tqdm(taskReader.get_input_data_dirs()):
 
             outputs = [output.outputs[0].text for output in outputs] # 결과 텍스트만 가져옴
             subdata["result"] = outputs
-            subdata["model_name"] = "kullm12.8b"
+            subdata["model_name"] = "kullm5.8b"
             output_data = pd.concat([output_data, subdata[["task_name","index", "result", "model_name"]]], ignore_index=True)
 
             # 디버깅 목적으로 상위 2개 확인
