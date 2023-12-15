@@ -14,9 +14,8 @@ result_data = pd.DataFrame()
 rerun = False
 try:
     result_data = pd.read_csv("result.csv", engine="python")
-    print(result_data.head())
     rerun = True
-except:
+except Exception as e:
     print("failed to load result file")
     print(e)
     pass
@@ -38,11 +37,10 @@ total_len = len(taskReader.get_input_data_dirs())
 for ind, input_data_dir in enumerate(taskReader.get_input_data_dirs()):
     data = None
     try:
-        data = pd.read_csv(input_data_dir, engine="python")
+        data = pd.read_csv(input_data_dir)
     except:
         print(f"[{ind+1}/{total_len}]: Error occures while reading {input_data_dir}. Skikped.")
         continue
-
 
     # data filtering that is not in result.csv
     remain_indexes = []

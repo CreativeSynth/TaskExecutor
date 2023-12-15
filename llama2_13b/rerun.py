@@ -7,7 +7,7 @@ from collections.abc import Iterable
 
 
 def messages_to_string(prompts: Iterable[str]):
-    return [f"아래는 작업을 설명하는 명령어입니다. 요청을 적절히 완료하는 응답을 작성하세요.\n\n### 명령어:\n{instruction}\n\n### 응답:\n" for instruction in prompts]
+    return [f"### 사용자:\n{instruction}\n\n### AI:\n" for instruction in prompts]
 
 
 result_data = pd.DataFrame()
@@ -25,11 +25,11 @@ taskReader = TaskReader("../../TaskManager")
 if taskReader.get_input_data_dirs == []:
     exit
 
-MAX_TOKENS = 512
+MAX_TOKENS = 1024
 MAX_BATCH_SIZE = 128
-sampling_params = SamplingParams(temperature=0.8, top_p=0.95, max_tokens=MAX_TOKENS)
-llm = LLM(model="nlpai-lab/kullm-polyglot-12.8b-v2", tensor_parallel_size=4)
-MODEL_NAME = "kullm12.8b"
+sampling_params = SamplingParams(temperature=0.7, top_p=0.95, max_tokens=MAX_TOKENS)
+llm = LLM(model="etri-xainlp/llama2-ko-13b-instruct", tensor_parallel_size=4)
+MODEL_NAME = "llama2_13b"
 
 
 total_len = len(taskReader.get_input_data_dirs())
