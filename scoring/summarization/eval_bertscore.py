@@ -55,7 +55,7 @@ print("Matching successful!")
 P, R, F1 = score([row[2] for row in gen_data], [row[3] for row in ref_data], lang='ko', verbose=True)
 my_score = (P if score_type == 'p' else R if score_type == 'r' else F1).tolist()
 
-writer.writerow(['task_name', 'index', 'model_name', 'score'])
+writer.writerow(['task_name', 'index', 'model_name', 'prompt', 'output', 'score'])
 
 for score, row in zip(my_score, gen_data):
-    writer.writerow([task_name, row[1], model_name, score])
+    writer.writerow([task_name, row[1], model_name, ref_row[2], gen_row[2], score])

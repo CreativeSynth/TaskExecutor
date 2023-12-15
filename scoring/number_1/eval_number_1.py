@@ -1,4 +1,4 @@
-import re, os, csv
+import re, csv
 
 # Settings
 reference_path = "ex_reference.csv"
@@ -44,12 +44,11 @@ for ref_row, gen_row in zip(ref_data, gen_data):
     
 print("Matching successful!")
 
-def extract_numbers(input_string):
-    # Use regular expression to find all numbers in the string
-    numbers = re.findall(r'\d+', input_string)
-    return list(set(numbers))
+def score(ans1, ans2, your_ans):
+    your_ans = re.sub(r'\s+', '', your_ans)
+    return ans1 in your_ans or ans2 in your_ans
 
 writer.writerow(['task_name', 'index', 'model_name', 'prompt', 'output', 'score'])
 
 for ref_row, gen_row in zip(ref_data, gen_data):
-    writer.writerow([task_name, ref_row[1], model_name, ref_row[2], gen_row[2], 1 if extract_numbers(gen_row[2]) == [ref_row[3]] else 0])
+    writer.writerow([task_name, ref_row[1], model_name, ref_row[2], gen_row[2], 1 if score(ref_row[3], ref_row[4], gen_row[2]) else 0])
