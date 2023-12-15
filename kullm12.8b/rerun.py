@@ -13,9 +13,11 @@ def messages_to_string(prompts: Iterable[str]):
 result_data = pd.DataFrame()
 rerun = False
 try:
-    result_data = pd.read_csv("result.csv")
+    result_data = pd.read_csv("result.csv", engine="python")
     rerun = True
-except:
+except Exception as e:
+    print("failed to load result file")
+    print(e)
     pass
 
 taskReader = TaskReader("../../TaskManager")
@@ -27,6 +29,7 @@ MAX_TOKENS = 512
 MAX_BATCH_SIZE = 128
 sampling_params = SamplingParams(temperature=0.8, top_p=0.95, max_tokens=MAX_TOKENS)
 llm = LLM(model="nlpai-lab/kullm-polyglot-12.8b-v2", tensor_parallel_size=4)
+MODEL_NAME = "kullm12.8b"
 
 
 total_len = len(taskReader.get_input_data_dirs())
@@ -40,17 +43,19 @@ for ind, input_data_dir in enumerate(taskReader.get_input_data_dirs()):
         print(f"[{ind}/{total_len}]: Error occures while reading {input_data_dir}. Skikped.")
         continue
 
+
     # data filtering that is not in result.csv
     remain_indexes = []
     if rerun is True:
         for i in range(len(data)):
-            ret = result_data.query(f"task_name == '{data['task_name'][i]}' and index == {data['index'][i]}")
+            ret1 = result_data.query(f"task_name == '{data['task_name'][i]}' and index == {data['index'][i]}")
+            ret2 = result_data.query(f"task_name == '{data['task_name'][i]}' and index == '{data['index'][i]}'")
             # if result is empty
-            if len(ret) == 0:
+            if len(ret1) == 0 and len(ret2) == 0:
                 remain_indexes.append(i)
+                print(f"task_name == '{data['task_name'][i]}' and index == {data['index'][i]}")
     else:
         remain_indexes = list(range(len(data)))
-
 
     if remain_indexes == []:
         print(f"[{ind}/{total_len}]: {input_data_dir} is already processed. Skipped.")
@@ -78,13 +83,12 @@ for ind, input_data_dir in enumerate(taskReader.get_input_data_dirs()):
             outputs = [output.replace("\n", " ") for output in outputs] # 개행문자를 공백으로 대체.
 
             subdata["result"] = outputs
-            subdata["model_name"] = "kullm12.8b"
-            result_data = pd.concat([result_data, subdata[["task_name","index", "result", "model_name"]]], ignore_index=True)
+            subdata["model_name"] = MODEL_NAME
+            result_data = pd.concat([result_data, subdata[["task_name", "index", "result", "model_name"]]], ignore_index=True)
             st_pos += bs # go to next position
             success_cnt = success_cnt + 1
             if bs < MAX_BATCH_SIZE and success_cnt > 1: # 두번 연속으로 성공하면 배치크기를 두배로 늘려봄
                 bs *= 2
-                success_cnt = 0
         except Exception as e:
             print(f"[{ind}/{total_len}]: {input_data_dir} 처리 중 에러 발생. bath size = {bs}, pos = {st_pos}")
             print(e)

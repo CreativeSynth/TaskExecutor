@@ -20,6 +20,7 @@ MAX_TOKENS = 128
 MAX_BATCH_SIZE = 512
 sampling_params = SamplingParams(temperature=0.8, top_p=0.95, max_tokens=MAX_TOKENS)
 llm = LLM(model="nlpai-lab/kullm-polyglot-5.8b-v2", tensor_parallel_size=4)
+MODEL_NAME = "kullm5.8b"
 
 
 
@@ -49,7 +50,7 @@ for input_data_dir in tqdm(taskReader.get_input_data_dirs()):
 
             outputs = [output.outputs[0].text for output in outputs] # 결과 텍스트만 가져옴
             subdata["result"] = outputs
-            subdata["model_name"] = "kullm5.8b"
+            subdata["model_name"] = MODEL_NAME
             output_data = pd.concat([output_data, subdata[["task_name","index", "result", "model_name"]]], ignore_index=True)
 
             # 디버깅 목적으로 상위 2개 확인
