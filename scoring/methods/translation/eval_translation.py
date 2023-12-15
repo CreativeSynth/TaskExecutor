@@ -9,11 +9,11 @@ def calculate_sacrebleu(generated_sentences, reference_sentences):
     bleu = sacrebleu.corpus_bleu(generated_sentences, [reference_sentences])
     return bleu.score
 
-def main():
+def run(generated_path, reference_path, result_path):
     # Replace these with the paths to your CSV files
-    generated_file_path = 'ex_generated.csv'
-    reference_file_path = 'ex_reference.csv'
-    output_file_path = 'ex_result.csv'
+    generated_file_path = generated_path
+    reference_file_path = reference_path
+    output_file_path = result_path
 
     # Read sentences from CSV files
     generated_df = pd.read_csv(generated_file_path)
@@ -47,5 +47,9 @@ def main():
 
     print(f"SacreBLEU scores saved to {output_file_path}")
 
-if __name__ == "__main__":
-    main()
+if __name__ == '__main__':
+    reference_path = "ex_reference.csv"
+    generated_path = "ex_generated.csv"
+    result_path = "ex_result.csv"
+
+    run(reference_path=reference_path, generated_path=generated_path, result_path=result_path)

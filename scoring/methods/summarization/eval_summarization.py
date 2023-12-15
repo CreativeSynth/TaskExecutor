@@ -1,4 +1,14 @@
-import re, csv
+# The rows of the two csv files should be perfectly matched!
+
+from bert_score import score
+import os, csv
+
+# Settings
+score_type = "f1" # p -> precision, r -> recall, f1 -> f1 score
+
+if score_type not in ['p', 'r', 'f1']:
+    print("Error: wrong score type!")
+    exit()
 
 def run(reference_path, generated_path, result_path):
     reference_file = open(reference_path, "rt", encoding='utf8', newline='')
@@ -40,22 +50,13 @@ def run(reference_path, generated_path, result_path):
         
     print("Matching successful!")
 
-    def score(gen, ref, flag):
-        gen = re.sub(r'\s+', '', gen)
-        ref = re.sub(r'\s+', '', ref)
-
-        print(flag, ref, gen)
-
-        if flag:
-            return ref in gen
-        else:
-            return ref not in gen
-        
+    P, R, F1 = score([row[2] for row in gen_data], [row[3] for row in ref_data], lang='ko', verbose=True)
+    my_score = (P if score_type == 'p' else R if score_type == 'r' else F1).tolist()
 
     writer.writerow(['task_name', 'index', 'model_name', 'prompt', 'output', 'score'])
 
-    for ref_row, gen_row in zip(ref_data, gen_data):
-        writer.writerow([task_name, ref_row[1], model_name, ref_row[2], gen_row[2], 1 if score(gen_row[2], ref_row[3], int(ref_row[4]) != 3) else 0])
+    for score, row in zip(my_score, gen_data):
+        writer.writerow([task_name, row[1], model_name, ref_row[2], gen_row[2], score])
 
 if __name__ == '__main__':
     reference_path = "ex_reference.csv"
