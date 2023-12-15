@@ -40,7 +40,7 @@ for ind, input_data_dir in enumerate(taskReader.get_input_data_dirs()):
     try:
         data = pd.read_csv(input_data_dir, engine="python")
     except:
-        print(f"[{ind}/{total_len}]: Error occures while reading {input_data_dir}. Skikped.")
+        print(f"[{ind+1}/{total_len}]: Error occures while reading {input_data_dir}. Skikped.")
         continue
 
 
@@ -58,10 +58,10 @@ for ind, input_data_dir in enumerate(taskReader.get_input_data_dirs()):
         remain_indexes = list(range(len(data)))
 
     if remain_indexes == []:
-        print(f"[{ind}/{total_len}]: {input_data_dir} is already processed. Skipped.")
+        print(f"[{ind+1}/{total_len}]: {input_data_dir} is already processed. Skipped.")
         continue
     
-    print(f"[{ind}/{total_len}]: {input_data_dir} processing needed {len(remain_indexes)}/{len(data)}.")
+    print(f"[{ind+1}/{total_len}]: {input_data_dir} processing needed {len(remain_indexes)}/{len(data)}.")
 
     data = data.iloc[remain_indexes]
 
@@ -90,12 +90,12 @@ for ind, input_data_dir in enumerate(taskReader.get_input_data_dirs()):
             if bs < MAX_BATCH_SIZE and success_cnt > 1: # 두번 연속으로 성공하면 배치크기를 두배로 늘려봄
                 bs *= 2
         except Exception as e:
-            print(f"[{ind}/{total_len}]: {input_data_dir} 처리 중 에러 발생. bath size = {bs}, pos = {st_pos}")
+            print(f"[{ind+1}/{total_len}]: {input_data_dir} 처리 중 에러 발생. bath size = {bs}, pos = {st_pos}")
             print(e)
             bs=bs//2
             success_cnt = 0
     
-    print(f"[{ind}/{total_len}]: {input_data_dir} 에서 새롭게 {min(st_pos, len(data))}개 처리.")
+    print(f"[{ind+1}/{total_len}]: {input_data_dir} 에서 새롭게 {min(st_pos, len(data))}개 처리.")
     result_data.sort_values(by=['task_name', 'index'], inplace=True)
     result_data.to_csv("result.csv", encoding = 'utf-8-sig', index=False) # 중간중간 저장
 
