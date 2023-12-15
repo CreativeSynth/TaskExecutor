@@ -38,7 +38,7 @@ total_len = len(taskReader.get_input_data_dirs())
 for ind, input_data_dir in enumerate(taskReader.get_input_data_dirs()):
     data = None
     try:
-        data = pd.read_csv(input_data_dir)
+        data = pd.read_csv(input_data_dir, engine="python")
     except:
         print(f"[{ind}/{total_len}]: Error occures while reading {input_data_dir}. Skikped.")
         continue
