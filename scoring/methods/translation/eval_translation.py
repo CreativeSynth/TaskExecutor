@@ -40,6 +40,8 @@ def run(generated_path, reference_path, result_path):
 
     # Add scores to the output DataFrame
     output_df = generated_df[['task_name', 'index', 'model_name']].copy()
+    output_df['prompt'] = reference_df['prompt']
+    output_df['output'] = generated_df['result']
     output_df['score'] = scores
 
     # Save the output DataFrame to a new CSV file
