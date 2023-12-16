@@ -40,17 +40,40 @@ def run(reference_path, generated_path, result_path):
         
     print("Matching successful!")
 
-    def score(gen, ref):
-        d = difflib.Differ()
-        diff = d.compare(gen.split(), ref.split())
-        word_diff = [[word[2:] for word in line.split() if word.startswith('+') or word.startswith('-')] for line in diff]
-        print([words for words in word_diff if words])
-        return 0
+    def score(before, ref_answer, gen_answer):
+        def generate_diff(before, after):
+            differ = difflib.Differ()
+            diff = list(differ.compare(before.split(), after.split()))
+
+            result = []
+            element = ['', '']
+
+            for item in diff:
+                if item.startswith(' ') and element != ['', '']:
+                    element = [s.strip() for s in element]
+                    result.append(element)
+                    element = ['', '']
+                elif item.startswith('- '):
+                    element[0] += item[1:]
+                elif item.startswith('+ '):
+                    element[1] += item[1:]
+
+            return result
+
+        ref_diff = generate_diff(before, ref_answer)
+        gen_diff = generate_diff(before, gen_answer)
+        common = [element for element in ref_diff if element in gen_diff]
+
+        R = len(common) / len(ref_diff)
+        P = len(common) / len(gen_diff)
+        F = (1.25 * R * P) / (R + 0.25 * P)
+
+        return F
 
     writer.writerow(['task_name', 'index', 'model_name', 'prompt', 'output', 'score'])
 
     for ref_row, gen_row in zip(ref_data, gen_data):
-        writer.writerow([task_name, ref_row[1], model_name, ref_row[2], gen_row[2], score(gen_row[2], ref_row[3])])
+        writer.writerow([task_name, ref_row[1], model_name, ref_row[2], gen_row[2], score(ref_row[2][50:], ref_row[3], gen_row[2])])
 
 if __name__ == '__main__':
     reference_path = "ex_reference.csv"

@@ -15,6 +15,6 @@
 | number_2 | multiple_choice |
 | number_3 | number_3 |
 | reasoning | reasoning |
-| spelling_correct | ??? |
+| spelling_correct | spelling_correct |
 | summarization | summarization |
 | translation | translation |
