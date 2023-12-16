@@ -1,6 +1,6 @@
 # The rows of the two csv files should be perfectly matched!
 
-from bert_score import score
+from bert_score import score as bertscore
 import os, csv
 
 # Settings
@@ -50,13 +50,13 @@ def run(reference_path, generated_path, result_path):
         
     print("Matching successful!")
 
-    P, R, F1 = score([row[2] for row in gen_data], [row[3] for row in ref_data], lang='ko', verbose=True)
+    P, R, F1 = bertscore([row[2] for row in gen_data], [row[3] for row in ref_data], lang='ko', verbose=True)
     my_score = (P if score_type == 'p' else R if score_type == 'r' else F1).tolist()
 
     writer.writerow(['task_name', 'index', 'model_name', 'prompt', 'output', 'score'])
 
-    for score, row in zip(my_score, gen_data):
-        writer.writerow([task_name, row[1], model_name, ref_row[2], gen_row[2], score])
+    for score, row, ref_row in zip(my_score, gen_data, ref_data):
+        writer.writerow([task_name, row[1], model_name, ref_row[2], row[2], score])
 
 if __name__ == '__main__':
     reference_path = "ex_reference.csv"
