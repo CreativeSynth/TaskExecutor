@@ -27,7 +27,7 @@ def run(generated_path, reference_path, result_path):
         all(generated_df['model_name'] == generated_df['model_name'].iloc[0])
     ]):
         print("Error: Data mismatch between generated and reference files.")
-        exit()
+        return
 
     # Calculate SacreBLEU score for each row
     scores = []

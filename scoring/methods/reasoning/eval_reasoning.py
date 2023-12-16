@@ -21,30 +21,28 @@ def run(reference_path, generated_path, result_path):
         if ref_row[1] != gen_row[1]: # index not match
             print(f"Ref: {ref_row[0]} {ref_row[1]} / Gen: {gen_row[0]} {gen_row[1]}")
             print("Error: index not match!")
-            exit()
+            return
         
         if ref_row[0] != task_name: # task mixed in reference
             print(ref_row)
             print("Error: task mixed in reference!")
-            exit()
+            return
         
         if gen_row[0] != task_name: # task mixed in generated
             print(gen_row)
             print("Error: task mixed in generated!")
-            exit()
+            return
         
         if gen_row[3] != model_name: # model mixed in generated
             print(gen_row)
             print("Error: model mixed in generated!")
-            exit()
+            return
         
     print("Matching successful!")
 
     def score(gen, ref, flag):
         gen = re.sub(r'\s+', '', gen)
         ref = re.sub(r'\s+', '', ref)
-
-        print(flag, ref, gen)
 
         if flag:
             return ref in gen
