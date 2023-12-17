@@ -64,6 +64,12 @@ def run(reference_path, generated_path, result_path):
         gen_diff = generate_diff(before, gen_answer)
         common = [element for element in ref_diff if element in gen_diff]
 
+        # Exception handling in calculating F score
+        if len(ref_diff) == 0 or len(gen_diff) == 0:
+            return 1 if len(ref_diff) == 0 and len(gen_diff) == 0 else 0
+        if len(common) == 0:
+            return 0
+
         R = len(common) / len(ref_diff)
         P = len(common) / len(gen_diff)
         F = (1.25 * R * P) / (R + 0.25 * P)
