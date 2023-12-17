@@ -12,21 +12,22 @@ from methods.translation.eval_translation           import run as run_translatio
 
 # Settings: enter the target files here!
 # Start with '/TaskExecutor'!
-target = [# '/TaskExecutor/openai/ko_quiz_1_result.csv',
-          # '/TaskExecutor/openai/ko_quiz_2_result.csv',
-          # '/TaskExecutor/openai/ko_quiz_3_result.csv',
-          # '/TaskExecutor/openai/ko_quiz_4_result.csv',
-          # '/TaskExecutor/openai/ko_quiz_5_result.csv',
-          # '/TaskExecutor/openai/ko_quiz_6_result.csv',
-          # '/TaskExecutor/openai/ko_quiz_7_result.csv',
-          # '/TaskExecutor/openai/ko_quiz_8_result.csv',
-          # '/TaskExecutor/openai/nli_result.csv',
-          # '/TaskExecutor/openai/number_1_result.csv',
-          # '/TaskExecutor/openai/number_2_result.csv',
-          # '/TaskExecutor/openai/number_3_result.csv',
-          # '/TaskExecutor/openai/reasoning_result.csv',
-          # '/TaskExecutor/openai/spelling_correct_result.csv',
-          # '/TaskExecutor/openai/summarization_result.csv'
+target = [
+          '/TaskExecutor/openai/ko_quiz_1_result.csv',
+          '/TaskExecutor/openai/ko_quiz_2_result.csv',
+          '/TaskExecutor/openai/ko_quiz_3_result.csv',
+          '/TaskExecutor/openai/ko_quiz_4_result.csv',
+          '/TaskExecutor/openai/ko_quiz_5_result.csv',
+          '/TaskExecutor/openai/ko_quiz_6_result.csv',
+          '/TaskExecutor/openai/ko_quiz_7_result.csv',
+          '/TaskExecutor/openai/ko_quiz_8_result.csv',
+          '/TaskExecutor/openai/nli_result.csv',
+          '/TaskExecutor/openai/number_1_result.csv',
+          '/TaskExecutor/openai/number_2_result.csv',
+          '/TaskExecutor/openai/number_3_result.csv',
+          '/TaskExecutor/openai/reasoning_result.csv',
+          '/TaskExecutor/openai/spelling_correct_result.csv',
+          '/TaskExecutor/openai/summarization_result.csv',
           '/TaskExecutor/llama2_13b/grouped_results/ko_quiz_1_result.csv',
           '/TaskExecutor/llama2_13b/grouped_results/ko_quiz_2_result.csv',
           '/TaskExecutor/llama2_13b/grouped_results/ko_quiz_3_result.csv',
@@ -42,7 +43,8 @@ target = [# '/TaskExecutor/openai/ko_quiz_1_result.csv',
           '/TaskExecutor/llama2_13b/grouped_results/reasoning_result.csv',
           '/TaskExecutor/llama2_13b/grouped_results/spelling_correct_result.csv',
           '/TaskExecutor/llama2_13b/grouped_results/summarization_result.csv',
-          '/TaskExecutor/llama2_13b/grouped_results/translation_result.csv']
+          '/TaskExecutor/llama2_13b/grouped_results/translation_result.csv'
+          ]
 
 # Evaluate methods
 methods = {'ko_quiz_1'        : 'multiple_choice',
@@ -87,10 +89,10 @@ for file in target:
         print('Error setting run function.')
         continue
 
-    reference_path = '/TaskExecutor/../TaskManager/ko_quiz/' + task_name + '.csv' if 'ko_quiz' in task_name else '/TaskExecutor/../TaskManager/' + task_name + '/' + task_name + '.csv'
+    reference_path = '/TaskExecutor/../TaskManager/ko_quiz/' + task_name + '.csv' if 'ko_quiz' in task_name else '/TaskExecutor/../TaskManager/' + task_name + '/' + task_name + '.csv' if '/' not in task_name else '/TaskExecutor/../TaskManager/translation/translation.csv'
     reference_path = os.path.relpath(reference_path, current_position)
 
-    result_path = '/TaskExecutor/scoring/result/' + model_name + '/' + task_name + '.csv'
+    result_path = '/TaskExecutor/scoring/result/' + model_name + '/' + (task_name if '/' not in task_name else 'translation') + '.csv'
     result_path = os.path.relpath(result_path, current_position)
 
     try:
