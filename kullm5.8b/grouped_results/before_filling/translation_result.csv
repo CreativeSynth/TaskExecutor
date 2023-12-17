@@ -8,7 +8,7 @@ translation/techsci,1,"내 영어 번역에서 ""지역 협력체""라는 단어
 translate/media,2,영어로 번역해 드리겠습니다.,kullm5.8b
 translation/basicsci,2,"""이런 시점 전환의 능력은 인간이 신이 아니라 유한한 존재임을 확인시켜줍니다.""는 ""이런 시점 전환의 능력은 인간이 신이 아니라 유한한 존재임을 확인시켜줍니다.""로 번역할 수 있습니다.",kullm5.8b
 translation/dailylife,2,"""여러분의 원활한 행사 진행과 잊지 못할 추억을 위해 BBB가 도와드리겠습니다.""",kullm5.8b
-translation/humanities,2,물론이죠! 다음은 번역된 문장입니다:,kullm5.8b
+translation/humanities,2,물론이죠! 다음은 번역된 문장입니다:,
 translation/socialsci,2,다음 문장은 업무의 효과적인 수월성 향상을 위한 구성원의 상호작용 정도를 측정하는 정도와 반대 의견까지 통합하는 두 가지 하위 요소를 기반으로 합니다.,kullm5.8b
 translation/techsci,2,"역은 식민지인의 시간과 일상, 정신을 통제하는 데 사용되는 가장 기본적인 장치 중 하나입니다.",kullm5.8b
 translate/media,3,중재를 하는 것은 필립이 어떻게 할 수 있는 문제가 아니었어요.,kullm5.8b
@@ -27,7 +27,7 @@ translate/media,5,"물론입니다! 다음은 15개 이상의 맥주를 모두 �
 translation/basicsci,5,"""셀리드의 코로나19 백신인 AdCLD-CoV19는 임상 1상에서 건강한 성인 30명을 대상으로 안전성과 면역원성을 평가받게 됩니다.""",kullm5.8b
 translation/dailylife,5,죄송합니다. 제가 영어를 잘하지 못해서 번역을 도와드릴 수 없습니다. 번역하거나 수정하고 싶은 문장을 알려 주시면 제가 직접 도움을 드릴 수 있습니다.,kullm5.8b
 translation/humanities,5,일본은 불과 15일 동안 거부권을 행사하는 데 그쳤습니다.,kullm5.8b
-translation/socialsci,5,이와 관련된 중학교 1학년 성취 기준은 다음과 같습니다:,kullm5.8b
+translation/socialsci,5,이와 관련된 중학교 1학년 성취 기준은 다음과 같습니다:,
 translation/techsci,5,사전 실행 컨트롤 제스처를 감지하고 미리보기 이미지를 디스플레이합니다.,kullm5.8b
 translate/media,6,"좋아요, 좋아요.",kullm5.8b
 translation/basicsci,6,유아 장내세균이 완성되면 항체 수치가 90%까지 줄어들고 대신 지방이 늘어납니다.,kullm5.8b
@@ -702,7 +702,7 @@ translation/techsci,110,문장은 다음과 같습니다: EU 회원국은 아니
 translate/media,111,확실히 하고 싶은 것이 있습니다.,kullm5.8b
 translation/basicsci,111,당뇨를 진단받은 10명 중 3명은 당뇨병 위험군에 속합니다.,kullm5.8b
 translation/dailylife,111,빵글랑땡.,kullm5.8b
-translation/humanities,111,번역하겠습니다:,kullm5.8b
+translation/humanities,111,번역하겠습니다:,
 translation/socialsci,111,"네, 번역해 드리겠습니다.",kullm5.8b
 translation/techsci,111,장치(14000)는 제4 시간 값을 나타내도록 제2 사지의 제2 단부점을 관절의 관절의 관절부에서 회전 축을 따라 이동시킴으로써 캐릭터 사용자 인터페이스 객체를 업데이트할 수 있습니다.,kullm5.8b
 translate/media,112,"PC, 모바일로 인터넷 조사에 액세스할 수 있습니다.",kullm5.8b
@@ -905,7 +905,7 @@ translate/media,144,"문장을 영어로 번역해 드리겠습니다: ""잔가�
 translation/basicsci,144,"""인체 DNA는 세포에서 발견되는 유전 정보를 암호화하는 단백질 서열로, 수많은 기능을 수행하며 생물학의 기본 구성 요소입니다.""",kullm5.8b
 translation/dailylife,144,"""매머드 슬링키 세트도 연주자들이 수십 년 동안 의지해 온 상징적인 슬링키 느낌을 살렸습니다.""",kullm5.8b
 translation/humanities,144,"사람을 널리 이롭게 한다는 홍익인간 사상과 이념의 역사관과 인성론은 ""인간은 인간과 하늘·땅·우주·자연 속에서 사랑과 도움 속에 태어났다.""는 개념입니다. 이 개념은 사회적, 개인적 관계에서 사랑과 상호 의존의 중요성을 강조합니다.",kullm5.8b
-translation/socialsci,144,이벤트 시장을 목표로 하는 호텔 기업을 위한 의사결정을 지원하기 위해 이 문장을 영어로 번역했습니다:,kullm5.8b
+translation/socialsci,144,이벤트 시장을 목표로 하는 호텔 기업을 위한 의사결정을 지원하기 위해 이 문장을 영어로 번역했습니다:,
 translation/techsci,144,홍콩에서는 중국 정부의 홍콩 정책과 행정 장관의 시정 방침을 지지하는 것을 옹호합니다.,kullm5.8b
 translate/media,145,"Here's my updated English sentence:  While I think of Seigyung, I feel his attitude that deeply matches him.",kullm5.8b
 translation/basicsci,145,지구의 70% 이상이 대부분 심해인 바닷물로 덮여 있고 그 중 70%는 섭씨 2도를 유지하기 때문입니다.,kullm5.8b
