@@ -18,7 +18,7 @@ if taskReader.get_input_data_dirs == []:
 MAX_TOKENS = 1024
 MAX_BATCH_SIZE = 128
 sampling_params = SamplingParams(temperature=0.7, top_p=0.95, max_tokens=MAX_TOKENS)
-llm = LLM(model="qwopqwop/KoAlpaca-Polyglot-12.8B-GPTQ", tensor_parallel_size=4)
+llm = LLM(model="qwopqwop/KoAlpaca-Polyglot-12.8B-GPTQ", tensor_parallel_size=4, dtype="float16")
 MODEL_NAME = "koalpaca-12.8b"
 FILE_NAME = "result.csv"
 
