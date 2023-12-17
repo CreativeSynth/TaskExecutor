@@ -4,6 +4,7 @@ sys.path.append('../')
 from tasks_configure import TaskReader
 from vllm import LLM, SamplingParams
 from collections.abc import Iterable
+import torch
 
 
 def messages_to_string(prompts: Iterable[str]):
