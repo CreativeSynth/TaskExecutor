@@ -41,6 +41,18 @@ output_files = [input_path.replace('before_sorting/', '') for input_path in inpu
 current_position = os.getcwd()
 current_position = current_position[current_position.find('/TaskExecutor'):]
 
+def custom_sort_key(row):
+    first_column_value = row[0]
+    if '/' in first_column_value:
+        # If the value contains '/', sort based on custom order
+        custom_order = ['translation/techsci', 'translation/socialsci', 'translation/dailylife',
+                        'translation/basicsci', 'translate/media', 'translation/humanities']
+        return (custom_order.index(first_column_value), int(row[1]))
+    else:
+        # If the value does not contain '/', sort by int(row[1])
+        return int(row[1])
+
+
 def sort_csv_files(input_file_paths, output_file_paths):
     if len(input_file_paths) != len(output_file_paths):
         raise ValueError("Input and output file paths must have the same length.")
@@ -56,7 +68,7 @@ def sort_csv_files(input_file_paths, output_file_paths):
             data = list(reader)
 
         # Sort the data based on the second column (converted to integers)
-        data.sort(key=lambda row: int(row[1]))
+        data.sort(key=custom_sort_key)
 
         # Write the sorted data to a new CSV file
         with open(output_path, 'w', encoding='utf8', newline='') as file:
