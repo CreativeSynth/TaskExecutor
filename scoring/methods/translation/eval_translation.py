@@ -9,7 +9,7 @@ def calculate_sacrebleu(generated_sentences, reference_sentences):
     bleu = sacrebleu.corpus_bleu(generated_sentences, [reference_sentences])
     return bleu.score
 
-def run(generated_path, reference_path, result_path):
+def run(reference_path, generated_path, result_path):
     # Replace these with the paths to your CSV files
     generated_file_path = generated_path
     reference_file_path = reference_path
