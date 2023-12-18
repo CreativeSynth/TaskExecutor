@@ -34,9 +34,12 @@ def main():
             data.append((result[0], [i[1] for i in result[1]]))
     
     writer = csv.writer(open('result.csv', mode='w', encoding='utf8', newline=''))
+    writer2 = csv.writer(open('result_converted.csv', mode='w', encoding='utf8', newline=''))
     writer.writerow(['task_name'] + [i[0].replace('./', '') for i in data])
+    writer2.writerow(['task_name'] + [i[0].replace('./', '') for i in data])
     for i in range(len(tasks)):
         writer.writerow([tasks[i]] + [row[1][i] for row in data])
+        writer2.writerow([tasks[i]] + [round(row[1][i] * (1 if tasks[i] == 'translation' else 100), 2) for row in data])
 
 if __name__ == "__main__":
     main()
