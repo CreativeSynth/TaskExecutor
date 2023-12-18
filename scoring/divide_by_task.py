@@ -2,9 +2,7 @@ import os, pandas as pd
 
 # List of CSV file paths
 csv_file_paths = [
-    '/TaskExecutor/kullm5.8b/result.csv',
-    '/TaskExecutor/kullm12.8b/result.csv',
-    '/TaskExecutor/polyglot-ko-3.8b/result.csv'
+    '/TaskExecutor/ko_vicuna/result.csv'
     ]
 
 current_position = os.getcwd()

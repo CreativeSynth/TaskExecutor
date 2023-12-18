@@ -1,0 +1,234 @@
+task_name,index,result,model_name
+ko_quiz_4,0," 1. 저간, 2. 근치, 3. 근자",ko_vicuna_7b
+ko_quiz_4,1," 1, 2, 3. 모두 버릇없다는 단어는 네 가지입니다. 염려되다, 무례하다, 염치없다는 각각은 언어적 표현이며 버릇없다는 단어를 지칭하지 않습니다.",ko_vicuna_7b
+ko_quiz_4,2," 1. 싸우다, 2. 축전하다, 3. 충돌하다",ko_vicuna_7b
+ko_quiz_4,3,1. 틀어지다2. 어그러지다3. 벌어지다,ko_vicuna_7b
+ko_quiz_4,4," 1, 2, 3",ko_vicuna_7b
+ko_quiz_4,5,1. 흐르다2. 거꾸로 다3. 엎어,ko_vicuna_7b
+ko_quiz_4,6," 추계하다, 쫓다, 밟다",ko_vicuna_7b
+ko_quiz_4,7," 1. 가만히, 2. 몰래, 3. 살금살금.",ko_vicuna_7b
+ko_quiz_4,8," 부리다와 뜻이 다른 단어는 1(하지만 이 단어의 뜻이 반드시 ""두드리다""는 아니라 다른 뜻이 맞음), 사역하다, 하역하다.",ko_vicuna_7b
+ko_quiz_4,9," 1. 걸치다, 2. 끈질기다, 3. 접기다",ko_vicuna_7b
+ko_quiz_4,10,1. 반반하다2. 곱상하다3. 변변하다,ko_vicuna_7b
+ko_quiz_4,11," 1, 2, 3.",ko_vicuna_7b
+ko_quiz_4,12," 모시다는 팔을 번갈아 가며 움직이거나 튕겨져 앉은 태도를 띨 때 사용하는 동사입니다. 반면 총칭하다, 봉양하다, 안치하다는 특정 표시를 가리키는 동사입니다.",ko_vicuna_7b
+ko_quiz_4,13,1. 좋다2. 좋다3. 좋다,ko_vicuna_7b
+ko_quiz_4,14," 1. 내보내다, 2. 뽑아내다, 3. 발라내다",ko_vicuna_7b
+ko_quiz_4,15,* 1: 발괄하다* 2: 잔인하다* 3: 가혹하다,ko_vicuna_7b
+ko_quiz_4,16," 1, 2, 3",ko_vicuna_7b
+ko_quiz_4,17," 1(애쓰다), 2(힘쓰다), 3(진폭하다)",ko_vicuna_7b
+ko_quiz_4,18,1. 어지럽다2. 혼란스럽다3. 소금과 후추가 없는 접시에 생길 수 있는 맛이 없는 음식.,ko_vicuna_7b
+ko_quiz_4,19," 1. 크기, 모양 또는 외관의 규모를 말하는 데 사용되는 단어입니다.2. 감각을 분리하여 묘사하는 데 사용되는 단어.3. 형태나 모양을 묘사하는 데 사용되는 단어.",ko_vicuna_7b
+ko_quiz_4,20, 1. 부드럽다 2. 원활하다 3. 녹녹하다,ko_vicuna_7b
+ko_quiz_4,21," 1. 닥치다, 2. 도래하다, 3. 이르다",ko_vicuna_7b
+ko_quiz_4,22,1. 끝맺다2. 귀결하다3. 아물리다,ko_vicuna_7b
+ko_quiz_4,23, 질문에 답하기,ko_vicuna_7b
+ko_quiz_4,24,1. 처리하다2. 감당하다3. 수습하다,ko_vicuna_7b
+ko_quiz_4,25," 각질, 가위, 실질",ko_vicuna_7b
+ko_quiz_4,26,"* 1절: ""난 너와 네 친구들과 노래를 부르며 춤추고 있어.""* 2절: ""당신은 그들에게 꽃과 달콤한 쿠키를 준다.""* 3절: ""그들은 당신을 섬기고 춤추며 노래를 부르며 즐거워한다.""",ko_vicuna_7b
+ko_quiz_4,27,1. 뒤따르다2. 뒤따르다3. 추종하다,ko_vicuna_7b
+ko_quiz_4,28," 1. 좋아하다, 2. 간수하다, 3. 보관하다",ko_vicuna_7b
+ko_quiz_4,29, 1. 쇠는 잡아 날아갑니다.2. 부엌에서 가려고 싸울 때 쇠가 삐걱거릴 때 쇠하다.3. 손으로 쇠를 빠르게 움직이는 것처럼 쇠가 떨어지는 것.,ko_vicuna_7b
+ko_quiz_4,30,1. 약간2. 더럽3. 낡게 또는 더럽히다,ko_vicuna_7b
+ko_quiz_4,31,* 1* 2* 3,ko_vicuna_7b
+ko_quiz_4,32," 1. 살펴보다, 뜯어보다, 조사하다",ko_vicuna_7b
+ko_quiz_4,33, 질문과 답변이 반대인 것 같습니다. 질문을 다시 평가하고 대답을 업데이트했습니다.,ko_vicuna_7b
+ko_quiz_4,34,1. 끝내다2. 종결하다3. 마무리하다,ko_vicuna_7b
+ko_quiz_4,35,1. 쇠망하다2. 곯다3. 마르다,ko_vicuna_7b
+ko_quiz_4,36,"1. '지니다'와 '보유하다'는 반대의 의미를 가지고 있습 package com.intellij.openapi.externalSystem.service.project.autoimport;  import com.intellij.openapi.externalSystem.autoimport.*; import com.intellij.openapi.externalSystem.model.project.ProjectId; import com.intellij.openapi.externalSystem.service.project.IdeProjectManager; import com.intellij.openapi.externalSystem.service.project.ProjectImportException; import com.intellij.openapi.externalSystem.service.project.ProjectImportProcessor; import com.intellij.openapi.externalSystem.service.project.ProjectOpenException; import com.intellij.openapi.externalSystem.service.project.ProjectType; import com.intellij.openapi.externalSystem.service.project.autoimport.ProjectInfo.ProjectImportMode; import com.intellij.openapi.externalSystem.service.project.autoimport.ProjectInfo.SchemeInfo; import com.intellij.openapi.externalSystem.service.project.autoimport.ProjectInfo.SettingsInfo; import com.intellij.openapi.externalSystem.service.project.autoimport.ProjectInfo.TriggerInfo; import com.intellij.openapi.externalSystem.service.project.autoimport.ProjectInfo.TypeInfo; import com.intellij.openapi.externalSystem.service.project.autoimport.ProjectInfo.VariantsInfo; import com.intellij.openapi.externalSystem.service.project.autoimport.ProjectInfo.WslInfo; import com.intellij.openapi.externalSystem.service.project.autoimport.ProjectInfo.XmlInfo; import com.intellij.openapi.externalSystem.service.project.autoimport.impl.AbstractExternalSystemFacade; import com.intellij.openapi.externalSystem.service.project.autoimport.impl.ExternalProjectSettingsControl; import com.intellij.openapi.externalSystem.util.ExternalSystemApiUtil; import com.intellij.openapi.externalSystem.util.ExternalSystemUtil; import com.intellij.openapi.project.Project; import com.intellij.openapi.project.ex.ProjectManagerAdapter; import com.intellij.openapi.project.ex.ProjectManagerEvent; import com.intellij.openapi.util.BuildNumber; import com.intellij.openapi.util.SystemInfo; import com.intellij.openapi.util.io.FileUtil; import com.intellij.util.ObjectUtil; import com.intellij.util.containers.ContainerUtil; import com.intellij.util.messages.MessageBus; import com.intellij.util.messages.Topic; import org.jetbrains.annotations.NotNull; import org.jetbrains.annotations.Nullable;  import java.io.File; import java.util.Collections; import java.util.List; import java.util.Map;  public class ExternalSystemAutoImportRunner {      private static final Topic<String> TOPIC = Topic.create(""autoimport-in-progress"", String.class);      private ExternalSystemAutoImportRunner() {     }      public static void runAutoimport(@NotNull Project project,                                       @NotNull ExternalSystemManager<ProjectId> externalSystemManager,                                       @NotNull String externalProjectPath) {         String externalProjectName = externalProjectPath;         if (externalProjectPath.contains("":"")) {             String[] parts = externalProjectPath.split("":"");             externalProjectName = parts[0];             externalProjectPath = parts[1];         }         ExternalProjectSettingsControl externalProjectSettingsControl = externalSystemManager.getSettingsProvider().fun(externalProjectName);         if (externalProjectSettingsControl == null) {             throw new IllegalArgumentException(""external project "" + externalProjectName + "" not found"");         }         ProjectImportMode importMode = externalProjectSettingsControl.getImportMode();         if (importMode == ProjectImportMode.MODULE) {             importModules(project, externalSystemManager, externalProjectPath);         } else if (importMode == ProjectImportMode.SOURCE_CONTROL) {             importSourceControl(project, externalSystemManager, externalProjectPath);         } else {             throw new IllegalArgumentException(""Invalid import mode"");         }     }  ",ko_vicuna_7b
+ko_quiz_4,37, 1. 질병 2. 두렵게 3. 심장 박동 4. 두렵게 5. 낮은 자세 6. 두려움 7. 두려운 8. 두려운 9. 두려운 10. 두렵다 11. 두려움 12. 두려운 13. 두렵다 14. 두려운 15. 두려움 16. 두려운 17. 두려운 18. 두려운 19. 두렵다 20. 두려움 21. 두려운 22. 두려운 23. 두려운 24. 두려운 25. 두렵다 26. 두려움 27. 두려운 28. 두려운 29. 두려운 30. 두려운 31. 두려운 32. 두려운 33. 두려운 34. 두려운 35. 두려운 36. 두려운 37. 두려운 38. 두려운 39. 두려운 40. 두려운 41. 두려운 42. 두려운 43. 두려운 44. 두려운 45. 두려운 46. 두려운 47. 두려운 48. 두려운 49. 두려운 50. 두려운 51. 두려운 52. 두려운 53. 두려운 54. 두려운 55. 두려운 56. 두려운 57. 두려운 58. 두려운 59. 두려운 60. 두려운 61. 두려운 62. 두려운 63. 두려운 64. 두려운 65. 두려운 66. 두려운 67. 두려운 68. 두려운 69. 두려운 70. 두려운 71. 두려운 72. 두려운 73. 두려운 74. 두려운 75. 두려,ko_vicuna_7b
+ko_quiz_4,38," 1, 2, 3",ko_vicuna_7b
+ko_quiz_4,39,1. 배우다2. 배우다3. 배우다,ko_vicuna_7b
+ko_quiz_4,40,1. 약속하다2. 계약하다3. 맹약하다,ko_vicuna_7b
+ko_quiz_4,41,1. 판단2. 판단하다3. 생각,ko_vicuna_7b
+ko_quiz_4,42," 1. 구별하다, 2. 갈라놓다, 3. 선별하다",ko_vicuna_7b
+ko_quiz_4,43,1. 다투다2. 대항하다3. 노투하다,ko_vicuna_7b
+ko_quiz_4,44," 1(엄단하다), 2(우뚝하다), 3(월등하다)",ko_vicuna_7b
+ko_quiz_4,45," 아리다'는 1, '알싸다'는 2, '얼얼하다'는 3.",ko_vicuna_7b
+ko_quiz_4,46,"1. ""지내다"" - ""지나다""2. ""상거나"" - ""상거나""3. ""쇠다"" - ""쇠다""",ko_vicuna_7b
+ko_quiz_4,47," 질문에 대한 답은 다음과 같습니다: ""즐기다""와 ""만끽하다""는 모두 같은 의미인 단어이며, ""구가하다""는 같은 의미가 아닙니다.",ko_vicuna_7b
+ko_quiz_4,48,1. 담담하다2. 발생하다3. 대담하다4. 선명하다5. 침착하다,ko_vicuna_7b
+ko_quiz_4,49," 1. 짐작하다, 2. 눈대중하다, 3. 어림잡다.",ko_vicuna_7b
+ko_quiz_4,50," 둘러싸다, 기어오르다, 나부다.",ko_vicuna_7b
+ko_quiz_4,51," 1. ""내두르다"" - 급진적으로 승리하다2. ""걸출하다"" - 즐거워하다3. ""비범하다"" - 무시하다",ko_vicuna_7b
+ko_quiz_4,52," 1, 2, 3.",ko_vicuna_7b
+ko_quiz_4,53,1. 연습2. 훈련3. 수업,ko_vicuna_7b
+ko_quiz_4,54,1. 음흉하다2. 고험하다3. 간특하다,ko_vicuna_7b
+ko_quiz_4,55,"* 1은 ""돋아나다""와 같은 뜻의 ""돋구다""입니다.* 2는 ""돋아나다""와 같은 뜻의 ""솟아라""입니다.* 3은 ""돋아나다""와 같은 뜻의 ""발아하다""입니다.",ko_vicuna_7b
+ko_quiz_4,56, 질문과 답변 형식을 사용하여 문장에 대한 설명을 작성하세요.```vbnet문장: 사람은 옷을 입고 집에 가는 것을 좋아합니다.	+ 적절한 답변: 괴짜하다	+ 적절한 답변: 괴짜	+ 적절한 답변: 괴짜	+ 적절한 답변: 괴짜	+ 적절한 답변: 괴짜```,ko_vicuna_7b
+ko_quiz_4,57," 1. 범하다, 2. 위배하다, 3. 빼앗다",ko_vicuna_7b
+ko_quiz_4,58," 1, 2, 3",ko_vicuna_7b
+ko_quiz_4,59,1. 도망2. 용빼3. 피신,ko_vicuna_7b
+ko_quiz_4,60,1. 흔들리다2. 털럭거리다3. 털럭거리다,ko_vicuna_7b
+ko_quiz_4,61, 1. 마음속; 2. 내면의 세계; 3. 마음속,ko_vicuna_7b
+ko_quiz_4,62,* 1* 2* 3,ko_vicuna_7b
+ko_quiz_4,63," 1. 내던지다, 2. 받치다, 3. 내동댕이치다",ko_vicuna_7b
+ko_quiz_4,64,1. 융합2. 상당3. 결합,ko_vicuna_7b
+ko_quiz_4,65, 1. '살붙이'는 동맹을 의미합니다. 2. '혈족'은 혈족을 의미합니다. 3. '겨레'는 애착을 의미합니다.,ko_vicuna_7b
+ko_quiz_4,66," 1. 기정하다, 2. 드리우다, 3. 전승하다",ko_vicuna_7b
+ko_quiz_4,67," 질문에 대한 답은 다음과 같습니다: ""틀림없이""와 ""필연""은 둘 다 특정 결과를 의미하지만, 그 의미는 다릅니다. ""틀림없이""는 특정 결과가 확실하지 않거나 확실하지 않다는 의미로, 특정 결과가 발생하지 않을 가능성이 있음을 나타냅니다. 반면에 ""필연""은 특정 결과가 확실하거나 특정 결과가 발생할 것이라는 확신을 암시합니다.",ko_vicuna_7b
+ko_quiz_4,68," 1. 무심코, 2. 결단코, 3. 마침내",ko_vicuna_7b
+ko_quiz_4,69," 1, 2, 3",ko_vicuna_7b
+ko_quiz_4,70," 길거리, 집, 지하실.",ko_vicuna_7b
+ko_quiz_4,71, 1단어: 문지르다뜻: 사각형 직사각형2단어: 평평하다뜻: 무엇이 사각형과 동일한 모양이나 크기인지 묻는 질문,ko_vicuna_7b
+ko_quiz_4,72,1. '종요롭다'2. '적절하다'3. '음산하다',ko_vicuna_7b
+ko_quiz_4,73," 1. '변하다'와 '변전하다'는 같은 단어이고, 둘 다 '변하다'와 '변이하다'라고 해도 좋은 것으로 간주됩니다.",ko_vicuna_7b
+ko_quiz_4,74," 1. 스타일, 2. 파치, 3. 풍채",ko_vicuna_7b
+ko_quiz_4,75,1. 무질서2. 혼잡3. 분리,ko_vicuna_7b
+ko_quiz_4,76,1. 미끄러운 2. 남짓 3. 날 짓다,ko_vicuna_7b
+ko_quiz_4,77, '무난하다'와 뜻이 다른 단어는 다음과 같습니다:1. 은은하다2. 수수하다3. 수월하다,ko_vicuna_7b
+ko_quiz_4,78," 1. 비난하다, 2. 골나다, 3. 노하다.",ko_vicuna_7b
+ko_quiz_4,79, 1과 3.,ko_vicuna_7b
+ko_quiz_4,80, 단량하다'와 '헤아리다'는 뜻이 다릅니다. 단량하다'는 1이고 '헤아리다'는 3입니다.,ko_vicuna_7b
+ko_quiz_4,81," 1. 무너지다, 2. 분류하다, 3. 덮어 넣다.",ko_vicuna_7b
+ko_quiz_4,82," 질문에 대한 정답은 다음과 같습니다: ""어림잡다"" 중 ""어림짐작하다""와 ""추달하다""가 달라 3번째 답입니다.",ko_vicuna_7b
+ko_quiz_4,83, 쏠리다'는 날개를 떨어뜨린 채로 떨어지거나 떨어지는 것을 묘사하는 데 사용되는 단어입니다. 반면에 '몰리다'는 날개가 빗물로 덮여 있는 채로 떨어지거나 떨어지는 것을 묘사하는 데 사용됩니다. '끌리다'는 입자나 물체를 집어 들어 올려 물체를 조작하거나 조작하는 것을 묘사하는 데 사용됩니다.,ko_vicuna_7b
+ko_quiz_4,84, 1. 슬그머니2. 스리3. 고즈넉이4. 넌지시,ko_vicuna_7b
+ko_quiz_4,85, 1. 변행됨 2. 변형 3. 변경,ko_vicuna_7b
+ko_quiz_4,86," 1. 날리다, 상응하다, 선양하다2. 날리다, 까먹다, 선양하다",ko_vicuna_7b
+ko_quiz_4,87," 1. 앞으로 잡다, 2. 내리다, 3. 쓰다",ko_vicuna_7b
+ko_quiz_4,88,1. 눈부시다2. 황홀하다3. 휘황찬,ko_vicuna_7b
+ko_quiz_4,89," 1. 묘하다, 2. 신기하다, 3. 공교하다",ko_vicuna_7b
+ko_quiz_4,90," 예, '거간'은 1, '작금'은 2, '근자'는 3입니다.",ko_vicuna_7b
+ko_quiz_4,91," 1. 숙이다, 2. 삭이다, 3. 억제하다",ko_vicuna_7b
+ko_quiz_4,92, 1,ko_vicuna_7b
+ko_quiz_4,93,1. 모면하다2. 도와다3. 도와준다,ko_vicuna_7b
+ko_quiz_4,94," 1. 강견하다, 2. 이별하다, 3. 파견하다",ko_vicuna_7b
+ko_quiz_4,95,1. 만만하다2. 무궁무진하다3. 하잘 것이 없다,ko_vicuna_7b
+ko_quiz_4,96, 1. 겹치다 2. 중첩됨 3. 덧대다,ko_vicuna_7b
+ko_quiz_4,97,1. 욱끓다2. 북적거리다3. 끓어오르다4. 울림,ko_vicuna_7b
+ko_quiz_4,98," 1, 2, 3",ko_vicuna_7b
+ko_quiz_4,99," 1단어는 ""삽시간""이고 2단어는 ""일순간""입니다.",ko_vicuna_7b
+ko_quiz_4,100," 1. 부끄럽다, 2. 무색하다, 3. 스스로 있음",ko_vicuna_7b
+ko_quiz_4,101," 1. 어마어마하다, 대별하다2. 상당하다, 대별하다3. 장엄하다, 대별하다",ko_vicuna_7b
+ko_quiz_4,102,1. 외틀어짐2. 외틀어짐3. 외틀어짐,ko_vicuna_7b
+ko_quiz_4,103,1. 부추기다2. 변용하다3. 종용하다,ko_vicuna_7b
+ko_quiz_4,104," 1, 2, 3",ko_vicuna_7b
+ko_quiz_4,105,1. 접어줄다2. 던지다3. 두근거리다4. 손짓5. 손짓,ko_vicuna_7b
+ko_quiz_4,106,1. '수수하다' - 모양2. '무구하다' - 무디3. '검소하다' - 무거운,ko_vicuna_7b
+ko_quiz_4,107, 질문과 답변은 다음과 같습니다:* 질문: 견디다* 답변: 알코올* 질문: 끼다* 답변: 번개* 질문: 삭슘* 답변: 버터,ko_vicuna_7b
+ko_quiz_4,108," 질타하다', '경탄하다', '당황하다'는 모두 외출할 때 같은 감정을 표현하는 데 사용됩니다. 그러나 이 세 단어의 의미는 약간 다릅니다. 질타는 '놀람', '충격'을 의미하며, '질타하다'는 놀랐다, 충격을 받았다는 것을 의미합니다. 경탄하다는 '놀란', '충격받은'을 의미하며, '경탄하다'는 놀랐다, 충격을 받았다는 것을 의미합니다. 당황하다는 '놀랐다', '충격받은'을 의미하며, '당황하다'는 놀랐다, 충격을 받았다는 것을 의미합니다.",ko_vicuna_7b
+ko_quiz_4,109," 1. 추리다, 2. 발괄하다, 3. 새카.",ko_vicuna_7b
+ko_quiz_4,110," 1. 저녁 식사, 2. 폭풍우, 3. 대중 연설",ko_vicuna_7b
+ko_quiz_4,111," 1. 아담하다, 2. 고아하다, 3. 담백하다",ko_vicuna_7b
+ko_quiz_4,112,1. 버리다2. 장만하다,ko_vicuna_7b
+ko_quiz_4,113," 1. 실마리, 실마리; 2. 실마리, 실마리; 3. 실마리, 실마리; 4. 실마리, 실마리; 5. 실마리, 실마리.",ko_vicuna_7b
+ko_quiz_4,114," 1. 소슬하다, 2. 소연하다, 3. 고적하다",ko_vicuna_7b
+ko_quiz_4,115," 1. 환산하다, 2. 가산하다, 3. 메우다",ko_vicuna_7b
+ko_quiz_4,116," 질문과 동일한 질문을 다시 말씀드리겠습  <div id=""footer"">  <div id=""footerinner"">  <p>Copyright © 2014 - 2015 <a href=""http://www.example.com/"">Example Company</a> All rights reserved.</p>  <p>Designed by <a href=""http://www.example.com/"">Example Company</a></p> </div> </div> </body> </html>",ko_vicuna_7b
+ko_quiz_4,117," 반드레하다, 순하다, 보드랍다",ko_vicuna_7b
+ko_quiz_4,118," 1, 2, 3",ko_vicuna_7b
+ko_quiz_4,119," '얄궂다'와 '감궂다'는 같은 단어이지만, '얄궂다'는 심호흡에 대한 더 강한 감정을 묘사하는 데 사용되는 반면, '감궂다'는 더 속상한 감정을 묘사하는 데 사용됩니다. '얄궂다'는 따뜻한 색을 묘사할 때 '감궂다'보다 더 강한 감정을 묘사하는 데 사용되는 경우가 많습니다. '얄궂다'는 또한 행복감이나 기쁨과 같은 긍정적인 감정을 묘사하는 데 사용되는 반면, '감궂다'는 슬픔이나 슬픔과 같은 부정적인 감정을 묘사하는 데 사용됩니다.",ko_vicuna_7b
+ko_quiz_4,120,1. 변경2. 개편3. 변화,ko_vicuna_7b
+ko_quiz_4,121," 1. 깨끗하다, 정확하다, 명확하다, 정확하다, 예측 가능하다, 설명 가능하다, 필요하다, 반응 가능하다, 즉시 존재하다, 당연하다, 자주 발생하다, 실용적이다, 효과적이다, 능동적이다, 반응하다, 충분하다, 적당하다, 적절하다, 효율적이다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적절하다, 적",ko_vicuna_7b
+ko_quiz_4,122,1. 다하다2. 고갈되다3. 깨내다,ko_vicuna_7b
+ko_quiz_4,123,* 1절: 적막* 2절: 눈* 3절: 손,ko_vicuna_7b
+ko_quiz_4,124,* 1단어: 숙어지다* 2단어: 숙어지다* 3단어: 숙어지다,ko_vicuna_7b
+ko_quiz_4,125," 종종, 간간히, 일관히.",ko_vicuna_7b
+ko_quiz_4,126,1. 지도하다2. 통절하다3. 교도하다,ko_vicuna_7b
+ko_quiz_4,127,"* 1: ""변하다""* 2: ""변화하다""* 3: ""변화하다""",ko_vicuna_7b
+ko_quiz_4,128," 1. 앞잡이, 2. 괴록, 3. 길잡이",ko_vicuna_7b
+ko_quiz_4,129," 1. 달리기, 2. 미약, 3. 달리기",ko_vicuna_7b
+ko_quiz_4,130,1. 지지하다2. 도와주다3. 찬구하다,ko_vicuna_7b
+ko_quiz_4,131," 보살피다, 낮추보다 1, 지키다 또는 감독하다보다 3",ko_vicuna_7b
+ko_quiz_4,132, 줄거리와 배경은 같지만 맥락은 다릅니다.,ko_vicuna_7b
+ko_quiz_4,133,1. 필요2. 필요3. 필연,ko_vicuna_7b
+ko_quiz_4,134," 1, 2, 3",ko_vicuna_7b
+ko_quiz_4,135,1. 괴대하다2. 수상하다3. 괴이하다,ko_vicuna_7b
+ko_quiz_4,136,1. 다르다2. 취급하다3. 구사하다,ko_vicuna_7b
+ko_quiz_4,137," 1. 비틀어지다, 2. 변하다, 3. 놓아주다",ko_vicuna_7b
+ko_quiz_4,138," 1. '뒤뚝하다', 2. '뒤숭숭하다', 3. '뒤범벅되다'",ko_vicuna_7b
+ko_quiz_4,139," 1, 2, 3",ko_vicuna_7b
+ko_quiz_4,140," 1. 만면하다, 2. 맞보다, 3. 맞붙이다",ko_vicuna_7b
+ko_quiz_4,141," 1, 2, 3.",ko_vicuna_7b
+ko_quiz_4,142," 1. 옹호하다, 2. 알아차리다, 3. 각성하다",ko_vicuna_7b
+ko_quiz_4,143," 1, 2, 3",ko_vicuna_7b
+ko_quiz_4,144,1. 이야기2. 풍기3. 설화,ko_vicuna_7b
+ko_quiz_4,145," 1, 2, 3",ko_vicuna_7b
+ko_quiz_4,146, 3. 발췌하다,ko_vicuna_7b
+ko_quiz_4,147," 1, 2, 3",ko_vicuna_7b
+ko_quiz_4,148," 1. 설명하다, 2. 감독하다, 3. 지도하다",ko_vicuna_7b
+ko_quiz_4,149,"* 1: ""두려움""* 2: ""공격""* 3: ""고립""",ko_vicuna_7b
+ko_quiz_4,150,1. 가지다2. 득하다3. 유지하다,ko_vicuna_7b
+ko_quiz_4,151, 1. 권익 2. 규율 3. 틀,ko_vicuna_7b
+ko_quiz_4,152," 1. 부탁하다, 2. 물어보다, 3. 청탁하다",ko_vicuna_7b
+ko_quiz_4,153," 1(골중하다), 3(전념하다)",ko_vicuna_7b
+ko_quiz_4,154," 1. '빽빽하다', 2. '조밀하다', 3. '옹졸하다'",ko_vicuna_7b
+ko_quiz_4,155,  1. 결호하다 2. 수호하다 3. 엄호하다,ko_vicuna_7b
+ko_quiz_4,156,1. '부서다'는 점을 넘어 가까이 완만하게 닦는다는 뜻입니다.2. '미어지다'는 무거워지거나 무거워지는 것을 말합니다.3. '망가지다'는 무거워지거나 부서지는 것을 말합니다.,ko_vicuna_7b
+ko_quiz_4,157,1. 문책하다2. 힐문하다3. 나무,ko_vicuna_7b
+ko_quiz_4,158," 질문에 대한 정답은 다음과 같습니다: ""속이다""와 ""뜻이다""는 함께 사용되지 않으므로 둘 다 1이 됩니다. ""착안하다""와 ""농간하다""는 함께 사용되지 않으므로 둘 다 2가 됩니다. ""공갈하다""는 함께 사용되지 않으므로 3가 됩니다.",ko_vicuna_7b
+ko_quiz_4,159," 1, 2, 3",ko_vicuna_7b
+ko_quiz_4,160,* 변화하다* 전환하다* 전이하다,ko_vicuna_7b
+ko_quiz_4,161," 1. 말다툼, 2. 역쟁, 3. 반대",ko_vicuna_7b
+ko_quiz_4,162," 질문에 대한 답변은 다음과 같습니다: 예, 예, 아니요. ""바로잡다""와 ""맞추다""는 모두 특정 것을 가리키는 데 사용되지만 의미가 다릅니다. ""바로잡다""는 특정 것을 취할 때까지 기다리는 것을 의미합니다. 반면에 ""맞추다""는 두 가지 옵션 중 하나를 선택하는 것을 의미합니다.",ko_vicuna_7b
+ko_quiz_4,163," 아이디어와 뜻이 다른 단어는? '해안'이면 1, '고안'이면 2, '꾀'이면 3.",ko_vicuna_7b
+ko_quiz_4,164," 질문에 대한 답은 다음과 같습니다: '돌리다'와 뜻이 다른 단어는? 숫자 1, 2, 3입니다. 답은 다음과 같습니다:1. 돌리다2. 변하다3. 배포하다",ko_vicuna_7b
+ko_quiz_4,165,1. 힘쓰다2. 공헌하다3. 진행하다,ko_vicuna_7b
+ko_quiz_4,166,* 1. 아프다* 2. 결리다* 3. 쑤시다,ko_vicuna_7b
+ko_quiz_4,167," 1, 2, 3.  1. 질문: 사과하다 또는 달리다 배우려면 어떤 단어가 더 적합할까요? 어떤 단어가 더 적합할까요? 질문: 사과하다 또는 달리다 배우려면 어떤 단어가 더 적합할까요? 질문: 사과하다 또는 달리다 배우려면 어떤 단어가 더 적합할까요? 1, 2, 3. 2. 질문: 포기하다 또는 사라지다 배우려면 어떤 단어가 더 적합할까요? 1, 2, 3. 3. 질문: 돌리다 또는 흔들리다 배우려면 어떤 단어가 더 적합할까요? 1, 2, 3. 4. 질문: 누르다 또는 굽다 배우려면 어떤 단어가 더 적합할까요? 1, 2, 3. 5. 질문: 뛰다 또는 접다 배우려면 어떤 단어가 더 적합할까요? 1, 2, 3. 6. 질문: 떨어뜨리다 또는 고르다 배우려면 어떤 단어가 더 적합할까요? 1, 2, 3. 7. 질문: 보이다 또는 보이지 않다 배우려면 어떤 단어가 더 적합할까요? 1, 2, 3. 8. 질문: 알다 또는 알지 못하다 배우려면 어떤 단어가 더 적합할까요? 1, 2, 3. 9. 질문: 생각하다 또는 느끼다 배우려면 어떤 단어가 더 적합할까요? 1, 2, 3. 10. 질문: 알다 또는 알지 못하다 배우려면 어떤 단어가 더 적합할까요? 1, 2, 3. 11. 질문: 사랑하다 또는 좋아하다 배우려면 어떤 단어가 더 적합할까요? 1, 2, 3. 12. 질문: 누르다 또는 굽다 배우려면 어떤 단어가 더 적합할까요? 1, 2, 3. 13. 질문: ",ko_vicuna_7b
+ko_quiz_4,168," 체취, 조영, 음영",ko_vicuna_7b
+ko_quiz_4,169,1. 종요롭다2. 미천하다3. 세세하다,ko_vicuna_7b
+ko_quiz_4,170," 1. 약탈, 2. 철부지, 3. 미물",ko_vicuna_7b
+ko_quiz_4,171,* 1: 버둥거리다* 2: 버둥거릴* 3: 버둥거릴,ko_vicuna_7b
+ko_quiz_4,172," 1. 억단하다, 2. 위압하다, 3. 내리다",ko_vicuna_7b
+ko_quiz_4,173,1. 둘2. 세3. 그리고,ko_vicuna_7b
+ko_quiz_4,174," 1(급제하다), 2(극진하다), 3(비참하다)",ko_vicuna_7b
+ko_quiz_4,175," 1(속임수), 2(기만), 3(책략)",ko_vicuna_7b
+ko_quiz_4,176,* 대수선하다* 붐비다* 뒤숭숭하다,ko_vicuna_7b
+ko_quiz_4,177,1. 기록하다2. 기록하다3. 기록하다,ko_vicuna_7b
+ko_quiz_4,178,  1. 어림짐작 2. 가량 3. 추정,ko_vicuna_7b
+ko_quiz_4,179,1. 선발하다2. 간탁하다3. 용장하다,ko_vicuna_7b
+ko_quiz_4,180,1. 옹골지다2. 버릇없다3. 도도하다,ko_vicuna_7b
+ko_quiz_4,181," 1. 빈티없다, 2. 반엘프, 3. 원숙하다",ko_vicuna_7b
+ko_quiz_4,182," 1. 돌아보다, 2. 검토하다, 3. 연구하다",ko_vicuna_7b
+ko_quiz_4,183," 1. 무섭다, 2. 매섭다, 3. 시발하다",ko_vicuna_7b
+ko_quiz_4,184," 1. 깨지다, 2. 낭패하다, 3. 대파하다",ko_vicuna_7b
+ko_quiz_4,185," 1. '버리다'와 '버리다'는 뜻이 다르고, 그 차이점을 설명하세요.2. '버리다'와 '버리다'는 어떤 차이가 있나요?3. 버리다'와 '버리다'는 어떤 차이가 있나요?4. ""파하다""와 ""파기하다""는 차이가 있나요?5. ""파하다""와 ""파기하다""는 어떤 차이가 있나요?6. ""파하다""와 ""파기하다""는 차이가 있나요?7. ""버리다""와 ""버리다""는 어떤 차이가 있나요?8. ""파하다""와 ""버리다""는 어떤 차이가 있나요?9. ""파하다""와 ""버리다""는 어떤 차이가 있나요?10. ""버리다""와 ""버리다""는 어떤 차이가 있나요?11. ""파하다""와 ""버리다""는 어떤 차이가 있나요?12. ""파하다""와 ""버리다""는 어떤 차이가 있나요?13. ""파하다""와 ""버리다""는 어떤 차이가 있나요?14. ""파하다""와 ""버리다""는 어떤 차이가 있나요?15. ""파하다""와 ""버리다""는 어떤 차이가 있나요?16. ""파하다""와 ""버리다""는 어떤 차이가 있나요?17. ""파하다""와 ""버리다""는 어떤 차이가 있나요?18. ""파하다""와 ""버리다""는 어떤 차이가 있나요?19. ""파하다""와 ""버리다""는 어떤 차이가 있나요?20. ""파하다""와 ""버리다""는 어떤 차이가 있나요?",ko_vicuna_7b
+ko_quiz_4,186," 1. 느끼다, 2. 감각하다, 3. 감응하다",ko_vicuna_7b
+ko_quiz_4,187," 일없이, 꼼꼼히, 빠르게.",ko_vicuna_7b
+ko_quiz_4,188," 비줄대다와 이기죽거리다는 같은 단어이지만 뜻이 다릅니다. 비줄대다는 멍청한 것을 말하고, 이기죽거리다는 말투를 사용하여 그것을 물리치거나 말투를 사용하여 그것을 물리치는 것을 의미합니다. 뇌까리다는 말투를 사용하여 말하는 사람을 흔들거나 놀리는 것을 의미합니다.",ko_vicuna_7b
+ko_quiz_4,189," 1단어는 ""침착하다"", 2단어는 ""존중하다"", 3단어는 ""흥분하다""입니다.",ko_vicuna_7b
+ko_quiz_4,190," 1. 첫 번째 단어는 ""붙이다"", 두 번째 단어는 ""알선하다""입니다.",ko_vicuna_7b
+ko_quiz_4,191," 1, 2, 3",ko_vicuna_7b
+ko_quiz_4,192,1. 치장하다2. 수라하다3. 매만지다,ko_vicuna_7b
+ko_quiz_4,193,1. 밝히다2. 진술하다3. 해석하다,ko_vicuna_7b
+ko_quiz_4,194," 1. 밑바탕, 2. 본선, 3. 본체",ko_vicuna_7b
+ko_quiz_4,195," 중얼거리다 '이면 1, '퍼트리다 '이면 2, '술렁거리다 '이면 3",ko_vicuna_7b
+ko_quiz_4,196,* 1. 요오하다* 2. 요오하다* 3. 요오하다,ko_vicuna_7b
+ko_quiz_4,197,"1. '빼앗'은 물건을 떼어 놓는 뜻이고, '취수'는 물건을 흘리거나 흘리는 뜻입니다.2. '떨어뜨리다'는 물건을 떨어뜨리는 뜻이고, '저거든'는 완전히 떨어뜨리는 뜻입니다.3. '침몰하다'는 물건을 침몰시켜서 손상시키는 뜻이고, '침몰하다'는 물건을 침몰시켜서 손상시키는 뜻입니다.",ko_vicuna_7b
+ko_quiz_4,198," 1(붙잡다), 2(만류다), 3(체포하다)",ko_vicuna_7b
+ko_quiz_4,199," 1. 조사하다, 2. 감시하다, 3. 검사하다",ko_vicuna_7b
+ko_quiz_4,200," '어제오늘'은 파트 1에서 1, '어제오늦은'은 파트 2에서 1, '어제오느라'는 파트 1에서 2, '어제오와'는 파트 3에서 3입니다.",ko_vicuna_7b
+ko_quiz_4,201,1. 뒤집다2. 반복하다3. 홉뜨다,ko_vicuna_7b
+ko_quiz_4,202," 1. 다랍다, 2. 돌리다, 3. 좀스럽다",ko_vicuna_7b
+ko_quiz_4,203," 움직임과 뜻이 다른 단어는 1, 2, 3입니다.  1. 생경 - 물체의 움직임 2. 생동감 - 특정 작업이나 행동에 생동감을 불어넣다 3. 추이 - 물체의 움직임을 통해 힘이나 에너지를 전달하다",ko_vicuna_7b
+ko_quiz_4,204, 1. 이물리다 2. 결탁하다 3. 겨냥하다,ko_vicuna_7b
+ko_quiz_4,205," 1, 2, 3",ko_vicuna_7b
+ko_quiz_4,206," 부수다' 및 뜻이 다른 단어는 '망가뜨리다'입니다. '부수다'는 1, '망가뜨리다'는 2입니다.",ko_vicuna_7b
+ko_quiz_4,207, 1. 수하다2. 중수하다3. 만지다,ko_vicuna_7b
+ko_quiz_4,208," 1. '원하다', 2. '굉원하다', 3. '욕구하다'",ko_vicuna_7b
+ko_quiz_4,209," 1, 2, 3",ko_vicuna_7b
+ko_quiz_4,210," 1. 억압, 2. 허용, 3. 설득.",ko_vicuna_7b
+ko_quiz_4,211," 1. 무사하다, 2. 순탄하다, 3. 원활하다",ko_vicuna_7b
+ko_quiz_4,212," 1. 미끈하다, 2. 반짝이다, 3. 복잡하다",ko_vicuna_7b
+ko_quiz_4,213,* 둥근* 둥근* 둥근* 짜근,ko_vicuna_7b
+ko_quiz_4,214,1. 짓끓다2. 우글거리다3. 뒤끓다,ko_vicuna_7b
+ko_quiz_4,215,1. 삼가다2. 경건하다3. 근신하다,ko_vicuna_7b
+ko_quiz_4,216," 1. 정하다, 2. 삼십하다, 3. 매십하다",ko_vicuna_7b
+ko_quiz_4,217," 1. 벌이다, 2. 벌이다, 3. 벌이다",ko_vicuna_7b
+ko_quiz_4,218,1. 돌아다니다2. 순회하다3. 쏘다니다,ko_vicuna_7b
+ko_quiz_4,219, 1. 음귀 2. 속생각 3. 심경,ko_vicuna_7b
+ko_quiz_4,220," 1. ""얽히다"", 2. ""엉클어지다"", 3. ""얽히다""",ko_vicuna_7b
+ko_quiz_4,221,  1. 지나치다 2. 경과하다 3. 지부하다,ko_vicuna_7b
+ko_quiz_4,222,1. 추측하다2. 대중화3. 찬양하다,ko_vicuna_7b
+ko_quiz_4,223," '국면'과 '뜻'은 같지만 '생김새'는 '뜻'과 같지 않습 <?php  // src/Acme/DemoBundle/Controller/DemoController.php  namespace Acme\DemoBundle\Controller;  use Symfony\Bundle\FrameworkBundle\Controller\Controller; use Symfony\Component\HttpFoundation\Response; use Symfony\Component\HttpFoundation\Request; use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface; use Symfony\Component\Validator\Validator\Validator\ValidatorInterface; use Symfony\Component\Validator\Constraints\All; use Symfony\Component\Validator\Constraints\NotBlank; use Symfony\Component\Validator\Constraints\Email; use Symfony\Component\Validator\Constraints\Length; use Symfony\Component\Validator\Constraints\Pattern; use Symfony\Component\Validator\Constraints\Code; use Symfony\Component\Validator\Constraints\Role; use Symfony\Component\Validator\Constraints\Required; use Symfony\Component\Security\Core\Encoder\UserPasswordEncoder;  class DemoController extends Controller {     private $passwordEncoder;     private $validator;      public function __construct(UserPasswordEncoderInterface $passwordEncoder, ValidatorInterface $validator)     {         this->passwordEncoder = $passwordEncoder;         this->validator = $validator;     }      public function indexAction(Request $request)     {         if ($request->isMethod('POST')) {             $form = $this->createForm();             $form->handleRequest($request);              if ($form->isValid()) {                 $user = $form->getData();                 $this->getDoctrine()                         ->getManager()                         ->persist($user);                 $this->getDoctrine()                         ->getManager()                         ->flush();                  return $this->redirect($this->generateUrl('demo_success'));             }         }          return $this->render('AcmeDemoBundle:Demo:index.html.twig', array(             'form' => $form->createView()         ));     }      private function createForm()     {         return $this->createForm(new UserType(), null, array(             'action' => $this->generateUrl('demo_index'),             'method' => 'POST',         ));     }      public function createUserWithoutEncoderAction(Request $request)     {         $user = new User();         $user->setUsername('new_user');         $user->setEmail('new_user@example.com');         $user->setPlainPassword('password');          $this->getDoctrine()                 ->getManager()                 ->persist($user);          return $this->render('AcmeDemoBundle:Demo:create_without_encoder.html.twig', array(             'user' => $user         ));     }      public function createUserWithEncoderAction(Request $request)     {         $user = new User();         $user->setUsername('new_user');         $user->setEmail('new_user@example.com');         $user->setPlainPassword('password');          $encoder = $this->get('security.encoder_factory')                          ->getEncoder($user);         $encodedPassword = $encoder->encodePassword($user, 'password');         $user->setPassword($encodedPassword);          $this->getDoctrine()                 ->getManager()                 ->persist($user);          return $this->render('AcmeDemoBundle:Demo:create_with_encoder.html.twig', array(             'user' => $user         ));     }      public function loginAction(Request $request)     {         $username = $request->get('_username');         $password = $request->get('_password');          $user = $this->getDoctrine()                      ->getRepository('AcmeDemoBundle:User')                      ->findOneByUsernameAndPassword($username, $password);          if (!$user) {",ko_vicuna_7b
+ko_quiz_4,224," 1. 얼대다, 중얼대다, 종잘거리다.",ko_vicuna_7b
+ko_quiz_4,225," 1, 2, 3.  답변 내용이 맞나요? 설명해 주세요.",ko_vicuna_7b
+ko_quiz_4,226, 1. 죄송하지만 질문이 불완전하며 명확한 질문을 하지 않습니다. 더 나은 도움을 드릴 수 있도록 질문을 다시 작성해 주시겠습니까?,ko_vicuna_7b
+ko_quiz_4,227, 1. 잔망하다 2. 다리다 3. 불쾌하다,ko_vicuna_7b
+ko_quiz_4,228," 1. 결심하다, 2. 뜻하다, 3. 녹이다",ko_vicuna_7b
+ko_quiz_4,229," 1은 '미안하다', 2는 '답답하다', 3은 '죄송하다'입니다.",ko_vicuna_7b
+ko_quiz_4,230," 예, ""버티다""와 ""버티다""라는 단어의 의미가 다릅니다. ""버티다""는 왼쪽으로 뻗은 점을 의미하고 ""버티다""는 왼쪽으로 결은 점을 의미합니다.",ko_vicuna_7b
+ko_quiz_4,231," 1, 2, 3입니다.",ko_vicuna_7b
+ko_quiz_4,232," 1. ""연구하다""2. ""강구하다""3. ""고구하다""",ko_vicuna_7b

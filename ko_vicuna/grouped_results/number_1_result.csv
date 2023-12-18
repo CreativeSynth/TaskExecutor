@@ -1,0 +1,1051 @@
+task_name,index,result,model_name
+number_1,1, 언급하지 않은 글자는 앞서 언급된 글자와 다른 글자입니다.,ko_vicuna_7b
+number_1,2, 삼엽,ko_vicuna_7b
+number_1,3, 나이,ko_vicuna_7b
+number_1,4, R,ko_vicuna_7b
+number_1,5, S,ko_vicuna_7b
+number_1,6, D,ko_vicuna_7b
+number_1,7, e,ko_vicuna_7b
+number_1,8, H,ko_vicuna_7b
+number_1,9, 야 ``` cat <<EOT > answer.txt a ```,ko_vicuna_7b
+number_1,10, 한 번,ko_vicuna_7b
+number_1,11, N,ko_vicuna_7b
+number_1,12, s,ko_vicuna_7b
+number_1,13, 13,ko_vicuna_7b
+number_1,14, 엘 14,ko_vicuna_7b
+number_1,15, m,ko_vicuna_7b
+number_1,16, 엔,ko_vicuna_7b
+number_1,17, 수십,ko_vicuna_7b
+number_1,18, e,ko_vicuna_7b
+number_1,19, n,ko_vicuna_7b
+number_1,20, 20,ko_vicuna_7b
+number_1,21, s,ko_vicuna_7b
+number_1,22, s,ko_vicuna_7b
+number_1,23, T,ko_vicuna_7b
+number_1,24, S,ko_vicuna_7b
+number_1,25, 숫자 25,ko_vicuna_7b
+number_1,26, 예: 왜,ko_vicuna_7b
+number_1,27, 수,ko_vicuna_7b
+number_1,28, H,ko_vicuna_7b
+number_1,29, S,ko_vicuna_7b
+number_1,30," 숫자 30은 한국어로 ""발""으로 쓰이는 것이므로 올바른 한국어 응답입니다.",ko_vicuna_7b
+number_1,31, 올레피,ko_vicuna_7b
+number_1,32, 32,ko_vicuna_7b
+number_1,33, 33,ko_vicuna_7b
+number_1,34, C,ko_vicuna_7b
+number_1,35, W,ko_vicuna_7b
+number_1,36, 26,ko_vicuna_7b
+number_1,37, 수,ko_vicuna_7b
+number_1,38, R,ko_vicuna_7b
+number_1,39, W,ko_vicuna_7b
+number_1,40, 40,ko_vicuna_7b
+number_1,41, P,ko_vicuna_7b
+number_1,42, E,ko_vicuna_7b
+number_1,43, 43,ko_vicuna_7b
+number_1,44, S,ko_vicuna_7b
+number_1,45, E,ko_vicuna_7b
+number_1,46, 46,ko_vicuna_7b
+number_1,47, 캔버스,ko_vicuna_7b
+number_1,48, 48,ko_vicuna_7b
+number_1,49, h,ko_vicuna_7b
+number_1,50," 예: ""50""",ko_vicuna_7b
+number_1,51, s,ko_vicuna_7b
+number_1,52, 웬,ko_vicuna_7b
+number_1,53, 우,ko_vicuna_7b
+number_1,54, 나다,ko_vicuna_7b
+number_1,55, 문자 알파,ko_vicuna_7b
+number_1,56, 야,ko_vicuna_7b
+number_1,57, S,ko_vicuna_7b
+number_1,58, S,ko_vicuna_7b
+number_1,59, h,ko_vicuna_7b
+number_1,60," 엄, 치, 케, 후, 미, 슬, 마, 카, 라, 살, 야, 아, 오, 와, 갈, 하, 댄, 와, 우, 덴, 루, 와, 파, 칸, 델, 야, 알, 압, 쉬, 발, 새, 코, 알, 이, 달, 엠, 추, 새, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘, 둘,",ko_vicuna_7b
+number_1,61, e,ko_vicuna_7b
+number_1,62, F,ko_vicuna_7b
+number_1,63, e,ko_vicuna_7b
+number_1,64, S,ko_vicuna_7b
+number_1,65, h,ko_vicuna_7b
+number_1,66, r,ko_vicuna_7b
+number_1,67, B,ko_vicuna_7b
+number_1,68, 엔,ko_vicuna_7b
+number_1,69, 예,ko_vicuna_7b
+number_1,70, M,ko_vicuna_7b
+number_1,71, S,ko_vicuna_7b
+number_1,72, 첫 글자,ko_vicuna_7b
+number_1,73, h,ko_vicuna_7b
+number_1,74, 74,ko_vicuna_7b
+number_1,75, J,ko_vicuna_7b
+number_1,76, C,ko_vicuna_7b
+number_1,77, 엘리프,ko_vicuna_7b
+number_1,78, 수,ko_vicuna_7b
+number_1,79, 갈매기,ko_vicuna_7b
+number_1,80, M,ko_vicuna_7b
+number_1,81, 올빼미,ko_vicuna_7b
+number_1,82," 숫자 82는 한국어로 ""나흘""(나흘)입니다.",ko_vicuna_7b
+number_1,83, 예: 한국어 문장 또는 단어를 알고 있다면 찾을 수 있습니다.,ko_vicuna_7b
+number_1,84, H,ko_vicuna_7b
+number_1,85, S,ko_vicuna_7b
+number_1,86, 엠,ko_vicuna_7b
+number_1,87, 엘,ko_vicuna_7b
+number_1,88, S,ko_vicuna_7b
+number_1,89, N,ko_vicuna_7b
+number_1,90, 열,ko_vicuna_7b
+number_1,91, h,ko_vicuna_7b
+number_1,92, r,ko_vicuna_7b
+number_1,93, 늙다,ko_vicuna_7b
+number_1,94, 온,ko_vicuna_7b
+number_1,95, 95,ko_vicuna_7b
+number_1,96, 수 96,ko_vicuna_7b
+number_1,97, 97,ko_vicuna_7b
+number_1,98, S,ko_vicuna_7b
+number_1,99, 99,ko_vicuna_7b
+number_1,100, K,ko_vicuna_7b
+number_1,101," 숫자 103의 한국어 표현은 ""백""입니다.",ko_vicuna_7b
+number_1,102, N,ko_vicuna_7b
+number_1,103," 첫 글자 ""네""",ko_vicuna_7b
+number_1,104, H,ko_vicuna_7b
+number_1,105, s,ko_vicuna_7b
+number_1,106, M,ko_vicuna_7b
+number_1,107, 수 116,ko_vicuna_7b
+number_1,108, E,ko_vicuna_7b
+number_1,109, 수,ko_vicuna_7b
+number_1,110, S,ko_vicuna_7b
+number_1,111, s,ko_vicuna_7b
+number_1,112, 123,ko_vicuna_7b
+number_1,113, 우,ko_vicuna_7b
+number_1,114, 131,ko_vicuna_7b
+number_1,115, 139,ko_vicuna_7b
+number_1,116, S,ko_vicuna_7b
+number_1,117, S,ko_vicuna_7b
+number_1,118, 46,ko_vicuna_7b
+number_1,119, 159,ko_vicuna_7b
+number_1,120, 1,ko_vicuna_7b
+number_1,121, 46,ko_vicuna_7b
+number_1,122, f,ko_vicuna_7b
+number_1,123, 수 166,ko_vicuna_7b
+number_1,124, 야,ko_vicuna_7b
+number_1,125, 169,ko_vicuna_7b
+number_1,126, 각자,ko_vicuna_7b
+number_1,127, r,ko_vicuna_7b
+number_1,128, 수,ko_vicuna_7b
+number_1,129, E,ko_vicuna_7b
+number_1,130, 186,ko_vicuna_7b
+number_1,131, K,ko_vicuna_7b
+number_1,132, 나나,ko_vicuna_7b
+number_1,133, 파이,ko_vicuna_7b
+number_1,134, 196,ko_vicuna_7b
+number_1,135," 나  ### 문제 1: 질문: 이 수는 당신이 가장 좋아하는 색입니까? 다른 글자, 문장은 아무것도 대답하지 말고 정답 글자를 출력하세요.  답: 빨강",ko_vicuna_7b
+number_1,136, E,ko_vicuna_7b
+number_1,137, e,ko_vicuna_7b
+number_1,138, 수 206,ko_vicuna_7b
+number_1,139, 7,ko_vicuna_7b
+number_1,140, s,ko_vicuna_7b
+number_1,141, E,ko_vicuna_7b
+number_1,142, 217,ko_vicuna_7b
+number_1,143, 처음 218자 중 한 글자로만 표시하여 정답을 입력하세요.,ko_vicuna_7b
+number_1,144, d,ko_vicuna_7b
+number_1,145, 수십,ko_vicuna_7b
+number_1,146, S,ko_vicuna_7b
+number_1,147, S,ko_vicuna_7b
+number_1,148, 29,ko_vicuna_7b
+number_1,149, E,ko_vicuna_7b
+number_1,150, S,ko_vicuna_7b
+number_1,151, U,ko_vicuna_7b
+number_1,152, 239,ko_vicuna_7b
+number_1,153, S,ko_vicuna_7b
+number_1,154, s,ko_vicuna_7b
+number_1,155, H,ko_vicuna_7b
+number_1,156, 247,ko_vicuna_7b
+number_1,157, W,ko_vicuna_7b
+number_1,158," 259은 한국어로 ""당신 자신이 누구인지""라는 뜻의 관용적인 짧은 문장입니다.",ko_vicuna_7b
+number_1,159, S,ko_vicuna_7b
+number_1,160, h,ko_vicuna_7b
+number_1,161, H,ko_vicuna_7b
+number_1,162, S,ko_vicuna_7b
+number_1,163, 6,ko_vicuna_7b
+number_1,164, A,ko_vicuna_7b
+number_1,165, 엘론,ko_vicuna_7b
+number_1,166, 281,ko_vicuna_7b
+number_1,167, A,ko_vicuna_7b
+number_1,168, E,ko_vicuna_7b
+number_1,169, M,ko_vicuna_7b
+number_1,170, 당신 말이 맞아요. 수십 번 반복해서 설명해주셔서 감사합니다.,ko_vicuna_7b
+number_1,171, S,ko_vicuna_7b
+number_1,172, S,ko_vicuna_7b
+number_1,173," 숫자 302는 한국어로 ""평균""입니다.",ko_vicuna_7b
+number_1,174, 3,ko_vicuna_7b
+number_1,175, 삼각형,ko_vicuna_7b
+number_1,176, 308,ko_vicuna_7b
+number_1,177, s,ko_vicuna_7b
+number_1,178, 314,ko_vicuna_7b
+number_1,179, 320,ko_vicuna_7b
+number_1,180, e,ko_vicuna_7b
+number_1,181, G,ko_vicuna_7b
+number_1,182, 326,ko_vicuna_7b
+number_1,183, 334,ko_vicuna_7b
+number_1,184, C,ko_vicuna_7b
+number_1,185, S,ko_vicuna_7b
+number_1,186, 340,ko_vicuna_7b
+number_1,187, H,ko_vicuna_7b
+number_1,188, E,ko_vicuna_7b
+number_1,189, N,ko_vicuna_7b
+number_1,190, 6,ko_vicuna_7b
+number_1,191, E,ko_vicuna_7b
+number_1,192, h,ko_vicuna_7b
+number_1,193, s,ko_vicuna_7b
+number_1,194, 366,ko_vicuna_7b
+number_1,195, 추첨,ko_vicuna_7b
+number_1,196, 옥스퍼드,ko_vicuna_7b
+number_1,197, 23,ko_vicuna_7b
+number_1,198, h,ko_vicuna_7b
+number_1,199, 382,ko_vicuna_7b
+number_1,200, 385,ko_vicuna_7b
+number_1,201, S,ko_vicuna_7b
+number_1,202, 4,ko_vicuna_7b
+number_1,203, 396,ko_vicuna_7b
+number_1,204, 온라인 플랫폼을 통해 한국어로 얻을 수 400은 400입니다.,ko_vicuna_7b
+number_1,205, 총 408,ko_vicuna_7b
+number_1,206, 셋,ko_vicuna_7b
+number_1,207, E,ko_vicuna_7b
+number_1,208, h,ko_vicuna_7b
+number_1,209, 수 422,ko_vicuna_7b
+number_1,210, 14,ko_vicuna_7b
+number_1,211, h,ko_vicuna_7b
+number_1,212, 428,ko_vicuna_7b
+number_1,213, h,ko_vicuna_7b
+number_1,214, S432,ko_vicuna_7b
+number_1,215, E,ko_vicuna_7b
+number_1,216, S,ko_vicuna_7b
+number_1,217, H,ko_vicuna_7b
+number_1,218, 422,ko_vicuna_7b
+number_1,219, 4,ko_vicuna_7b
+number_1,220, K,ko_vicuna_7b
+number_1,221," C  ### 추가 정보: 이 책은 1953년에 처음 출판되었으며 오늘날까지도 수많은 언어로 번역되었습니다. 이 책은 미국의 권위주의적 정부와 미디어의 통제에 대해 논평으로 여겨져 왔으며, 이 책은 아마도 가장 잘 알려져 있고 가장 널리 읽히는 책 중 하나입니다.",ko_vicuna_7b
+number_1,222, S,ko_vicuna_7b
+number_1,223, s,ko_vicuna_7b
+number_1,224, 460,ko_vicuna_7b
+number_1,225, e,ko_vicuna_7b
+number_1,226, N,ko_vicuna_7b
+number_1,227, 셋,ko_vicuna_7b
+number_1,228, 십,ko_vicuna_7b
+number_1,229, 88,ko_vicuna_7b
+number_1,230," 인디언어에서 옥(오)의 대문자 ""오""는 473입니다.",ko_vicuna_7b
+number_1,231, 487,ko_vicuna_7b
+number_1,232, S,ko_vicuna_7b
+number_1,233, 492,ko_vicuna_7b
+number_1,234, 498,ko_vicuna_7b
+number_1,235, P,ko_vicuna_7b
+number_1,236," 알파벳에서 'A'로 시작하고 'E'로 끝나는 한 글자를 생각해 봅시다. 그런 글자는 '500'입니다. 정답은 ""A""입니다.",ko_vicuna_7b
+number_1,237, 예!,ko_vicuna_7b
+number_1,238, N  ### 추가 질문: 수 504는 다른 글자로 다른 단어가 아닌 단어인 한국어 단어인가요?,ko_vicuna_7b
+number_1,239, M,ko_vicuna_7b
+number_1,240, 파이,ko_vicuna_7b
+number_1,241, 3,ko_vicuna_7b
+number_1,242, 수,ko_vicuna_7b
+number_1,243," 수 527는 한국어로 ""후계약""이라는 단어의 첫 글자와 동일한 글자입니다.",ko_vicuna_7b
+number_1,244," ""52""",ko_vicuna_7b
+number_1,245, S,ko_vicuna_7b
+number_1,246, 534,ko_vicuna_7b
+number_1,247, 삼촌,ko_vicuna_7b
+number_1,248, 잉카,ko_vicuna_7b
+number_1,249, 1,ko_vicuna_7b
+number_1,250, 문자 파,ko_vicuna_7b
+number_1,251, 552,ko_vicuna_7b
+number_1,252, e,ko_vicuna_7b
+number_1,253, A,ko_vicuna_7b
+number_1,254, 146,ko_vicuna_7b
+number_1,255, 34,ko_vicuna_7b
+number_1,256, T,ko_vicuna_7b
+number_1,257, h,ko_vicuna_7b
+number_1,258, 메이이,ko_vicuna_7b
+number_1,259, S,ko_vicuna_7b
+number_1,260, 야,ko_vicuna_7b
+number_1,261, 앗숄,ko_vicuna_7b
+number_1,262, s82,ko_vicuna_7b
+number_1,263, E,ko_vicuna_7b
+number_1,264, 1111,ko_vicuna_7b
+number_1,265, 588,ko_vicuna_7b
+number_1,266, 8,ko_vicuna_7b
+number_1,267, 슬라프,ko_vicuna_7b
+number_1,268, S,ko_vicuna_7b
+number_1,269, 593,ko_vicuna_7b
+number_1,270, 603,ko_vicuna_7b
+number_1,271, 282,ko_vicuna_7b
+number_1,272, s,ko_vicuna_7b
+number_1,273, 매실리스트,ko_vicuna_7b
+number_1,274, R,ko_vicuna_7b
+number_1,275, 루트,ko_vicuna_7b
+number_1,276, S,ko_vicuna_7b
+number_1,277, 626,ko_vicuna_7b
+number_1,278, C,ko_vicuna_7b
+number_1,279, 링으로,ko_vicuna_7b
+number_1,280, 수,ko_vicuna_7b
+number_1,281, G,ko_vicuna_7b
+number_1,282, S,ko_vicuna_7b
+number_1,283, 638,ko_vicuna_7b
+number_1,284, 10,ko_vicuna_7b
+number_1,285, S,ko_vicuna_7b
+number_1,286, 644,ko_vicuna_7b
+number_1,287, 수,ko_vicuna_7b
+number_1,288, 숫자 648,ko_vicuna_7b
+number_1,289, s,ko_vicuna_7b
+number_1,290, M,ko_vicuna_7b
+number_1,291, 661,ko_vicuna_7b
+number_1,292, 1000,ko_vicuna_7b
+number_1,293, E,ko_vicuna_7b
+number_1,294, 알파,ko_vicuna_7b
+number_1,295," h  ### 질문: 이 문장에는 반복되는 글자가 있습니다. 반복되는 글자를 찾아보세요. 그리고 그 글자가 얼마나 많이 반복되어 있나요? 다른 글자, 문장은 아무것도 대답하지 말고 반복되는 글자의 수만 출력하세요.  ### 답: 이 문장에는 반복되는 글자가 한 번만 있습니다. 그 글자는 ""은행""입니다. 그리고 그 글자는 한 번만 반복됩니다.",ko_vicuna_7b
+number_1,296, 문자 r,ko_vicuna_7b
+number_1,297, s,ko_vicuna_7b
+number_1,298," 예: 카운터 배터리 674은 한국어로 ""배터리""를 의미합니다.",ko_vicuna_7b
+number_1,299, S,ko_vicuna_7b
+number_1,300," 숫자 676는 한국어로 ""블리스""(블리스)로 쓸 수 있습 package com.fpt.id.realtime.reconciliation.service.test.integration;
+ 
+ import com.fpt.id.realtime.reconciliation.domain.model.ReconciliationReport;
+ import com.fpt.id.realtime.reconciliation.domain.model.common.OperationResult;
+ import com.fpt.id.realtime.reconciliation.domain.model.common.SourceSystemIdentifier;
+ import com.fpt.id.realtime.reconciliation.domain.model.common.TargetSystemIdentifier;
+ import com.fpt.id.realtime.reconciliation.domain.model.realtime.*;
+ import com.fpt.id.realtime.reconciliation.service.reconciliation.ReconciliationService;
+ import com.fpt.id.realtime.reconciliation.service.reconciliation.dto.TriggerDTO;
+ import com.fpt.id.realtime.reconciliation.service.reconciliation.dto.TriggerDTOBuilder;
+ import com.fpt.id.realtime.reconciliation.service.reconciliation.dto.TriggerDTORepository;
+ import com.fpt.id.realtime.reconciliation.service.test.AbstractIntegrationTest;
+ import org.junit.jupiter.api.*;
+ import org.springframework.beans.factory.annotation.Autowired;
+ import org.springframework.boot.test.context.SpringBootTest;
+ import org.springframework.test.annotation.DirtiesContext;
+ import org.springframework.test.context.DynamicPropertyRegistry;
+ import org.springframework.test.context.DynamicPropertySource;
+ import org.springframework.test.context.TestPropertySource;
+ import reactor.core.publisher.Flux;
+ import reactor.test.Mocks;
+ 
+ import java.time.LocalDateTime;
+ import java.time.format.DateTimeFormatter;
+ import java.util.List;
+ import java.util.UUID;
+ 
+ import static org.mockito.Mockito.*;
+ 
+ @SpringBootTest(classes = ReconciliationService.class)
+ @TestPropertySource(properties = { ""realtime.kafka.bootstrap-servers=localhost:9092"", ""realtime.kafka.topic-name=realtime-reconciliation"" })
+ @DynamicPropertySource
+ DynamicPropertyRegistry.ListPropertySource
+ public class ReconciliationServiceIntegrationTest extends AbstractIntegrationTest {
+ 
+     private static final String SOURCE_SYSTEM_IDENTIFIER = ""123"";
+     private static final String TARGET_SYSTEM_IDENTIFIER = ""456"";
+     private static final String SOURCE_SYSTEM_NAME = ""Source System"";
+     private static final String TARGET_SYSTEM_NAME = ""Target System"";
+     private static final String OPERATION_ID = ""789"";
+     private static final String OPERATION_TYPE = ""CreateOrder"";
+     private static final String OPERATION_STATUS = ""Completed"";
+     private static final String OPERATION_RECEIPT_NOTE = ""Receipt Note"";
+     private static final String OPERATION_DEFINITION_ID = ""1234"";
+     private static final String OPERATION_DEFINITION_NAME = ""Operation Definition"";
+     private static final String OPERATION_DEFINITION_OWNER = ""Operation Definition Owner"";
+     private static final String SOURCE_SYSTEM_DATE = LocalDateTime.now()
+             .format(DateTimeFormatter.ofPattern(""yyyy-MM-dd HH:mm:ss.SSSSSS""));
+     private static final String TARGET_SYSTEM_DATE = LocalDateTime.now()
+             .format(DateTimeFormatter.ofPattern(""yyyy-MM-dd HH:mm:ss.SSSSSS""));
+     private static final String OPERATION_DEFINITION_DATE = LocalDateTime.now()
+             .format(DateTimeFormatter.ofPattern(""yyyy-MM-dd H",ko_vicuna_7b
+number_1,301, 18,ko_vicuna_7b
+number_1,302, e,ko_vicuna_7b
+number_1,303, H,ko_vicuna_7b
+number_1,304, 5,ko_vicuna_7b
+number_1,305, 8,ko_vicuna_7b
+number_1,306, 692,ko_vicuna_7b
+number_1,307, S,ko_vicuna_7b
+number_1,308, e,ko_vicuna_7b
+number_1,309, 엠,ko_vicuna_7b
+number_1,310, H,ko_vicuna_7b
+number_1,311, 709,ko_vicuna_7b
+number_1,312, T,ko_vicuna_7b
+number_1,313, h,ko_vicuna_7b
+number_1,314, A,ko_vicuna_7b
+number_1,315, 매,ko_vicuna_7b
+number_1,316," 소수 729는 ""한국어 철자법에서 소문자 번호 29""라고 말합니다.",ko_vicuna_7b
+number_1,317, E,ko_vicuna_7b
+number_1,318, 7,ko_vicuna_7b
+number_1,319, 네 엔,ko_vicuna_7b
+number_1,320, E,ko_vicuna_7b
+number_1,321, 네,ko_vicuna_7b
+number_1,322," 숫자 744는 한국어로 약 8,000입니다.",ko_vicuna_7b
+number_1,323, S,ko_vicuna_7b
+number_1,324, K,ko_vicuna_7b
+number_1,325, 야(9),ko_vicuna_7b
+number_1,326, 삼촌,ko_vicuna_7b
+number_1,327, 예: 불 (757),ko_vicuna_7b
+number_1,328, 8,ko_vicuna_7b
+number_1,329, 7,ko_vicuna_7b
+number_1,330, 예: 762,ko_vicuna_7b
+number_1,331, 7,ko_vicuna_7b
+number_1,332, 넷,ko_vicuna_7b
+number_1,333, 633,ko_vicuna_7b
+number_1,334, A,ko_vicuna_7b
+number_1,335, 7,ko_vicuna_7b
+number_1,336, A,ko_vicuna_7b
+number_1,337, 네 번째 글자,ko_vicuna_7b
+number_1,338, 야,ko_vicuna_7b
+number_1,339, G,ko_vicuna_7b
+number_1,340, 엠,ko_vicuna_7b
+number_1,341, 815,ko_vicuna_7b
+number_1,342, 820,ko_vicuna_7b
+number_1,343, 823,ko_vicuna_7b
+number_1,344, 829,ko_vicuna_7b
+number_1,345, M,ko_vicuna_7b
+number_1,346, 게,ko_vicuna_7b
+number_1,347," 알파벳 문자 H, 숫자 8, 문자 4, 문자 R.",ko_vicuna_7b
+number_1,348," ""7""",ko_vicuna_7b
+number_1,349, 8,ko_vicuna_7b
+number_1,350, E,ko_vicuna_7b
+number_1,351, 861,ko_vicuna_7b
+number_1,352, 8,ko_vicuna_7b
+number_1,353, N,ko_vicuna_7b
+number_1,354, 예!,ko_vicuna_7b
+number_1,355, 44,ko_vicuna_7b
+number_1,356, 오,ko_vicuna_7b
+number_1,357, 878,ko_vicuna_7b
+number_1,358, 네,ko_vicuna_7b
+number_1,359, H,ko_vicuna_7b
+number_1,360, 숫자 884,ko_vicuna_7b
+number_1,361, H,ko_vicuna_7b
+number_1,362, 891,ko_vicuna_7b
+number_1,363, 테니스,ko_vicuna_7b
+number_1,364, H,ko_vicuna_7b
+number_1,365, 9,ko_vicuna_7b
+number_1,366, e,ko_vicuna_7b
+number_1,367, T,ko_vicuna_7b
+number_1,368, H,ko_vicuna_7b
+number_1,369, 6,ko_vicuna_7b
+number_1,370, 9,ko_vicuna_7b
+number_1,371, 엘,ko_vicuna_7b
+number_1,372, S,ko_vicuna_7b
+number_1,373," 프랑스어로 ""예""는 어떻게 쓰나요?",ko_vicuna_7b
+number_1,374, G,ko_vicuna_7b
+number_1,375, 8,ko_vicuna_7b
+number_1,376, h,ko_vicuna_7b
+number_1,377, 매직941,ko_vicuna_7b
+number_1,378, 카이,ko_vicuna_7b
+number_1,379, 9,ko_vicuna_7b
+number_1,380, 947,ko_vicuna_7b
+number_1,381, h,ko_vicuna_7b
+number_1,382, 9,ko_vicuna_7b
+number_1,383, 952,ko_vicuna_7b
+number_1,384, 962,ko_vicuna_7b
+number_1,385, E,ko_vicuna_7b
+number_1,386, 수,ko_vicuna_7b
+number_1,387, 9,ko_vicuna_7b
+number_1,388, S,ko_vicuna_7b
+number_1,389, 9,ko_vicuna_7b
+number_1,390, 야,ko_vicuna_7b
+number_1,391, 절대,ko_vicuna_7b
+number_1,392, 2,ko_vicuna_7b
+number_1,393, s,ko_vicuna_7b
+number_1,394, 숫자 985,ko_vicuna_7b
+number_1,395, 8,ko_vicuna_7b
+number_1,396, L,ko_vicuna_7b
+number_1,397, 992,ko_vicuna_7b
+number_1,398, T,ko_vicuna_7b
+number_1,399," 예: 축구, 카니발, 캠프, 매트, 하트, 웨이트, 하트 파티, 반, 야, 새, 새벽, 숲, 추, 올빼미.",ko_vicuna_7b
+number_1,400, E,ko_vicuna_7b
+number_1,401, 41,ko_vicuna_7b
+number_1,402, 84,ko_vicuna_7b
+number_1,403, 109,ko_vicuna_7b
+number_1,404, 9,ko_vicuna_7b
+number_1,405, 오,ko_vicuna_7b
+number_1,406, 1161,ko_vicuna_7b
+number_1,407, 승인,ko_vicuna_7b
+number_1,408, H,ko_vicuna_7b
+number_1,409, 엄숙히,ko_vicuna_7b
+number_1,410, S,ko_vicuna_7b
+number_1,411," 1209는 ""한국""이라는 단어에 해당합니다.",ko_vicuna_7b
+number_1,412, 12,ko_vicuna_7b
+number_1,413, 123,ko_vicuna_7b
+number_1,414, 8,ko_vicuna_7b
+number_1,415, S,ko_vicuna_7b
+number_1,416, 1299,ko_vicuna_7b
+number_1,417, 1337,ko_vicuna_7b
+number_1,418, S-1346,ko_vicuna_7b
+number_1,419, 1353,ko_vicuna_7b
+number_1,420, S,ko_vicuna_7b
+number_1,421, S,ko_vicuna_7b
+number_1,422, P,ko_vicuna_7b
+number_1,423, 1380,ko_vicuna_7b
+number_1,424, 1383,ko_vicuna_7b
+number_1,425, 1384,ko_vicuna_7b
+number_1,426, 1385,ko_vicuna_7b
+number_1,427, S,ko_vicuna_7b
+number_1,428, 1444,ko_vicuna_7b
+number_1,429, 엘리펀트,ko_vicuna_7b
+number_1,430, 셋,ko_vicuna_7b
+number_1,431, h,ko_vicuna_7b
+number_1,432, 네,ko_vicuna_7b
+number_1,433, 1537,ko_vicuna_7b
+number_1,434, 수,ko_vicuna_7b
+number_1,435, S,ko_vicuna_7b
+number_1,436, 1568,ko_vicuna_7b
+number_1,437, K,ko_vicuna_7b
+number_1,438, J,ko_vicuna_7b
+number_1,439, 세,ko_vicuna_7b
+number_1,440, 1635,ko_vicuna_7b
+number_1,441, H,ko_vicuna_7b
+number_1,442, 1666,ko_vicuna_7b
+number_1,443, 수,ko_vicuna_7b
+number_1,444, 1689,ko_vicuna_7b
+number_1,445, 1695,ko_vicuna_7b
+number_1,446, S,ko_vicuna_7b
+number_1,447," 1721은 한국어로 ""사과""를 의미합니다.",ko_vicuna_7b
+number_1,448, 1733,ko_vicuna_7b
+number_1,449, S,ko_vicuna_7b
+number_1,450, S,ko_vicuna_7b
+number_1,451, 1810은 한국어로 첫 번째 글자인 '1'입니다.,ko_vicuna_7b
+number_1,452, 1854,ko_vicuna_7b
+number_1,453, E,ko_vicuna_7b
+number_1,454, 8,ko_vicuna_7b
+number_1,455, C,ko_vicuna_7b
+number_1,456, 1865,ko_vicuna_7b
+number_1,457, A,ko_vicuna_7b
+number_1,458, r,ko_vicuna_7b
+number_1,459, S,ko_vicuna_7b
+number_1,460," 답은 문자 ""오""입니다.",ko_vicuna_7b
+number_1,461, S,ko_vicuna_7b
+number_1,462, T,ko_vicuna_7b
+number_1,463, S,ko_vicuna_7b
+number_1,464, 1971,ko_vicuna_7b
+number_1,465, S,ko_vicuna_7b
+number_1,466, 2022,ko_vicuna_7b
+number_1,467, h,ko_vicuna_7b
+number_1,468," 수 2055은 한국어로 ""고양이""라는 단어를 나타내므로 ""고양이""라는 단어는 한국어로 ""2055""입니다.",ko_vicuna_7b
+number_1,469, 2071,ko_vicuna_7b
+number_1,470, s,ko_vicuna_7b
+number_1,471," 프랑스어로 ""환영합니다""입니다.",ko_vicuna_7b
+number_1,472, S-21(서울 정부 정보국),ko_vicuna_7b
+number_1,473, w,ko_vicuna_7b
+number_1,474, H,ko_vicuna_7b
+number_1,475, 2119,ko_vicuna_7b
+number_1,476," 누  ### 문제: 수 3276은 한국어로 얼마야? 다른 글자, 문장은 아무것도 대답하지 말고 정답 글자 하나만 출력해.  ### 답변: 바",ko_vicuna_7b
+number_1,477, s,ko_vicuna_7b
+number_1,478, C,ko_vicuna_7b
+number_1,479, 수십,ko_vicuna_7b
+number_1,480, H,ko_vicuna_7b
+number_1,481, 수 2211,ko_vicuna_7b
+number_1,482, 올빼미,ko_vicuna_7b
+number_1,483, 2,ko_vicuna_7b
+number_1,484, H,ko_vicuna_7b
+number_1,485, T,ko_vicuna_7b
+number_1,486, s,ko_vicuna_7b
+number_1,487, E,ko_vicuna_7b
+number_1,488, 271,ko_vicuna_7b
+number_1,489, f,ko_vicuna_7b
+number_1,490, 수 2328 = 88,ko_vicuna_7b
+number_1,491, S,ko_vicuna_7b
+number_1,492, S,ko_vicuna_7b
+number_1,493, 8,ko_vicuna_7b
+number_1,494, 2413,ko_vicuna_7b
+number_1,495," 엠  ### 추가 정보: 수 2427는 헥사코 체제에서 알려진 금속 수와 유사한 디지털 숫자입니다. 수 2427은 복소 숫자로 표현할 수 있으며, 이는 해당 숫자가 모든 숫자의 곱입니다. 이 질문은 수 2427의 유클리드 표기법인 ""Zn""이 한국어로 맞는 단어가 무엇인지 직접 묻는 문제입니다.",ko_vicuna_7b
+number_1,496, 2442,ko_vicuna_7b
+number_1,497, M,ko_vicuna_7b
+number_1,498, 2462,ko_vicuna_7b
+number_1,499, C,ko_vicuna_7b
+number_1,500, 알파,ko_vicuna_7b
+number_1,501," 2501은 한국어로 ""항상""이라는 단어로 쓰여진 것이죠.",ko_vicuna_7b
+number_1,502, s,ko_vicuna_7b
+number_1,503, 수 2528,ko_vicuna_7b
+number_1,504, 파이,ko_vicuna_7b
+number_1,505, s,ko_vicuna_7b
+number_1,506, N,ko_vicuna_7b
+number_1,507, h,ko_vicuna_7b
+number_1,508, 수,ko_vicuna_7b
+number_1,509, e,ko_vicuna_7b
+number_1,510, s,ko_vicuna_7b
+number_1,511," 알파벳 순으로 글자를 따라가면 수 2671은 ""친구""로 읽을 수 있습니다.",ko_vicuna_7b
+number_1,512, 2,ko_vicuna_7b
+number_1,513, H,ko_vicuna_7b
+number_1,514, 케이,ko_vicuna_7b
+number_1,515, 3,ko_vicuna_7b
+number_1,516, 2759,ko_vicuna_7b
+number_1,517," 수 2792는 한국어로 ""안녕""입니다.",ko_vicuna_7b
+number_1,518, 2829,ko_vicuna_7b
+number_1,519, t,ko_vicuna_7b
+number_1,520, E,ko_vicuna_7b
+number_1,521, 56,ko_vicuna_7b
+number_1,522, 슈  ### 질문: 반지의 섬에서 행복한 법을 배웠습니까? 다른 글자는 출력하지 않고 행복한 법 하나만 출력하세요.  ### 답변: 행복,ko_vicuna_7b
+number_1,523, S,ko_vicuna_7b
+number_1,524, 2,ko_vicuna_7b
+number_1,525, 인도,ko_vicuna_7b
+number_1,526, s,ko_vicuna_7b
+number_1,527, S,ko_vicuna_7b
+number_1,528, 8,ko_vicuna_7b
+number_1,529," 2959은 ""열 번째""의 소리와 같습니다.",ko_vicuna_7b
+number_1,530, 2978,ko_vicuna_7b
+number_1,531, r,ko_vicuna_7b
+number_1,532, S,ko_vicuna_7b
+number_1,533, 3,ko_vicuna_7b
+number_1,534, e,ko_vicuna_7b
+number_1,535, H,ko_vicuna_7b
+number_1,536, 수 3022,ko_vicuna_7b
+number_1,537, S,ko_vicuna_7b
+number_1,538, f,ko_vicuna_7b
+number_1,539, 3033,ko_vicuna_7b
+number_1,540, 3,ko_vicuna_7b
+number_1,541, 3050,ko_vicuna_7b
+number_1,542, 수,ko_vicuna_7b
+number_1,543, 수 3082,ko_vicuna_7b
+number_1,544, e,ko_vicuna_7b
+number_1,545, W,ko_vicuna_7b
+number_1,546, 3117,ko_vicuna_7b
+number_1,547, s,ko_vicuna_7b
+number_1,548, 3161,ko_vicuna_7b
+number_1,549, 3172,ko_vicuna_7b
+number_1,550, 3180,ko_vicuna_7b
+number_1,551, 3181,ko_vicuna_7b
+number_1,552, 3206,ko_vicuna_7b
+number_1,553, 3217,ko_vicuna_7b
+number_1,554, 9,ko_vicuna_7b
+number_1,555, 3244,ko_vicuna_7b
+number_1,556, 삼투론,ko_vicuna_7b
+number_1,557, s,ko_vicuna_7b
+number_1,558, 파이,ko_vicuna_7b
+number_1,559, 3,ko_vicuna_7b
+number_1,560, 5,ko_vicuna_7b
+number_1,561, 3404,ko_vicuna_7b
+number_1,562, T,ko_vicuna_7b
+number_1,563, 3423,ko_vicuna_7b
+number_1,564, 3426,ko_vicuna_7b
+number_1,565, 3,ko_vicuna_7b
+number_1,566, 3453,ko_vicuna_7b
+number_1,567, B,ko_vicuna_7b
+number_1,568, 3521,ko_vicuna_7b
+number_1,569, 셋,ko_vicuna_7b
+number_1,570, S,ko_vicuna_7b
+number_1,571, 3578,ko_vicuna_7b
+number_1,572, 질문을 잘못 이해한 것 같습니다. 수 3588에 대한 질문을 제출해 주시고 정답을 알려주시겠어요?,ko_vicuna_7b
+number_1,573, 뉴스,ko_vicuna_7b
+number_1,574, 3627,ko_vicuna_7b
+number_1,575, 3633,ko_vicuna_7b
+number_1,576, 3645,ko_vicuna_7b
+number_1,577," 수 3676는 ""삼촌""이라는 단어를 나타내므로 한국어로 ""삼촌""이라고 말합니다.",ko_vicuna_7b
+number_1,578, 13,ko_vicuna_7b
+number_1,579, h,ko_vicuna_7b
+number_1,580, S,ko_vicuna_7b
+number_1,581, 나,ko_vicuna_7b
+number_1,582, 3750,ko_vicuna_7b
+number_1,583, H,ko_vicuna_7b
+number_1,584, h,ko_vicuna_7b
+number_1,585, 3768,ko_vicuna_7b
+number_1,586, 8,ko_vicuna_7b
+number_1,587, 3791,ko_vicuna_7b
+number_1,588, 엘,ko_vicuna_7b
+number_1,589, 3811,ko_vicuna_7b
+number_1,590, r,ko_vicuna_7b
+number_1,591, 3840,ko_vicuna_7b
+number_1,592, 3853,ko_vicuna_7b
+number_1,593, C,ko_vicuna_7b
+number_1,594, E,ko_vicuna_7b
+number_1,595, 3896,ko_vicuna_7b
+number_1,596, E,ko_vicuna_7b
+number_1,597, 9,ko_vicuna_7b
+number_1,598, 3912,ko_vicuna_7b
+number_1,599, S,ko_vicuna_7b
+number_1,600, 26,ko_vicuna_7b
+number_1,601, 39,ko_vicuna_7b
+number_1,602, 6,ko_vicuna_7b
+number_1,603, 3993,ko_vicuna_7b
+number_1,604, 수 4018,ko_vicuna_7b
+number_1,605, 4041,ko_vicuna_7b
+number_1,606, H,ko_vicuna_7b
+number_1,607, 4058,ko_vicuna_7b
+number_1,608," 엑스  예를 들어, 문장은 ""이 책은 예요""와 같이 높은 수준의 복잡성을 가진 문장일 수 있습 package com.github.edgarst.sovericontact.ui.activity;  import android.os.Bundle; import android.view.View; import android.widget.EditText;  import com.github.edgarst.sovericontact.R; import com.github.edgarst.sovericontact.ui.base.BaseActivity; import com.github.edgarst.sovericontact.ui.dialog.EditTextDialog;  import javax.inject.Inject;  import rx.android.schedulers.AndroidSchedulers; import rx.schedulers.Schedulers; import timber.log.Timber;  public class EditActivity extends BaseActivity {      @Inject     EditTextDialog.Factory editTextDialogFactory;      private String name;      @Override     protected void onCreate(Bundle savedInstanceState) {         super.onCreate(savedInstanceState);         setContentView(R.layout.activity_edit);          name = getIntent().getStringExtra(""name"");          findViewById(R.id.editTextName).setOnClickListener(view -> {             View.OnClickListener listener = new View.OnClickListener() {                 @Override                 public void onClick(View v) {                     showEditTextDialog(name);                 }             };              new EditTextDialog(this, editTextDialogFactory, listener).show();         });     }      private void showEditTextDialog(String name) {         EditTextDialog dialog = new EditTextDialog(this, editTextDialogFactory, name);         dialog.show();         Timber.i(""Showing EditTextDialog: "" + name);          dialog.getEditText()                 .setOnEditorActionListener(view -> view.showTextIme());          dialog.getEditText()                 .setOnTouchListener(view -> {                     if (view.getSystemUiFlags()                             & View.SYSTEM_UI_FLAG_HIDE_NAVIGATION                             == View.SYSTEM_UI_FLAG_HIDE_NAVIGATION) {                         view.setSystemUiFlags(view.getSystemUiFlags()                                 & ~View.SYSTEM_UI_FLAG_HIDE_NAVIGATION);                         return true;                     }                     return false;                 });          dialog.getEditText()                 .setOnKeyListener(view -> {                     if (view.getSystemUiFlags()                             & View.SYSTEM_UI_FLAG_FULLSCREEN                             == View.SYSTEM_UI_FLAG_FULLSCREEN) {                         view.setSystemUiFlags(view.getSystemUiFlags()                                 & ~View.SYSTEM_UI_FLAG_FULLSCREEN);                         return true;                     }                     return false;                 });          dialog.setNegativeButton(""Cancel"", null);         dialog.setPositiveButton(""OK"", new View.OnClickListener() {             @Override             public void onClick(View v) {                 String newName = dialog.getEditText().getText().toString();                 setResult(RESULT_OK);                 finish();                 Timber.i(""Edited Name: "" + newName);             }         });     }      @Override     protected void onResume() {         super.onResume();         Timber.i(""OnResume EditActivity"");     }      @Override     protected void onPause() {         super.onPause();         Timber.i(""OnPause EditActivity"");     }      @Override     protected void onDestroy() {         super.onDestroy();         Timber.i(""OnDestroy EditActivity"");     } } ``` 이 활동은 이름이 아이디로 전달된 객체로 시작됩니",ko_vicuna_7b
+number_1,609, AH,ko_vicuna_7b
+number_1,610," 한국어 문자 4083은 ""나"" 또는 ""나""를 나타냅니다.",ko_vicuna_7b
+number_1,611, 엠,ko_vicuna_7b
+number_1,612, e,ko_vicuna_7b
+number_1,613, 4111,ko_vicuna_7b
+number_1,614, 4112,ko_vicuna_7b
+number_1,615, M,ko_vicuna_7b
+number_1,616, h,ko_vicuna_7b
+number_1,617, 4130,ko_vicuna_7b
+number_1,618, S,ko_vicuna_7b
+number_1,619, H,ko_vicuna_7b
+number_1,620, 칸,ko_vicuna_7b
+number_1,621, 총 4167,ko_vicuna_7b
+number_1,622, S,ko_vicuna_7b
+number_1,623, 4189,ko_vicuna_7b
+number_1,624, 4191,ko_vicuna_7b
+number_1,625, 한국어로 네 번째 숫자가 다음과 같은 경우 나타납니다: 1234.,ko_vicuna_7b
+number_1,626," 수 4212는 한국어로 ""이슬람""이다.",ko_vicuna_7b
+number_1,627, 4229,ko_vicuna_7b
+number_1,628, 엄마,ko_vicuna_7b
+number_1,629, 4263,ko_vicuna_7b
+number_1,630, 삼각형,ko_vicuna_7b
+number_1,631, 번호 4280은 한국어로 360입니다.,ko_vicuna_7b
+number_1,632, C,ko_vicuna_7b
+number_1,633, 4288,ko_vicuna_7b
+number_1,634, 한 쌍,ko_vicuna_7b
+number_1,635, S-4302,ko_vicuna_7b
+number_1,636, S,ko_vicuna_7b
+number_1,637, 이,ko_vicuna_7b
+number_1,638, G,ko_vicuna_7b
+number_1,639, 23,ko_vicuna_7b
+number_1,640, RP,ko_vicuna_7b
+number_1,641, 4344,ko_vicuna_7b
+number_1,642, 4346,ko_vicuna_7b
+number_1,643, 4361,ko_vicuna_7b
+number_1,644, 2727,ko_vicuna_7b
+number_1,645, 4,ko_vicuna_7b
+number_1,646, 4452,ko_vicuna_7b
+number_1,647, 4465,ko_vicuna_7b
+number_1,648, 4,ko_vicuna_7b
+number_1,649, 4534,ko_vicuna_7b
+number_1,650, 37,ko_vicuna_7b
+number_1,651, E,ko_vicuna_7b
+number_1,652, 4591,ko_vicuna_7b
+number_1,653, 수,ko_vicuna_7b
+number_1,654, 수 4625,ko_vicuna_7b
+number_1,655, 4630,ko_vicuna_7b
+number_1,656, C,ko_vicuna_7b
+number_1,657, 크레이프,ko_vicuna_7b
+number_1,658, 4665,ko_vicuna_7b
+number_1,659, S,ko_vicuna_7b
+number_1,660, H,ko_vicuna_7b
+number_1,661, H,ko_vicuna_7b
+number_1,662, D,ko_vicuna_7b
+number_1,663, C,ko_vicuna_7b
+number_1,664, 총 4834,ko_vicuna_7b
+number_1,665, E,ko_vicuna_7b
+number_1,666, H,ko_vicuna_7b
+number_1,667, 4861,ko_vicuna_7b
+number_1,668, H,ko_vicuna_7b
+number_1,669, 네이티브,ko_vicuna_7b
+number_1,670, 4882,ko_vicuna_7b
+number_1,671, 4,ko_vicuna_7b
+number_1,672, 슬라이드 15: 실행 계획 및 팀 빌딩 활동.  ### 문제 진술: 답안 문장을 짧고 명확하게 작성하세요. 질문 내용을 이해하기 위해 답안 문장에 설명이나 논거를 반드시 포함하지 마세요. 답안을 확인하려면 원하는 글자를 입력하세요. nu,ko_vicuna_7b
+number_1,673, O,ko_vicuna_7b
+number_1,674, 4966,ko_vicuna_7b
+number_1,675, W,ko_vicuna_7b
+number_1,676, r,ko_vicuna_7b
+number_1,677, W,ko_vicuna_7b
+number_1,678, 생,ko_vicuna_7b
+number_1,679, 파이,ko_vicuna_7b
+number_1,680, 5,ko_vicuna_7b
+number_1,681, 5116,ko_vicuna_7b
+number_1,682, 128,ko_vicuna_7b
+number_1,683, 5141,ko_vicuna_7b
+number_1,684, h,ko_vicuna_7b
+number_1,685, 5153,ko_vicuna_7b
+number_1,686, s,ko_vicuna_7b
+number_1,687, 6,ko_vicuna_7b
+number_1,688, 야,ko_vicuna_7b
+number_1,689, 5186,ko_vicuna_7b
+number_1,690," 숫자 5218은 한국어로 ""아카데미""로 쓰입니다.",ko_vicuna_7b
+number_1,691, 247,ko_vicuna_7b
+number_1,692, 5256,ko_vicuna_7b
+number_1,693, O,ko_vicuna_7b
+number_1,694, 5334,ko_vicuna_7b
+number_1,695, 5348,ko_vicuna_7b
+number_1,696, 수,ko_vicuna_7b
+number_1,697, E,ko_vicuna_7b
+number_1,698, E,ko_vicuna_7b
+number_1,699, 36,ko_vicuna_7b
+number_1,700, 42,ko_vicuna_7b
+number_1,701, 5458,ko_vicuna_7b
+number_1,702, 5480,ko_vicuna_7b
+number_1,703, 5490,ko_vicuna_7b
+number_1,704, 새,ko_vicuna_7b
+number_1,705, 5,ko_vicuna_7b
+number_1,706, 5503,ko_vicuna_7b
+number_1,707, 5505,ko_vicuna_7b
+number_1,708, S,ko_vicuna_7b
+number_1,709, 야,ko_vicuna_7b
+number_1,710, 5543,ko_vicuna_7b
+number_1,711, 5571,ko_vicuna_7b
+number_1,712, 8,ko_vicuna_7b
+number_1,713, 5598,ko_vicuna_7b
+number_1,714, e,ko_vicuna_7b
+number_1,715, E,ko_vicuna_7b
+number_1,716, h,ko_vicuna_7b
+number_1,717, 야,ko_vicuna_7b
+number_1,718, 숫자,ko_vicuna_7b
+number_1,719, 69,ko_vicuna_7b
+number_1,720, 8,ko_vicuna_7b
+number_1,721, S,ko_vicuna_7b
+number_1,722, 네,ko_vicuna_7b
+number_1,723, 엄 (엄),ko_vicuna_7b
+number_1,724, 3749,ko_vicuna_7b
+number_1,725, 5761,ko_vicuna_7b
+number_1,726, 7,ko_vicuna_7b
+number_1,727, 열,ko_vicuna_7b
+number_1,728, 179,ko_vicuna_7b
+number_1,729, 야,ko_vicuna_7b
+number_1,730, h,ko_vicuna_7b
+number_1,731, 숫자 5876는 한국어로 약 6000입니다.,ko_vicuna_7b
+number_1,732, 129,ko_vicuna_7b
+number_1,733, 5906,ko_vicuna_7b
+number_1,734, 8,ko_vicuna_7b
+number_1,735, 100,ko_vicuna_7b
+number_1,736, 5997,ko_vicuna_7b
+number_1,737, 샤카,ko_vicuna_7b
+number_1,738, 앗두근,ko_vicuna_7b
+number_1,739, 5,ko_vicuna_7b
+number_1,740, 6,ko_vicuna_7b
+number_1,741, 5,ko_vicuna_7b
+number_1,742, S,ko_vicuna_7b
+number_1,743, 3003,ko_vicuna_7b
+number_1,744, 앱,ko_vicuna_7b
+number_1,745, 6127,ko_vicuna_7b
+number_1,746, 수,ko_vicuna_7b
+number_1,747, 6,ko_vicuna_7b
+number_1,748, 엔,ko_vicuna_7b
+number_1,749, 싱,ko_vicuna_7b
+number_1,750, 수 6189,ko_vicuna_7b
+number_1,751, 6196,ko_vicuna_7b
+number_1,752, 6202,ko_vicuna_7b
+number_1,753, 6223,ko_vicuna_7b
+number_1,754, 6,ko_vicuna_7b
+number_1,755, 엠,ko_vicuna_7b
+number_1,756, 58,ko_vicuna_7b
+number_1,757, 한 글자.,ko_vicuna_7b
+number_1,758, 엘프,ko_vicuna_7b
+number_1,759, 6,ko_vicuna_7b
+number_1,760, 6,ko_vicuna_7b
+number_1,761, 6317,ko_vicuna_7b
+number_1,762," 매우 높은 숫자인 수 6319은 한국어로 대문자 ""멋진""입니다.",ko_vicuna_7b
+number_1,763, 6329,ko_vicuna_7b
+number_1,764," 숫자 6335는 한국어로 ""아이""라는 단어의 문자 ""아""로 표현됩니다.",ko_vicuna_7b
+number_1,765, E,ko_vicuna_7b
+number_1,766, 59,ko_vicuna_7b
+number_1,767, H,ko_vicuna_7b
+number_1,768, 1,ko_vicuna_7b
+number_1,769, 6421,ko_vicuna_7b
+number_1,770, 알파벳에서 네 번째로 큰 수입니다.,ko_vicuna_7b
+number_1,771, 엘,ko_vicuna_7b
+number_1,772, 십 (6503),ko_vicuna_7b
+number_1,773, 6508,ko_vicuna_7b
+number_1,774, NN  실제 문장은 여기 없으므로 정답 글자만 출력하기 때문에 답이 정확합니다.,ko_vicuna_7b
+number_1,775, L,ko_vicuna_7b
+number_1,776, 6542,ko_vicuna_7b
+number_1,777, O,ko_vicuna_7b
+number_1,778, 7489,ko_vicuna_7b
+number_1,779, S,ko_vicuna_7b
+number_1,780, 엘프입니다.,ko_vicuna_7b
+number_1,781, T,ko_vicuna_7b
+number_1,782, 6643,ko_vicuna_7b
+number_1,783, 6661,ko_vicuna_7b
+number_1,784, 숫자 6665,ko_vicuna_7b
+number_1,785, 8,ko_vicuna_7b
+number_1,786, 8,ko_vicuna_7b
+number_1,787, 야,ko_vicuna_7b
+number_1,788, 수 6701,ko_vicuna_7b
+number_1,789, H,ko_vicuna_7b
+number_1,790, 9,ko_vicuna_7b
+number_1,791, B,ko_vicuna_7b
+number_1,792, 29,ko_vicuna_7b
+number_1,793, 6794,ko_vicuna_7b
+number_1,794, 야,ko_vicuna_7b
+number_1,795, 6,ko_vicuna_7b
+number_1,796, 매직릿,ko_vicuna_7b
+number_1,797, 오케스트라,ko_vicuna_7b
+number_1,798, B,ko_vicuna_7b
+number_1,799, A,ko_vicuna_7b
+number_1,800, 3883,ko_vicuna_7b
+number_1,801, 야,ko_vicuna_7b
+number_1,802, 6926,ko_vicuna_7b
+number_1,803, H,ko_vicuna_7b
+number_1,804, 꼬리,ko_vicuna_7b
+number_1,805, S,ko_vicuna_7b
+number_1,806, E,ko_vicuna_7b
+number_1,807, 네,ko_vicuna_7b
+number_1,808, S,ko_vicuna_7b
+number_1,809, 7011,ko_vicuna_7b
+number_1,810, 쿼스,ko_vicuna_7b
+number_1,811, 엘,ko_vicuna_7b
+number_1,812, 7,ko_vicuna_7b
+number_1,813, 7050,ko_vicuna_7b
+number_1,814, 알파벳 순서로 한 글자가 하나만 있습니다.,ko_vicuna_7b
+number_1,815, s,ko_vicuna_7b
+number_1,816, 7,ko_vicuna_7b
+number_1,817, 엄숙,ko_vicuna_7b
+number_1,818, 수,ko_vicuna_7b
+number_1,819, C,ko_vicuna_7b
+number_1,820, 7144,ko_vicuna_7b
+number_1,821, 귀,ko_vicuna_7b
+number_1,822, 세븐,ko_vicuna_7b
+number_1,823, 늦게,ko_vicuna_7b
+number_1,824, 7,ko_vicuna_7b
+number_1,825," 숫자 7220은 한국어로 약 1,000으로 뜻합니다.",ko_vicuna_7b
+number_1,826, 엔젤,ko_vicuna_7b
+number_1,827, 7237,ko_vicuna_7b
+number_1,828, e,ko_vicuna_7b
+number_1,829, 알파,ko_vicuna_7b
+number_1,830, 56,ko_vicuna_7b
+number_1,831, T,ko_vicuna_7b
+number_1,832, 행운,ko_vicuna_7b
+number_1,833, 엘,ko_vicuna_7b
+number_1,834, 7310,ko_vicuna_7b
+number_1,835, 7337,ko_vicuna_7b
+number_1,836, 314,ko_vicuna_7b
+number_1,837, 언니,ko_vicuna_7b
+number_1,838, 크라임,ko_vicuna_7b
+number_1,839, 6144,ko_vicuna_7b
+number_1,840, 7402,ko_vicuna_7b
+number_1,841, 밀,ko_vicuna_7b
+number_1,842, 13,ko_vicuna_7b
+number_1,843, H,ko_vicuna_7b
+number_1,844, 7492,ko_vicuna_7b
+number_1,845, 7495,ko_vicuna_7b
+number_1,846, A,ko_vicuna_7b
+number_1,847, E,ko_vicuna_7b
+number_1,848, 야,ko_vicuna_7b
+number_1,849, 7575,ko_vicuna_7b
+number_1,850, 8,ko_vicuna_7b
+number_1,851, 엠,ko_vicuna_7b
+number_1,852, E,ko_vicuna_7b
+number_1,853, h,ko_vicuna_7b
+number_1,854, 수,ko_vicuna_7b
+number_1,855, 7,ko_vicuna_7b
+number_1,856, 옥스데릭 패닉 1024,ko_vicuna_7b
+number_1,857, h,ko_vicuna_7b
+number_1,858, 8,ko_vicuna_7b
+number_1,859, 수,ko_vicuna_7b
+number_1,860, 14,ko_vicuna_7b
+number_1,861, O,ko_vicuna_7b
+number_1,862, 불가능하지 않음,ko_vicuna_7b
+number_1,863, 추,ko_vicuna_7b
+number_1,864, S,ko_vicuna_7b
+number_1,865, 8,ko_vicuna_7b
+number_1,866, 7916,ko_vicuna_7b
+number_1,867, 22,ko_vicuna_7b
+number_1,868, E,ko_vicuna_7b
+number_1,869, 야,ko_vicuna_7b
+number_1,870, 27,ko_vicuna_7b
+number_1,871, 538,ko_vicuna_7b
+number_1,872, 358,ko_vicuna_7b
+number_1,873, S,ko_vicuna_7b
+number_1,874, 7999,ko_vicuna_7b
+number_1,875, 네,ko_vicuna_7b
+number_1,876, 8023,ko_vicuna_7b
+number_1,877," 숫자 8034는 한국어로 ""달랑""입니다.",ko_vicuna_7b
+number_1,878," 예! 8042는 한국어로 ""생명""이라는 단어에 해당하는 글자입니다.",ko_vicuna_7b
+number_1,879, 8055,ko_vicuna_7b
+number_1,880, 8057,ko_vicuna_7b
+number_1,881, E,ko_vicuna_7b
+number_1,882, 8069,ko_vicuna_7b
+number_1,883, 8071,ko_vicuna_7b
+number_1,884, 5,ko_vicuna_7b
+number_1,885, 8081,ko_vicuna_7b
+number_1,886, 8,ko_vicuna_7b
+number_1,887, O,ko_vicuna_7b
+number_1,888, H,ko_vicuna_7b
+number_1,889, 8146,ko_vicuna_7b
+number_1,890, 8151,ko_vicuna_7b
+number_1,891, 8155,ko_vicuna_7b
+number_1,892, 8201,ko_vicuna_7b
+number_1,893, 예!,ko_vicuna_7b
+number_1,894, 8204,ko_vicuna_7b
+number_1,895, S,ko_vicuna_7b
+number_1,896, 8219,ko_vicuna_7b
+number_1,897, 8227,ko_vicuna_7b
+number_1,898, 8263,ko_vicuna_7b
+number_1,899," 글자 중 하나는 ""4"".",ko_vicuna_7b
+number_1,900, 66,ko_vicuna_7b
+number_1,901, h,ko_vicuna_7b
+number_1,902, 8374,ko_vicuna_7b
+number_1,903, 123456789,ko_vicuna_7b
+number_1,904, 8393,ko_vicuna_7b
+number_1,905, 8396,ko_vicuna_7b
+number_1,906, T,ko_vicuna_7b
+number_1,907, 8,ko_vicuna_7b
+number_1,908," 예시: 8445(한국어로 ""멋진 날"")",ko_vicuna_7b
+number_1,909, N3,ko_vicuna_7b
+number_1,910, 8461,ko_vicuna_7b
+number_1,911, 이,ko_vicuna_7b
+number_1,912, 8473,ko_vicuna_7b
+number_1,913, JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ,ko_vicuna_7b
+number_1,914, 8500,ko_vicuna_7b
+number_1,915, B,ko_vicuna_7b
+number_1,916, 엔,ko_vicuna_7b
+number_1,917, 8529,ko_vicuna_7b
+number_1,918, 8546,ko_vicuna_7b
+number_1,919, 메이저,ko_vicuna_7b
+number_1,920, G,ko_vicuna_7b
+number_1,921, 8568,ko_vicuna_7b
+number_1,922, H,ko_vicuna_7b
+number_1,923, 8584,ko_vicuna_7b
+number_1,924, 38,ko_vicuna_7b
+number_1,925, 8621,ko_vicuna_7b
+number_1,926, A,ko_vicuna_7b
+number_1,927, 8639,ko_vicuna_7b
+number_1,928, 엠스키입니다.,ko_vicuna_7b
+number_1,929, 8676,ko_vicuna_7b
+number_1,930, 엘리펀트,ko_vicuna_7b
+number_1,931, 8,ko_vicuna_7b
+number_1,932, C,ko_vicuna_7b
+number_1,933, S,ko_vicuna_7b
+number_1,934, W,ko_vicuna_7b
+number_1,935, E,ko_vicuna_7b
+number_1,936, e,ko_vicuna_7b
+number_1,937, 네,ko_vicuna_7b
+number_1,938, 26,ko_vicuna_7b
+number_1,939, 8883,ko_vicuna_7b
+number_1,940, E,ko_vicuna_7b
+number_1,941, 8912,ko_vicuna_7b
+number_1,942, h,ko_vicuna_7b
+number_1,943, S,ko_vicuna_7b
+number_1,944, 123,ko_vicuna_7b
+number_1,945, 숫자 9026,ko_vicuna_7b
+number_1,946," 9, 2, 7",ko_vicuna_7b
+number_1,947, 6,ko_vicuna_7b
+number_1,948, E,ko_vicuna_7b
+number_1,949, 9132,ko_vicuna_7b
+number_1,950, 9,ko_vicuna_7b
+number_1,951, 1,ko_vicuna_7b
+number_1,952, 16,ko_vicuna_7b
+number_1,953, 9229,ko_vicuna_7b
+number_1,954, 온나이트,ko_vicuna_7b
+number_1,955, 9254,ko_vicuna_7b
+number_1,956, S,ko_vicuna_7b
+number_1,957, 9257,ko_vicuna_7b
+number_1,958, 9,ko_vicuna_7b
+number_1,959, S,ko_vicuna_7b
+number_1,960, 5,ko_vicuna_7b
+number_1,961, 9,ko_vicuna_7b
+number_1,962, N,ko_vicuna_7b
+number_1,963, KRW,ko_vicuna_7b
+number_1,964, 네,ko_vicuna_7b
+number_1,965, 9,ko_vicuna_7b
+number_1,966, NN,ko_vicuna_7b
+number_1,967, 9394,ko_vicuna_7b
+number_1,968, h,ko_vicuna_7b
+number_1,969, K,ko_vicuna_7b
+number_1,970, s,ko_vicuna_7b
+number_1,971, s,ko_vicuna_7b
+number_1,972, 9,ko_vicuna_7b
+number_1,973, 9544,ko_vicuna_7b
+number_1,974, JD,ko_vicuna_7b
+number_1,975, 칼파이어,ko_vicuna_7b
+number_1,976, 6,ko_vicuna_7b
+number_1,977, W,ko_vicuna_7b
+number_1,978, 엔,ko_vicuna_7b
+number_1,979, 8,ko_vicuna_7b
+number_1,980, 39,ko_vicuna_7b
+number_1,981, nn,ko_vicuna_7b
+number_1,982, 9,ko_vicuna_7b
+number_1,983, 9,ko_vicuna_7b
+number_1,984, 9,ko_vicuna_7b
+number_1,985, 7,ko_vicuna_7b
+number_1,986, 9798,ko_vicuna_7b
+number_1,987, h입니다.,ko_vicuna_7b
+number_1,988, h,ko_vicuna_7b
+number_1,989, 722,ko_vicuna_7b
+number_1,990, 9843,ko_vicuna_7b
+number_1,991, 야,ko_vicuna_7b
+number_1,992, 8,ko_vicuna_7b
+number_1,993, 너무 친절한 사람이 없어요!,ko_vicuna_7b
+number_1,994, 15,ko_vicuna_7b
+number_1,995, 924,ko_vicuna_7b
+number_1,996, 옥타비아,ko_vicuna_7b
+number_1,997, 8,ko_vicuna_7b
+number_1,998, 야,ko_vicuna_7b
+number_1,999, 9998,ko_vicuna_7b

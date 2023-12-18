@@ -38,6 +38,7 @@ def modify_csv_file(file_path, replacement_string):
                 row[last_column_index] = replacement_string
             elif row[last_column_index] != replacement_string:
                 print(f"Error: Value in the last column of file '{file_path}' is not identical to the input string.")
+                print(row)
                 return
 
     # Write the modified data back to the CSV file
@@ -49,8 +50,7 @@ def modify_csv_file(file_path, replacement_string):
 
 # Example usage:
 directories_and_strings = [
-    ('/TaskExecutor/kullm5.8b/grouped_results/before_filling', 'kullm5.8b'),
-    ('/TaskExecutor/kullm12.8b/grouped_results/before_filling', 'kullm12.8b'),
+    ('/TaskExecutor/ko_vicuna/grouped_results/before_filling', 'ko_vicuna_7b'),
     # Add more directories and replacement strings as needed
 ]
 
