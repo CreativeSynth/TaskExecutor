@@ -13,22 +13,23 @@ from methods.translation.eval_translation           import run as run_translatio
 # Settings: enter the target files here!
 # Start with '/TaskExecutor'!
 target = [
-          '/TaskExecutor/ko_vicuna/grouped_results/ko_quiz_1_result.csv',
-          '/TaskExecutor/ko_vicuna/grouped_results/ko_quiz_2_result.csv',
-          '/TaskExecutor/ko_vicuna/grouped_results/ko_quiz_3_result.csv',
-          '/TaskExecutor/ko_vicuna/grouped_results/ko_quiz_4_result.csv',
-          '/TaskExecutor/ko_vicuna/grouped_results/ko_quiz_5_result.csv',
-          '/TaskExecutor/ko_vicuna/grouped_results/ko_quiz_6_result.csv',
-          '/TaskExecutor/ko_vicuna/grouped_results/ko_quiz_7_result.csv',
-          '/TaskExecutor/ko_vicuna/grouped_results/ko_quiz_8_result.csv',
-          '/TaskExecutor/ko_vicuna/grouped_results/nli_result.csv',
-          '/TaskExecutor/ko_vicuna/grouped_results/number_1_result.csv',
-          '/TaskExecutor/ko_vicuna/grouped_results/number_2_result.csv',
-          '/TaskExecutor/ko_vicuna/grouped_results/number_3_result.csv',
-          '/TaskExecutor/ko_vicuna/grouped_results/reasoning_result.csv',
-          '/TaskExecutor/ko_vicuna/grouped_results/spelling_correct_result.csv',
-          '/TaskExecutor/ko_vicuna/grouped_results/summarization_result.csv',
-          '/TaskExecutor/ko_vicuna/grouped_results/translation_result.csv'
+        #   '/TaskExecutor/ko_vicuna/grouped_results/ko_quiz_1_result.csv',
+        #   '/TaskExecutor/ko_vicuna/grouped_results/ko_quiz_2_result.csv',
+        #   '/TaskExecutor/ko_vicuna/grouped_results/ko_quiz_3_result.csv',
+        #   '/TaskExecutor/ko_vicuna/grouped_results/ko_quiz_4_result.csv',
+        #   '/TaskExecutor/ko_vicuna/grouped_results/ko_quiz_5_result.csv',
+        #   '/TaskExecutor/ko_vicuna/grouped_results/ko_quiz_6_result.csv',
+        #   '/TaskExecutor/ko_vicuna/grouped_results/ko_quiz_7_result.csv',
+        #   '/TaskExecutor/ko_vicuna/grouped_results/ko_quiz_8_result.csv',
+        #   '/TaskExecutor/ko_vicuna/grouped_results/nli_result.csv',
+        #   '/TaskExecutor/ko_vicuna/grouped_results/number_1_result.csv',
+        #   '/TaskExecutor/ko_vicuna/grouped_results/number_2_result.csv',
+        #   '/TaskExecutor/ko_vicuna/grouped_results/number_3_result.csv',
+        #   '/TaskExecutor/ko_vicuna/grouped_results/reasoning_result.csv',
+        #   '/TaskExecutor/ko_vicuna/grouped_results/spelling_correct_result.csv',
+        #   '/TaskExecutor/ko_vicuna/grouped_results/summarization_result.csv',
+        #   '/TaskExecutor/ko_vicuna/grouped_results/translation_result.csv',
+          '/TaskExecutor/openai/translation_result.csv'
           ]
 
 # Evaluate methods
