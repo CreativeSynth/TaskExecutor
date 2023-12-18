@@ -40,4 +40,12 @@ def ask(x, context='', is_input_full=False):
     )
     print(ans[0]['generated_text'])
 
+
+print(f"모든 준비가 완료되었습니다! 테스트 출력 = ")
 ask("딥러닝이 뭐야?")
+
+for i in range(999):
+    text = input("\n입력:")
+    if text == "그만":
+        break
+    ask(text)
