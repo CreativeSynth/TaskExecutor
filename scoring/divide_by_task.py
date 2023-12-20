@@ -2,7 +2,7 @@ import os, pandas as pd
 
 # List of CSV file paths
 csv_file_paths = [
-    '/TaskExecutor/polyglot-ko-1.3b/result.csv'
+    '/TaskExecutor/koalpaca5.8b/result.csv'
     ]
 
 current_position = os.getcwd()

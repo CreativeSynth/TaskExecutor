@@ -17,7 +17,7 @@ input_files = [
     # '/TaskExecutor/ko_vicuna/grouped_results/before_sorting/reasoning_result.csv',
     # '/TaskExecutor/ko_vicuna/grouped_results/before_sorting/spelling_correct_result.csv',
     # '/TaskExecutor/ko_vicuna/grouped_results/before_sorting/summarization_result.csv',
-    '/TaskExecutor/polyglot-ko-1.3b/grouped_results/before_sorting/translation_result.csv',
+    '/TaskExecutor/koalpaca5.8b/grouped_results/before_sorting/translation_result.csv',
     ]
 output_files = [input_path.replace('before_sorting/', '') for input_path in input_files]
 

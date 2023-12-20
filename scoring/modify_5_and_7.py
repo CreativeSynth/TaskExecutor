@@ -13,9 +13,9 @@ def synchronize_indices(input_path, reference_path, output_path):
     input_df.to_csv(output_path, index=False)
 
 # Example usage:
-input_file_path = '/TaskExecutor/gemini/before_sorting/ko_quiz_7_result.csv'
+input_file_path = '/TaskExecutor/koalpaca5.8b/grouped_results/before_sorting/ko_quiz_7_result.csv'
 reference_file_path = '/TaskManager/ko_quiz/ko_quiz_7.csv'
-output_file_path = '/TaskExecutor/gemini/ko_quiz_7_result.csv'
+output_file_path = '/TaskExecutor/koalpaca5.8b/grouped_results/ko_quiz_7_result.csv'
 
 current_position = os.getcwd()
 current_position = current_position[current_position.find('/TaskExecutor'):]

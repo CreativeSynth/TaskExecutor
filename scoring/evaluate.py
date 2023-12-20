@@ -13,7 +13,7 @@ from methods.translation.eval_translation           import run as run_translatio
 # Settings: enter the target files here!
 # Start with '/TaskExecutor'!
 target_folders = [
-          '/TaskExecutor/gemini/'
+          '/TaskExecutor/koalpaca5.8b/grouped_results/'
           ]
 file_names = ['ko_quiz_1_result.csv',
               'ko_quiz_2_result.csv',
@@ -27,9 +27,9 @@ file_names = ['ko_quiz_1_result.csv',
               'number_1_result.csv',
               'number_2_result.csv',
               'number_3_result.csv',
-            #   'reasoning_result.csv',
+              'reasoning_result.csv',
               'spelling_correct_result.csv',
-            #   'summarization_result.csv',
+              'summarization_result.csv',
               'translation_result.csv']
 target = [(target_folder + file_name) for target_folder in target_folders for file_name in file_names]
 
