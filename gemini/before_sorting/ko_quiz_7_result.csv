@@ -1,11 +1,17 @@
-task_name,index,result,model_name
+﻿task_name,index,result,model_name
 ko_quiz_7,0,1,gemini-pro
 ko_quiz_7,1,1,gemini-pro
 ko_quiz_7,2,2,gemini-pro
 ko_quiz_7,3,1,gemini-pro
 ko_quiz_7,4,1,gemini-pro
+ko_quiz_7,5,꿀벌,gemini-pro
+ko_quiz_7,6,정답은 '거짓으로 나타내다' 입니다.,gemini-pro
 ko_quiz_7,7,3,gemini-pro
+ko_quiz_7,8,혹간,gemini-pro
 ko_quiz_7,9,1,gemini-pro
+ko_quiz_7,10,뺨치레,gemini-pro
+ko_quiz_7,11,배불리,gemini-pro
+ko_quiz_7,12,활자,gemini-pro
 ko_quiz_7,13,1,gemini-pro
 ko_quiz_7,14,3,gemini-pro
 ko_quiz_7,15,1,gemini-pro
@@ -18,6 +24,7 @@ ko_quiz_7,21,1,gemini-pro
 ko_quiz_7,22,1,gemini-pro
 ko_quiz_7,23,2,gemini-pro
 ko_quiz_7,24,1,gemini-pro
+ko_quiz_7,25,순수하다,gemini-pro
 ko_quiz_7,26,2,gemini-pro
 ko_quiz_7,27,2,gemini-pro
 ko_quiz_7,28,1,gemini-pro
@@ -27,6 +34,7 @@ ko_quiz_7,31,3,gemini-pro
 ko_quiz_7,32,3,gemini-pro
 ko_quiz_7,33,2,gemini-pro
 ko_quiz_7,34,3,gemini-pro
+ko_quiz_7,35,철통같이,gemini-pro
 ko_quiz_7,36,2,gemini-pro
 ko_quiz_7,37,1,gemini-pro
 ko_quiz_7,38,1,gemini-pro
@@ -34,11 +42,14 @@ ko_quiz_7,39,3,gemini-pro
 ko_quiz_7,40,2,gemini-pro
 ko_quiz_7,41,3,gemini-pro
 ko_quiz_7,42,은혜,gemini-pro
+ko_quiz_7,43,3,gemini-pro
 ko_quiz_7,44,3,gemini-pro
 ko_quiz_7,45,1,gemini-pro
 ko_quiz_7,46,성신,gemini-pro
+ko_quiz_7,47,1,gemini-pro
 ko_quiz_7,48,2,gemini-pro
 ko_quiz_7,49,귀엽다,gemini-pro
+ko_quiz_7,50,3,gemini-pro
 ko_quiz_7,51,1,gemini-pro
 ko_quiz_7,52,"* 반겨맞다
 * 사랑스럽다
@@ -46,13 +57,20 @@ ko_quiz_7,52,"* 반겨맞다
 * 귀엽다
 * 사랑스럽다
 * 정겨운 모습이다",gemini-pro
+ko_quiz_7,53,제동달리기,gemini-pro
+ko_quiz_7,54,오기두기,gemini-pro
+ko_quiz_7,55,1,gemini-pro
 ko_quiz_7,56,3,gemini-pro
 ko_quiz_7,57,신경쓰이다,gemini-pro
+ko_quiz_7,58,1,gemini-pro
 ko_quiz_7,59,쓰레기,gemini-pro
+ko_quiz_7,60,3,gemini-pro
 ko_quiz_7,61,아궁,gemini-pro
+ko_quiz_7,62,2,gemini-pro
 ko_quiz_7,63,3,gemini-pro
 ko_quiz_7,64,2,gemini-pro
 ko_quiz_7,65,오리발질하다,gemini-pro
+ko_quiz_7,66,2,gemini-pro
 ko_quiz_7,67,1,gemini-pro
 ko_quiz_7,68,3,gemini-pro
 ko_quiz_7,69,2,gemini-pro
@@ -60,11 +78,15 @@ ko_quiz_7,70,1,gemini-pro
 ko_quiz_7,71,1,gemini-pro
 ko_quiz_7,72,2,gemini-pro
 ko_quiz_7,73,테두리밭,gemini-pro
+ko_quiz_7,74,서당개,gemini-pro
+ko_quiz_7,75,3,gemini-pro
 ko_quiz_7,76,2,gemini-pro
 ko_quiz_7,77,1,gemini-pro
 ko_quiz_7,78,1,gemini-pro
 ko_quiz_7,79,잠결,gemini-pro
+ko_quiz_7,80,3,gemini-pro
 ko_quiz_7,81,'기특하다',gemini-pro
+ko_quiz_7,82,3,gemini-pro
 ko_quiz_7,83,2,gemini-pro
 ko_quiz_7,84,2,gemini-pro
 ko_quiz_7,85,3,gemini-pro
@@ -78,13 +100,19 @@ ko_quiz_7,92,3,gemini-pro
 ko_quiz_7,93,2,gemini-pro
 ko_quiz_7,94,2,gemini-pro
 ko_quiz_7,95,흉악하고 변덕스러운 경향,gemini-pro
+ko_quiz_7,96,1,gemini-pro
 ko_quiz_7,97,밀집,gemini-pro
+ko_quiz_7,98,1,gemini-pro
 ko_quiz_7,99,3,gemini-pro
 ko_quiz_7,100,1,gemini-pro
 ko_quiz_7,101,3,gemini-pro
 ko_quiz_7,102,멍청하다,gemini-pro
+ko_quiz_7,103,2,gemini-pro
 ko_quiz_7,104,3,gemini-pro
 ko_quiz_7,105,활달하다,gemini-pro
+ko_quiz_7,106,지혜,gemini-pro
+ko_quiz_7,107,숨지다,gemini-pro
+ko_quiz_7,108,1,gemini-pro
 ko_quiz_7,109,1,gemini-pro
 ko_quiz_7,110,1,gemini-pro
 ko_quiz_7,111,1,gemini-pro
@@ -95,13 +123,16 @@ ko_quiz_7,115,2,gemini-pro
 ko_quiz_7,116,1,gemini-pro
 ko_quiz_7,117,사방팔방,gemini-pro
 ko_quiz_7,118,1,gemini-pro
+ko_quiz_7,119,1,gemini-pro
 ko_quiz_7,120,3,gemini-pro
 ko_quiz_7,121,얼음창,gemini-pro
 ko_quiz_7,122,3,gemini-pro
 ko_quiz_7,123,3,gemini-pro
+ko_quiz_7,124,1,gemini-pro
 ko_quiz_7,125,기억에 남다,gemini-pro
 ko_quiz_7,126,3,gemini-pro
 ko_quiz_7,127,1,gemini-pro
+ko_quiz_7,128,3,gemini-pro
 ko_quiz_7,129,3,gemini-pro
 ko_quiz_7,130,1,gemini-pro
 ko_quiz_7,131,1,gemini-pro
@@ -110,6 +141,7 @@ ko_quiz_7,133,2,gemini-pro
 ko_quiz_7,134,안절부절 못함,gemini-pro
 ko_quiz_7,135,1,gemini-pro
 ko_quiz_7,136,2,gemini-pro
+ko_quiz_7,137,1,gemini-pro
 ko_quiz_7,138,1,gemini-pro
 ko_quiz_7,139,3,gemini-pro
 ko_quiz_7,140,3,gemini-pro
@@ -117,46 +149,77 @@ ko_quiz_7,141,1,gemini-pro
 ko_quiz_7,142,뒤틀다,gemini-pro
 ko_quiz_7,143,채종,gemini-pro
 ko_quiz_7,144,1,gemini-pro
+ko_quiz_7,145,소금,gemini-pro
+ko_quiz_7,146,1,gemini-pro
 ko_quiz_7,147,1,gemini-pro
+ko_quiz_7,148,1,gemini-pro
 ko_quiz_7,149,문제점,gemini-pro
 ko_quiz_7,150,1,gemini-pro
 ko_quiz_7,151,괴상한 사람,gemini-pro
+ko_quiz_7,152,1,gemini-pro
 ko_quiz_7,153,2,gemini-pro
+ko_quiz_7,154,3,gemini-pro
 ko_quiz_7,155,3,gemini-pro
 ko_quiz_7,156,서로 얼굴 못보기,gemini-pro
 ko_quiz_7,157,3,gemini-pro
 ko_quiz_7,158,1,gemini-pro
+ko_quiz_7,159,1,gemini-pro
 ko_quiz_7,160,1,gemini-pro
 ko_quiz_7,161,먹튀,gemini-pro
 ko_quiz_7,162,3,gemini-pro
 ko_quiz_7,163,2,gemini-pro
+ko_quiz_7,164,1,gemini-pro
 ko_quiz_7,165,정숙,gemini-pro
 ko_quiz_7,166,2,gemini-pro
 ko_quiz_7,167,3,gemini-pro
+ko_quiz_7,168,1,gemini-pro
 ko_quiz_7,169,자칫하다,gemini-pro
 ko_quiz_7,170,3,gemini-pro
 ko_quiz_7,171,풍년,gemini-pro
+ko_quiz_7,172,1,gemini-pro
 ko_quiz_7,173,의자나 침대 등에 앉거나 누워서 잠깐 잠을 자는 것,gemini-pro
+ko_quiz_7,174,1,gemini-pro
 ko_quiz_7,175,1,gemini-pro
+ko_quiz_7,176,기울다,gemini-pro
 ko_quiz_7,177,2,gemini-pro
 ko_quiz_7,178,1,gemini-pro
+ko_quiz_7,179,2,gemini-pro
 ko_quiz_7,180,금성,gemini-pro
 ko_quiz_7,181,"* 속상한 기분
 * 실망감
 * 화가 치밀어오를 정도로 기분이 안 좋을 때의 심경",gemini-pro
 ko_quiz_7,182,덤,gemini-pro
+ko_quiz_7,183,"* 안절부절못하다
+* 염려하다
+* 근심하다
+* 두렵겠다
+* 비관하다
+* 우울하다
+* 불안하다
+* 초조하다
+* 공허하다
+* 답답하다
+* 시름하다",gemini-pro
+ko_quiz_7,184,죽죽,gemini-pro
+ko_quiz_7,185,2,gemini-pro
+ko_quiz_7,186,2,gemini-pro
+ko_quiz_7,187,3,gemini-pro
 ko_quiz_7,188,1,gemini-pro
 ko_quiz_7,189,2,gemini-pro
 ko_quiz_7,190,석면사,gemini-pro
 ko_quiz_7,191,1,gemini-pro
 ko_quiz_7,192,3,gemini-pro
+ko_quiz_7,193,책임을 지다,gemini-pro
 ko_quiz_7,194,2,gemini-pro
 ko_quiz_7,195,1,gemini-pro
+ko_quiz_7,196,1,gemini-pro
 ko_quiz_7,197,2,gemini-pro
 ko_quiz_7,198,1,gemini-pro
 ko_quiz_7,199,무상답답,gemini-pro
 ko_quiz_7,200,저주,gemini-pro
 ko_quiz_7,201,3,gemini-pro
+ko_quiz_7,202,1,gemini-pro
+ko_quiz_7,203,1,gemini-pro
 ko_quiz_7,204,1,gemini-pro
 ko_quiz_7,205,1,gemini-pro
 ko_quiz_7,206,1,gemini-pro
@@ -164,14 +227,17 @@ ko_quiz_7,207,3,gemini-pro
 ko_quiz_7,208,무분별하게 벌채함,gemini-pro
 ko_quiz_7,209,3,gemini-pro
 ko_quiz_7,210,3,gemini-pro
+ko_quiz_7,211,1,gemini-pro
 ko_quiz_7,212,2,gemini-pro
 ko_quiz_7,213,2,gemini-pro
 ko_quiz_7,214,1,gemini-pro
 ko_quiz_7,215,모임,gemini-pro
 ko_quiz_7,216,1,gemini-pro
 ko_quiz_7,217,1,gemini-pro
+ko_quiz_7,218,부스러기,gemini-pro
 ko_quiz_7,219,2,gemini-pro
 ko_quiz_7,220,2,gemini-pro
+ko_quiz_7,221,1,gemini-pro
 ko_quiz_7,222,3,gemini-pro
 ko_quiz_7,223,2,gemini-pro
 ko_quiz_7,224,1,gemini-pro
@@ -179,24 +245,35 @@ ko_quiz_7,225,3,gemini-pro
 ko_quiz_7,226,사방팔방,gemini-pro
 ko_quiz_7,227,2,gemini-pro
 ko_quiz_7,228,약삭빠르다,gemini-pro
+ko_quiz_7,229,3,gemini-pro
 ko_quiz_7,230,3,gemini-pro
+ko_quiz_7,231,오줌,gemini-pro
 ko_quiz_7,232,3,gemini-pro
 ko_quiz_7,233,2,gemini-pro
+ko_quiz_7,234,3,gemini-pro
 ko_quiz_7,235,3,gemini-pro
 ko_quiz_7,236,나들이옷,gemini-pro
 ko_quiz_7,237,재빠르게,gemini-pro
 ko_quiz_7,238,2,gemini-pro
+ko_quiz_7,239,3,gemini-pro
+ko_quiz_7,240,장중하다,gemini-pro
 ko_quiz_7,241,3,gemini-pro
 ko_quiz_7,242,1,gemini-pro
+ko_quiz_7,243,1,gemini-pro
 ko_quiz_7,244,고개를 저어다,gemini-pro
 ko_quiz_7,245,3,gemini-pro
 ko_quiz_7,246,단순소박,gemini-pro
+ko_quiz_7,247,2,gemini-pro
 ko_quiz_7,248,판매,gemini-pro
+ko_quiz_7,249,3,gemini-pro
 ko_quiz_7,250,신물,gemini-pro
+ko_quiz_7,251,1,gemini-pro
 ko_quiz_7,252,2,gemini-pro
+ko_quiz_7,253,1,gemini-pro
 ko_quiz_7,254,막연하다,gemini-pro
 ko_quiz_7,255,2,gemini-pro
 ko_quiz_7,256,2,gemini-pro
+ko_quiz_7,257,1,gemini-pro
 ko_quiz_7,258,3,gemini-pro
 ko_quiz_7,259,2,gemini-pro
 ko_quiz_7,260,2,gemini-pro
@@ -206,6 +283,7 @@ ko_quiz_7,263,1,gemini-pro
 ko_quiz_7,264,오잔,gemini-pro
 ko_quiz_7,265,1,gemini-pro
 ko_quiz_7,266,1,gemini-pro
+ko_quiz_7,267,1,gemini-pro
 ko_quiz_7,268,2,gemini-pro
 ko_quiz_7,269,1,gemini-pro
 ko_quiz_7,270,1,gemini-pro
@@ -213,19 +291,27 @@ ko_quiz_7,271,3,gemini-pro
 ko_quiz_7,272,된바람은 허울뿐이라는 뜻입니다.,gemini-pro
 ko_quiz_7,273,2,gemini-pro
 ko_quiz_7,274,망가지다,gemini-pro
+ko_quiz_7,275,망치다,gemini-pro
 ko_quiz_7,276,1,gemini-pro
+ko_quiz_7,277,3,gemini-pro
+ko_quiz_7,278,1,gemini-pro
 ko_quiz_7,279,전설,gemini-pro
 ko_quiz_7,280,2,gemini-pro
 ko_quiz_7,281,건장하다,gemini-pro
 ko_quiz_7,282,2,gemini-pro
+ko_quiz_7,283,"금방, 급히",gemini-pro
 ko_quiz_7,284,1,gemini-pro
+ko_quiz_7,285,2,gemini-pro
 ko_quiz_7,286,3,gemini-pro
+ko_quiz_7,287,1,gemini-pro
 ko_quiz_7,288,3,gemini-pro
 ko_quiz_7,289,3,gemini-pro
 ko_quiz_7,290,둥글게,gemini-pro
 ko_quiz_7,291,곤혹스럽게,gemini-pro
 ko_quiz_7,292,2,gemini-pro
 ko_quiz_7,293,3,gemini-pro
+ko_quiz_7,294,2,gemini-pro
+ko_quiz_7,295,1,gemini-pro
 ko_quiz_7,296,1,gemini-pro
 ko_quiz_7,297,3,gemini-pro
 ko_quiz_7,298,2,gemini-pro
@@ -233,7 +319,9 @@ ko_quiz_7,299,구더기,gemini-pro
 ko_quiz_7,300,1,gemini-pro
 ko_quiz_7,301,공정무사,gemini-pro
 ko_quiz_7,302,1,gemini-pro
+ko_quiz_7,303,3,gemini-pro
 ko_quiz_7,304,2,gemini-pro
+ko_quiz_7,305,1,gemini-pro
 ko_quiz_7,306,3,gemini-pro
 ko_quiz_7,307,3,gemini-pro
 ko_quiz_7,308,1,gemini-pro
@@ -241,11 +329,13 @@ ko_quiz_7,309,몽롱잠,gemini-pro
 ko_quiz_7,310,3,gemini-pro
 ko_quiz_7,311,3,gemini-pro
 ko_quiz_7,312,3,gemini-pro
+ko_quiz_7,313,1,gemini-pro
 ko_quiz_7,314,틈틈히,gemini-pro
 ko_quiz_7,315,1,gemini-pro
 ko_quiz_7,316,1,gemini-pro
 ko_quiz_7,317,1,gemini-pro
 ko_quiz_7,318,3,gemini-pro
+ko_quiz_7,319,3,gemini-pro
 ko_quiz_7,320,1,gemini-pro
 ko_quiz_7,321,1,gemini-pro
 ko_quiz_7,322,3,gemini-pro
@@ -256,8 +346,11 @@ ko_quiz_7,326,1,gemini-pro
 ko_quiz_7,327,흐늘거림,gemini-pro
 ko_quiz_7,328,1,gemini-pro
 ko_quiz_7,329,동풍,gemini-pro
+ko_quiz_7,330,1,gemini-pro
 ko_quiz_7,331,상심하다,gemini-pro
 ko_quiz_7,332,3,gemini-pro
 ko_quiz_7,333,1,gemini-pro
+ko_quiz_7,334,3,gemini-pro
 ko_quiz_7,335,3,gemini-pro
+ko_quiz_7,336,이무기,gemini-pro
 ko_quiz_7,337,1,gemini-pro
