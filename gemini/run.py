@@ -6,10 +6,8 @@ import os
 from tqdm import tqdm
 import pandas as pd 
 
-input_data_dirs = [
-    "../../TaskManager/reasoning/reasoning.csv",
-    "../../TaskManager/summarization/summarization.csv",
-]
+input_data_dirs = []
+
 
 GOOGLE_API_KEY=os.getenv('GOOGLE_API_KEY')
 genai.configure(api_key=GOOGLE_API_KEY)
