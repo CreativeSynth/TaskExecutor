@@ -8,7 +8,7 @@ def merge_csv_files(directory):
     csv_files.sort()
 
     # Create a new CSV file for the merged data
-    output_file_name = os.path.join(directory, f"all_data_merged.csv")
+    output_file_name = os.path.join(directory, f"../{directory}.csv")
     with open(output_file_name, 'w', encoding='utf8', newline='') as output_file:
         csv_writer = csv.writer(output_file)
 
